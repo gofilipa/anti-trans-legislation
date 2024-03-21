@@ -1,0 +1,1415 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:10.0pt;
+	margin-left:0in;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.mibilldigest, li.mibilldigest, div.mibilldigest
+	{mso-style-name:mi_bill_digest;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillindex, li.mibillindex, div.mibillindex
+	{mso-style-name:mi_bill_index;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitle, li.mibilltitle, div.mibilltitle
+	{mso-style-name:mi_bill_title;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillenactment, li.mibillenactment, div.mibillenactment
+	{mso-style-name:mi_bill_enactment;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillstatute, li.mibillstatute, div.mibillstatute
+	{mso-style-name:mi_bill_statute;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillfooter, li.mibillfooter, div.mibillfooter
+	{mso-style-name:mi_bill_footer;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;}
+span.mibillnew
+	{mso-style-name:mi_bill_new;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibillheader, li.mibillheader, div.mibillheader
+	{mso-style-name:mi_bill_header;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	text-decoration:underline;}
+p.mibillpageheader, li.mibillpageheader, div.mibillpageheader
+	{mso-style-name:mi_bill_pageheader;
+	margin:0in;
+	text-align:center;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitleline2, li.mibilltitleline2, div.mibilltitleline2
+	{mso-style-name:mi_bill_titleline2;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilllongbillnumber, li.mibilllongbillnumber, div.mibilllongbillnumber
+	{mso-style-name:mi_bill_longbillnumber;
+	margin:0in;
+	text-align:center;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.linenumbering, li.linenumbering, div.linenumbering
+	{mso-style-name:line_numbering;
+	margin:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibilllsblogo, li.mibilllsblogo, div.mibilllsblogo
+	{mso-style-name:mi_bill_lsblogo;
+	margin-top:42.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	font-weight:bold;}
+span.mibilldrafterinitials
+	{mso-style-name:mi_bill_drafterinitials;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibillstatmaxcolumnone, li.mibillstatmaxcolumnone, div.mibillstatmaxcolumnone
+	{mso-style-name:mi_bill_statmaxcolumnone;
+	margin:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillstatmaxcolumntwo, li.mibillstatmaxcolumntwo, div.mibillstatmaxcolumntwo
+	{mso-style-name:mi_bill_statmaxcolumntwo;
+	margin:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillstatmaxcolumnthree, li.mibillstatmaxcolumnthree, div.mibillstatmaxcolumnthree
+	{mso-style-name:mi_bill_statmaxcolumnthree;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillstatmaxcolumnfour, li.mibillstatmaxcolumnfour, div.mibillstatmaxcolumnfour
+	{mso-style-name:mi_bill_statmaxcolumnfour;
+	margin:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillstatmaxcolumnfive, li.mibillstatmaxcolumnfive, div.mibillstatmaxcolumnfive
+	{mso-style-name:mi_bill_statmaxcolumnfive;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillenactingsection, li.mibillenactingsection, div.mibillenactingsection
+	{mso-style-name:mi_bill_enactingsection;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+span.mibilldocname
+	{mso-style-name:mi_bill_docname;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+p.mibillemptyline, li.mibillemptyline, div.mibillemptyline
+	{mso-style-name:mi_bill_emptyline;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilldonotdelete, li.mibilldonotdelete, div.mibilldonotdelete
+	{mso-style-name:mi_bill_do_not_delete;
+	margin-top:0in;
+	margin-right:5.65pt;
+	margin-bottom:12.0pt;
+	margin-left:14.45pt;
+	text-align:justify;
+	text-indent:-14.45pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	color:white;}
+p.mibilltitleline3, li.mibilltitleline3, div.mibilltitleline3
+	{mso-style-name:mi_bill_titleline3;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillchapter, li.mibillchapter, div.mibillchapter
+	{mso-style-name:mi_bill_chapter;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in .5in;}
+div.WordSection2
+	{page:WordSection2;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillheader><span style='text-decoration:none'>&nbsp;</span></p>
+
+<p class=mibilllongbillnumber>HOUSE BILL NO. 4539</p>
+
+<p class=mibilldonotdelete><img width=624 height=250
+src="HB4539_files/image001.png"
+alt="May 09, 2023, Introduced by Rep. Paquette and referred to the Committee on Government Operations."></p>
+
+<p class=mibilltitle><a name=BillTitle>A bill to amend 1927 PA 175, entitled</a></p>
+
+<p class=mibilltitleline2>&quot;The code of criminal procedure,&quot;</p>
+
+<p class=mibilltitleline3>by amending section 16g of chapter XVII (MCL
+777.16g), as amended by 2020 PA 50.</p>
+
+<p class=mibillenactment>the people of the state of michigan enact:</p>
+
+</div>
+
+<span style='font-size:11.5pt;line-height:150%;font-family:"Courier New"'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span>
+
+<p class=mibillchapter><a name="centered_heading_210"></a>CHAPTER XVII</p>
+
+<p class=mibillstatute><a name="sec_import_start_777_16g"></a><span
+style='color:black;background:white'>Sec. 16g. (1) This chapter applies to the
+following felonies enumerated in chapter 750 of the Michigan Compiled Laws:</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><b><span style='color:black;background:white'>M.C.L.</span></b></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><b><span style='color:black;background:white'>Category</span></b></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><b><span style='color:black;background:
+  white'>Class</span></b></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><b><span style='color:black;background:white'>Description</span></b></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><b><span style='color:black;background:white'>Stat
+  Max</span></b></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>14</p>
+
+<p class=linenumbering>15</p>
+
+<p class=linenumbering>16</p>
+
+<p class=linenumbering>17</p>
+
+<p class=linenumbering>18</p>
+
+<p class=linenumbering>19</p>
+
+<p class=linenumbering>20</p>
+
+<p class=linenumbering>21</p>
+
+<p class=linenumbering>22</p>
+
+<p class=linenumbering>23</p>
+
+<p class=linenumbering>24</p>
+
+<p class=linenumbering>25</p>
+
+<p class=linenumbering>26</p>
+
+<p class=linenumbering>27</p>
+
+<p class=linenumbering>28</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.135</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Exposing
+  children with intent to injure or abandon</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.135a(2)(c)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Leaving
+  child unattended in vehicle resulting in serious physical harm</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.135a(2)(d)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Leaving
+  child unattended in vehicle resulting in death</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span class=mibillnew><span style='color:
+  black;background:white'>750.135b</span></span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span class=mibillnew><span style='color:
+  black;background:white'>Person</span></span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span class=mibillnew><span
+  style='color:black;background:white'>F</span></span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span class=mibillnew><span
+  style='color:black;background:white'>Providing certain drugs or surgery to a
+  minor for gender transition</span></span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span class=mibillnew><span
+  style='color:black;background:white'>4</span></span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Female
+  genital mutilation violation</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136a</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Transporting
+  person for purpose of female genital mutilation</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(2)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>A</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>First
+  degree child abuse</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>Life</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(4)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>C</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Second
+  degree child abuse — first offense</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(4)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Second
+  degree child abuse — with prior conviction</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>20</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(6)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Third
+  degree child abuse – first offense</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>14</p>
+
+<p class=linenumbering>15</p>
+
+<p class=linenumbering>16</p>
+
+<p class=linenumbering>17</p>
+
+<p class=linenumbering>18</p>
+
+<p class=linenumbering>19</p>
+
+<p class=linenumbering>20</p>
+
+<p class=linenumbering>21</p>
+
+<p class=linenumbering>22</p>
+
+<p class=linenumbering>23</p>
+
+<p class=linenumbering>24</p>
+
+<p class=linenumbering>25</p>
+
+<p class=linenumbering>26</p>
+
+<p class=linenumbering>27</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(6)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>E</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Third
+  degree child abuse – with prior conviction</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>5</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136b(8)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Fourth
+  degree child abuse – with prior conviction</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136c</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Buying
+  or selling an individual</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>20</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136d(1)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>A</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>First
+  degree child abuse in presence of another child</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>Life</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136d(1)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Second
+  degree child abuse in presence of another child – first offense</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136d(1)(c)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Second
+  degree child abuse in presence of another child – second or subsequent
+  offense</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>20</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.136d(1)(d)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Third
+  degree child abuse in presence of another child</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145a</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>F</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Soliciting
+  child to commit an immoral act</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>4</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145b</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Accosting
+  children for immoral purposes with prior conviction</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>14</p>
+
+<p class=linenumbering>15</p>
+
+<p class=linenumbering>16</p>
+
+<p class=linenumbering>17</p>
+
+<p class=linenumbering>18</p>
+
+<p class=linenumbering>19</p>
+
+<p class=linenumbering>20</p>
+
+<p class=linenumbering>21</p>
+
+<p class=linenumbering>22</p>
+
+<p class=linenumbering>23</p>
+
+<p class=linenumbering>24</p>
+
+<p class=linenumbering>25</p>
+
+<p class=linenumbering>26</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(2)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Producing
+  child sexually abusive activity or material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>20</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(2)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Aggravated
+  producing of child sexually abusive activity or material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>25</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(3)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Distributing,
+  promoting, or financing the distribution of child sexually abusive activity
+  or material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>7
+  </span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(3)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>C</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Aggravated
+  distributing, promoting, or financing the distribution of child sexually
+  abusive activity or material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15
+  </span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(4)(a)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>F</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Possessing
+  child sexually abusive material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>4</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145c(4)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Aggravated
+  possession of child sexually abusive material</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>14</p>
+
+<p class=linenumbering>15</p>
+
+<p class=linenumbering>16</p>
+
+<p class=linenumbering>17</p>
+
+<p class=linenumbering>18</p>
+
+<p class=linenumbering>19</p>
+
+<p class=linenumbering>20</p>
+
+<p class=linenumbering>21</p>
+
+<p class=linenumbering>22</p>
+
+<p class=linenumbering>23</p>
+
+<p class=linenumbering>24</p>
+
+<p class=linenumbering>25</p>
+
+<p class=linenumbering>26</p>
+
+<p class=linenumbering>27</p>
+
+<p class=linenumbering>28</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145d(2)(b)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Variable</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Using
+  internet or computer to commit crime punishable by a maximum term of
+  imprisonment of at least 1 year but less than 2 years</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145d(2)(c)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Variable</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>F</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Using
+  internet or computer to commit crime punishable by a maximum term of
+  imprisonment of at least 2 years but less than 4 years</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>4</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145d(2)(d)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Variable</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>D</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Using
+  internet or computer to commit crime punishable by a maximum term of
+  imprisonment of at least 4 years but less than 10 years</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>10</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145d(2)(e)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Variable</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>C</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Using
+  internet or computer to commit crime punishable by a maximum term of
+  imprisonment of at least 10 years but less than 15 years</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15</span></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>14</p>
+
+<p class=linenumbering>15</p>
+
+<p class=linenumbering>16</p>
+
+<p class=linenumbering>17</p>
+
+<p class=linenumbering>18</p>
+
+<p class=linenumbering>19</p>
+
+<p class=linenumbering>20</p>
+
+<p class=linenumbering>21</p>
+
+<p class=linenumbering>22</p>
+
+<p class=linenumbering>23</p>
+
+<p class=linenumbering>24</p>
+
+<p class=linenumbering>25</p>
+
+<p class=linenumbering>26</p>
+
+<p class=linenumbering>27</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145d(2)(f)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Variable</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>B</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Using
+  internet or computer to commit crime punishable by a maximum term of
+  imprisonment of at least 15 years or for life</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>20</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145n(1)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>C</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>First
+  degree vulnerable adult abuse</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>15</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145n(2)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>F</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Second
+  degree vulnerable adult abuse</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>4</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145n(3)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Third
+  degree vulnerable adult abuse</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145o</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>E</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Death
+  of vulnerable adult caused by unlicensed caretaker </span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>5</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145p(1)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Commingling
+  funds of, obstructing investigation regarding, or filing false information
+  regarding, vulnerable adult</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145p(2)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Retaliation
+  or discrimination by caregiver against vulnerable adult</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+</table>
+
+<b><span style='font-size:11.5pt;line-height:150%;font-family:"Courier New";
+text-transform:uppercase'><br clear=all>
+</span></b>
+
+<p class=linenumbering>1</p>
+
+<p class=linenumbering>2</p>
+
+<p class=linenumbering>3</p>
+
+<p class=linenumbering>4</p>
+
+<p class=linenumbering>5</p>
+
+<p class=linenumbering>6</p>
+
+<p class=linenumbering>7</p>
+
+<p class=linenumbering>8</p>
+
+<p class=linenumbering>9</p>
+
+<p class=linenumbering>10</p>
+
+<p class=linenumbering>11</p>
+
+<p class=linenumbering>12</p>
+
+<p class=linenumbering>13</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<p class=linenumbering>&nbsp;</p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ title=NewTable1 style='margin-left:.6pt;border-collapse:collapse'>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.145p(5)</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>E</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Caregiver
+  or licensee violation against vulnerable adult — second or subsequent offense</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>5</span></p>
+  </td>
+ </tr>
+ <tr style='page-break-inside:avoid'>
+  <td width=163 valign=top style='width:1.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnone><span style='color:black;background:white'>750.147b</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumntwo><span style='color:black;background:white'>Person</span></p>
+  </td>
+  <td width=67 valign=top style='width:.7in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnthree><span style='color:black;background:white'>G</span></p>
+  </td>
+  <td width=211 valign=top style='width:2.2in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfour><span style='color:black;background:white'>Ethnic
+  intimidation</span></p>
+  </td>
+  <td width=96 valign=top style='width:1.0in;padding:0in 0in 0in 0in'>
+  <p class=mibillstatmaxcolumnfive><span style='color:black;background:white'>2</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=mibillstatute><span style='color:black;background:white'>(2) For a
+violation of section 145d of the Michigan penal code, 1931 PA 328, MCL
+750.145d, determine the offense category, offense variable level, and prior
+record variable level based on the underlying offense.</span></p>
+
+<p class=mibillenactingsection><a name="enacting_section"></a><span
+style='color:black;background:white'>Enacting section 1. This amendatory act
+does not take effect unless Senate Bill No.____ or House Bill No. 4540 (request
+no. 02486'23) of the 102nd Legislature is enacted into law.</span></p>
+
+</div>
+

@@ -1,0 +1,482 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Letter-Gothic-Drafting;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Letter-Gothic-Upper-Drafting;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Letter Gothic-Drafting";
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+span.RTITLE
+	{mso-style-name:RTITLE;
+	color:red;}
+span.AGENCY
+	{mso-style-name:AGENCY;}
+p.BLK00-00, li.BLK00-00, div.BLK00-00
+	{mso-style-name:"BLK 00-00";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+span.BNUM
+	{mso-style-name:BNUM;
+	font-family:"Arial",sans-serif;}
+span.SECHEAD
+	{mso-style-name:SECHEAD;
+	color:purple;
+	text-decoration:underline;}
+span.SNUM
+	{mso-style-name:SNUM;
+	color:green;}
+span.UP
+	{mso-style-name:UP;
+	color:blue;
+	text-transform:uppercase;}
+span.O
+	{mso-style-name:O;
+	color:red;
+	text-decoration:line-through;}
+span.INTRO
+	{mso-style-name:INTRO;}
+p.P05-00, li.P05-00, div.P05-00
+	{mso-style-name:"P 05-00";
+	mso-style-link:"P 05-00 Char";
+	margin:0in;
+	text-align:justify;
+	text-indent:30.25pt;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.P06-00, li.P06-00, div.P06-00
+	{mso-style-name:"P 06-00";
+	mso-style-link:"P 06-00 Char";
+	margin:0in;
+	text-align:justify;
+	text-indent:.5in;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.SEC06-17, li.SEC06-17, div.SEC06-17
+	{mso-style-name:"SEC 06-17";
+	mso-style-link:"SEC 06-17 Char";
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:102.25pt;
+	text-align:justify;
+	text-indent:-66.25pt;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+p.JUSTIFYCENTER, li.JUSTIFYCENTER, div.JUSTIFYCENTER
+	{mso-style-name:"JUSTIFY CENTER";
+	margin:0in;
+	text-align:center;
+	font-size:10.0pt;
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:line;
+	font-weight:bold;}
+span.BTITLE
+	{mso-style-name:BTITLE;
+	font-family:"Letter Gothic-Drafting";
+	font-variant:normal !important;
+	color:blue;
+	text-transform:uppercase;}
+span.SEC06-17Char
+	{mso-style-name:"SEC 06-17 Char";
+	mso-style-link:"SEC 06-17";
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:both;
+	font-weight:bold;}
+span.P06-00Char
+	{mso-style-name:"P 06-00 Char";
+	mso-style-link:"P 06-00";
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:both;
+	font-weight:bold;}
+span.P05-00Char
+	{mso-style-name:"P 05-00 Char";
+	mso-style-link:"P 05-00";
+	font-family:Letter-Gothic-Drafting;
+	layout-grid-mode:both;
+	font-weight:bold;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.5in 1.0in 1.2in 1.3in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 11.0in;
+	margin:.5in 1.0in 1.2in 1.3in;}
+div.WordSection2
+	{page:WordSection2;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse'>
+ <tr>
+  <td width=610 valign=top style='width:6.35in;border:solid windowtext 1.0pt;
+  border-bottom:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=BLK00-00 align=right style='margin-right:.9pt;text-align:right'><span
+  class=AGENCY>REFERENCE TITLE: </span><span class=RTITLE>teacher training;
+  parental notification; requirements</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=610 valign=top style='width:6.35in;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>State of
+  Arizona</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>House of
+  Representatives</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>Fifty-sixth
+  Legislature</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>First Regular
+  Session</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>2023</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  <p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=610 valign=top style='width:6.35in;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+  class=BNUM><span style='font-size:24.0pt'>HB 2786</span></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=610 valign=top style='width:6.35in;border-top:none;border-left:
+  solid windowtext 1.0pt;border-bottom:none;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+  class=AGENCY>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=610 valign=top style='width:6.35in;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+  class=AGENCY>Introduced by </span></p>
+  <p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+  class=INTRO>Representatives Heap: Carter, Diaz, Harris, Jones, Martinez,
+  McGarr, Parker B, Parker J, Peña, Pingerelli, Quiñonez</span></p>
+  <p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+  class=INTRO>&nbsp;</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=AGENCY>&nbsp;</span></p>
+
+<p class=BLK00-00 align=center style='margin-right:.9pt;text-align:center'><span
+class=BTITLE>An Act</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=BTITLE>&nbsp;</span></p>
+
+<p class=BLK00-00 style='margin-right:.9pt'><span class=BTITLE>amending section
+15-102, Arizona Revised Statutes; relating to public schools.</span></p>
+
+<p class=JUSTIFYCENTER style='text-align:justify'><span class=BTITLE>&nbsp;</span></p>
+
+<p class=JUSTIFYCENTER style='text-align:justify'><span class=BTITLE>&nbsp;</span></p>
+
+<p class=JUSTIFYCENTER>(TEXT OF BILL BEGINS ON NEXT PAGE)</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+<b><span style='font-size:10.0pt;font-family:Letter-Gothic-Drafting;layout-grid-mode:
+line'><br clear=all style='page-break-before:always'>
+</span></b>
+
+<div class=WordSection2>
+
+<p class=MsoNormal>Be it enacted by the Legislature of the State of Arizona:</p>
+
+<p class=P06-00>Section&nbsp;1. Section 15-102, Arizona Revised
+Statutes, is amended to read:</p>
+
+<p class=SEC06-17><span
+style='display:none'>START_STATUTE</span><span class=SNUM>15-102.</span> <span
+class=SECHEAD>Parental involvement in the school; definition</span></p>
+
+<p class=P06-00>A. Each school district governing board, in
+consultation with parents, teachers and administrators, shall develop and adopt
+a policy to promote the involvement of parents and guardians of children
+enrolled in the schools within the school district, including:</p>
+
+<p class=P06-00>1. A plan for parent participation in the schools
+that is designed to improve parent and teacher cooperation in such areas as
+homework, attendance and discipline.  The plan shall provide for the administration
+of a parent-teacher satisfaction survey.</p>
+
+<p class=P06-00>2. Procedures by which parents may learn about the
+course of study for their children and review learning materials, including the
+source of any supplemental educational materials.</p>
+
+<p class=P06-00>3. Beginning January 1, 2023, procedures by which
+parents have access to the school's library collection of available books and
+materials and parents may receive a list of books and materials borrowed from
+the library by their children. The policy must provide that the following
+are exempt from the procedures prescribed pursuant to this paragraph:</p>
+
+<p class=P06-00>(a) Schools without a full-time library media
+specialist or an equivalent position.</p>
+
+<p class=P06-00>(b) School district libraries that have agreements
+with county free library districts, municipal libraries or other entities
+pursuant to section 15-362, subsection D.</p>
+
+<p class=P06-00>4. Procedures by which parents who object to any
+learning material or activity on the basis that the material or activity is
+harmful may withdraw their children from the activity or from the class or
+program in which the material is used.  Objection to a learning material or
+activity on the basis that the material or activity is harmful includes
+objection to the material or activity because it questions beliefs or practices
+in sex, morality or religion.</p>
+
+<p class=P06-00>5. If a school district offers any sex education
+curricula pursuant to section 15-711 or 15-716 or pursuant to any
+rules adopted by the state board of education, procedures to prohibit the
+school district from providing sex education instruction to a pupil unless the
+pupil's parent provides written permission for the child to participate in the
+sex education curricula.</p>
+
+<p class=P06-00>6. Procedures by which parents will be notified in
+advance of and given the opportunity to opt their children in to any instruction,
+learning materials or presentations regarding sexuality, in courses other than
+formal sex education curricula.</p>
+
+<p class=P06-00 style='page-break-after:avoid'>7. Procedures by
+which parents may learn about the nature and purpose of clubs and activities
+that are part of the school curriculum, extracurricular clubs and activities
+that have been approved by the school.</p>
+
+<p class=P06-00>8. Procedures by which parents may learn about
+parental rights and responsibilities under the laws of this state, including
+the following:</p>
+
+<p class=P06-00>(a) The right to opt in to a sex education
+curriculum if one is provided by the school district.</p>
+
+<p class=P06-00>(b) Open enrollment rights pursuant to section 15-816.01.</p>
+
+<p class=P06-00>(c) The right to opt out of assignments pursuant to
+this section.</p>
+
+<p class=P06-00>(d) The right to opt out of immunizations pursuant
+to section 15-873.</p>
+
+<p class=P06-00>(e) The promotion requirements prescribed in section
+15-701.</p>
+
+<p class=P06-00>(f) The minimum course of study and competency
+requirements for graduation from high school prescribed in section 15-701.01.</p>
+
+<p class=P06-00>(g) The right to opt out of instruction on acquired
+immune deficiency syndrome pursuant to section 15-716.</p>
+
+<p class=P06-00>(h) The right to review test results pursuant to
+section 15-743.</p>
+
+<p class=P06-00>(i) The right to participate in gifted programs
+pursuant to section 15-779.01.</p>
+
+<p class=P06-00>(j) The right to access instructional materials
+pursuant to section 15-730.</p>
+
+<p class=P06-00>(k) The right to receive a school report card
+pursuant to section 15-746.</p>
+
+<p class=P06-00>(l) The attendance requirements prescribed in
+sections 15-802, 15-803 and 15-821.</p>
+
+<p class=P06-00>(m) The right to public review of courses of study,
+textbooks and library books and materials pursuant to sections 15-721 and
+15-722.</p>
+
+<p class=P06-00>(n) The right to be excused from school attendance
+for religious purposes pursuant to section 15-806.</p>
+
+<p class=P06-00>(o) Policies related to parental involvement
+pursuant to this section.</p>
+
+<p class=P06-00>(p) The right to seek membership on school councils
+pursuant to section 15-351.</p>
+
+<p class=P06-00>(q) Information about the student accountability
+information system as prescribed in section 15-1041.</p>
+
+<p class=P06-00>(r) The right to access the failing schools tutoring
+fund pursuant to section 15-241.</p>
+
+<p class=P06-00>(s) The right to access all written and electronic
+records of a school district or school district employee concerning the
+parent's child pursuant to section 15-143.</p>
+
+<p class=P06-00><span class=UP>9. If a school district requires,
+endorses, recommends, encourages, funds, facilitates or provides a training for
+teachers or school administrators, procedures by which parents are notified of
+the training and given access to any printed or digital materials that are used
+for the training.  For the purposes of this paragraph, &quot;training&quot;:</span></p>
+
+<p class=P06-00><span class=UP>(</span>a<span class=UP>) Means a class,
+a seminar, a webinar, in-person instruction or printed or digital
+material that addresses curricula, teaching methods, classroom strategies,
+student discipline, learning environment or social and emotional learning,
+including Training related to racial, sexual, gender identity, political or
+social issues.</span></p>
+
+<p class=P06-00><span class=UP>(</span>b<span class=UP>) Does not include
+training in which a teacher or school administrator participates outside of the
+context of the teacher's or school administrator's official duties.</span></p>
+
+<p class=P06-00>B. The policy adopted by the governing board
+pursuant to this section may also include the following components:</p>
+
+<p class=P06-00>1. A plan by which parents will be made aware of the
+district's parental involvement policy and this section, including:</p>
+
+<p class=P06-00>(a) Rights under the family educational rights and
+privacy act of 1974 (20 United States Code section 1232g) relating to access to
+children's official records.</p>
+
+<p class=P06-00>(b) The parent's right to inspect the school
+district policies and curriculum.</p>
+
+<p class=P06-00>2. Efforts to encourage the development of parenting
+skills.</p>
+
+<p class=P06-00>3. Communicating to parents techniques that are
+designed to assist the child's learning experience in the home.</p>
+
+<p class=P06-00>4. Efforts to encourage access to community and
+support services for children and families.</p>
+
+<p class=P06-00>5. Promoting communication between the school and
+parents concerning school programs and the academic progress of the parents'
+children.</p>
+
+<p class=P06-00>6. Identifying opportunities for parents to
+participate in and support classroom instruction at the school.</p>
+
+<p class=P06-00>7. Efforts to support, with appropriate training,
+parents as shared decision-makers and to encourage membership on school
+councils.</p>
+
+<p class=P06-00>8. Recognizing the diversity of parents and
+developing guidelines that promote widespread parental participation and
+involvement in the school at various levels.</p>
+
+<p class=P06-00>9. Developing preparation programs and specialized
+courses for certificated employees and administrators that promote parental
+involvement.</p>
+
+<p class=P05-00>10. Developing strategies and programmatic
+structures at schools to encourage and enable parents to participate actively
+in their children's education.</p>
+
+<p class=P06-00>C. The governing board <span class=O>may</span> <span
+class=UP>shall </span>adopt a policy to provide to parents the information
+required by this section in an electronic form.</p>
+
+<p class=P06-00>D. A parent shall submit a written request for
+information pursuant to this section during regular business hours to either
+the school principal at the school site or the superintendent of the school
+district at the office of the school district. Within ten days after
+receiving the request for information, the school principal or the superintendent
+of the school district shall either deliver the requested information to the
+parent or submit to the parent a written explanation of the reasons for denying
+the requested information. If the request for information is denied
+or the parent does not receive the requested information within fifteen days
+after submitting the request for information, the parent may request the
+information in writing from the school district governing board, which shall
+formally consider the request at the next scheduled public meeting of the
+governing board if the request can be properly noticed on the
+agenda. If the request cannot be properly noticed on the agenda, the
+governing board shall formally consider the request at the next subsequent
+public meeting of the governing board.</p>
+
+<p class=P06-00>E. For the purposes of this section,
+&quot;parent&quot; means the natural or adoptive parent or legal guardian of a
+minor child. <span style='display:none'>END_STATUTE</span></p>
+
+</div>
+

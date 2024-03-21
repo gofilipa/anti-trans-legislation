@@ -1,0 +1,874 @@
+<style type="text/css">
+div.p {background:white;position:relative;left:0px;width:600px;height:798px;}
+
+span.t {white-space:nowrap;position:absolute;font-family:monospace;font-style:normal;font-weight:normal;}
+span.l {position:absolute;height:1px;border-top:1px solid black;}
+span.o{position:absolute;}
+</style>
+
+<div class='p' style='page-break-after:always;'>
+<span class='t' style='top:57px;'>
+<span class='t' style='font-size:10.0pt;font-weight:bold;left:100px;'>House</span>
+<span class='t' style='font-size:10.0pt;font-weight:bold;left:149px;'>File</span>
+<span class='t' style='font-size:10.0pt;font-weight:bold;left:190px;'>620</span>
+<span class='t' style='font-size:10.0pt;font-weight:bold;left:222px;'>-</span>
+<span class='t' style='font-size:10.0pt;font-weight:bold;left:239px;'>Introduced</span>
+</span>
+<span class='t' style='top:89px;'>
+<span class='t' style='left:334px;'>HOUSE</span>
+<span class='t' style='left:377px;'>FILE</span>
+<span class='t' style='left:413px;'>620</span>
+</span>
+<span class='t' style='top:106px;'>
+<span class='t' style='left:334px;'>BY</span>
+<span class='t' style='left:363px;'>COMMITTEE</span>
+<span class='t' style='left:434px;'>ON</span>
+<span class='t' style='left:456px;'>EDUCATION</span>
+</span>
+<span class='t' style='top:140px;'>
+<span class='t' style='left:334px;'>(SUCCESSOR</span>
+<span class='t' style='left:413px;'>TO</span>
+<span class='t' style='left:435px;'>HF</span>
+<span class='t' style='left:456px;'>367)</span>
+</span>
+<span class='t' style='top:196px;'>
+<span class='t' style='font-family:sans-serif;font-size:9.6pt;font-weight:bold;left:293px;'>A</span>
+<span class='t' style='font-family:sans-serif;font-size:9.6pt;font-weight:bold;left:307px;'>BILL</span>
+<span class='t' style='font-family:sans-serif;font-size:9.6pt;font-weight:bold;left:340px;'>FOR</span>
+</span>
+<span class='t' style='top:232px;'>
+<span class='t' style='left:100px;'>An</span>
+<span class='t' style='left:122px;'>Act</span>
+<span class='t' style='left:150px;'>prohibiting</span>
+<span class='t' style='left:236px;'>school</span>
+<span class='t' style='left:286px;'>districts</span>
+<span class='t' style='left:358px;'>and</span>
+<span class='t' style='left:386px;'>charter</span>
+<span class='t' style='left:444px;'>schools</span>
+<span class='t' style='left:501px;'>from</span>
+<span class='t' style='left:85px;'><a name='t_1'>1</a></span>
+</span>
+<span class='t' style='top:250px;'>
+<span class='t' style='left:122px;'>taking</span>
+<span class='t' style='left:172px;'>disciplinary</span>
+<span class='t' style='left:265px;'>action</span>
+<span class='t' style='left:315px;'>against</span>
+<span class='t' style='left:373px;'>employees,</span>
+<span class='t' style='left:451px;'>contractors,</span>
+<span class='t' style='left:85px;'><a name='t_2'>2</a></span>
+</span>
+<span class='t' style='top:267px;'>
+<span class='t' style='left:122px;'>or</span>
+<span class='t' style='left:143px;'>students</span>
+<span class='t' style='left:208px;'>for</span>
+<span class='t' style='left:236px;'>the</span>
+<span class='t' style='left:265px;'>use</span>
+<span class='t' style='left:293px;'>of</span>
+<span class='t' style='left:315px;'>legal</span>
+<span class='t' style='left:358px;'>names</span>
+<span class='t' style='left:400px;'>or</span>
+<span class='t' style='left:422px;'>for</span>
+<span class='t' style='left:450px;'>the</span>
+<span class='t' style='left:479px;'>failure</span>
+<span class='t' style='left:85px;'><a name='t_3'>3</a></span>
+</span>
+<span class='t' style='top:285px;'>
+<span class='t' style='left:122px;'>to</span>
+<span class='t' style='left:143px;'>use</span>
+<span class='t' style='left:172px;'>personal</span>
+<span class='t' style='left:236px;'>pronouns</span>
+<span class='t' style='left:301px;'>in</span>
+<span class='t' style='left:322px;'>official</span>
+<span class='t' style='left:386px;'>communications,</span>
+<span class='t' style='left:501px;'>and</span>
+<span class='t' style='left:85px;'><a name='t_4'>4</a></span>
+</span>
+<span class='t' style='top:303px;'>
+<span class='t' style='left:122px;'>providing</span>
+<span class='t' style='left:194px;'>civil</span>
+<span class='t' style='left:236px;'>penalties.</span>
+<span class='t' style='left:85px;'><a name='t_5'>5</a></span>
+</span>
+<span class='t' style='top:321px;'>
+<span class='t' style='left:100px;'>BE</span>
+<span class='t' style='left:122px;'>IT</span>
+<span class='t' style='left:143px;'>ENACTED</span>
+<span class='t' style='left:200px;'>BY</span>
+<span class='t' style='left:222px;'>THE</span>
+<span class='t' style='left:250px;'>GENERAL</span>
+<span class='t' style='left:307px;'>ASSEMBLY</span>
+<span class='t' style='left:372px;'>OF</span>
+<span class='t' style='left:393px;'>THE</span>
+<span class='t' style='left:422px;'>STATE</span>
+<span class='t' style='left:465px;'>OF</span>
+<span class='t' style='left:486px;'>IOWA:</span>
+<span class='t' style='left:85px;'><a name='t_6'>6</a></span>
+</span>
+<span class='t' style='top:761px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>TLSB</span>
+<span class='t' style='font-size:8.0pt;left:409px;'>2215HV</span>
+<span class='t' style='font-size:8.0pt;left:452px;'>(2)</span>
+<span class='t' style='font-size:8.0pt;left:476px;'>90</span>
+</span>
+<span class='t' style='top:776px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>jda/jh</span>
+</span>
+</div>
+<div class='p' style='page-break-after:always;'>
+<span class='t' style='top:75px;'>
+<span class='t' style='left:300px;'>H.F.</span>
+<span class='t' style='left:337px;'>620</span>
+</span>
+<span class='t' style='top:126px;'>
+<span class='t' style='left:121px;'>Section</span>
+<span class='t' style='left:179px;'><a name="section_1">1.</a></span>
+<span class='t' style='left:207px;'>Section</span>
+<span class='t' style='left:264px;'>256E.7,</span>
+<span class='t' style='left:321px;'>subsection</span>
+<span class='t' style='left:400px;'>2,</span>
+<span class='t' style='left:422px;'>Code</span>
+<span class='t' style='left:457px;'>2023,</span>
+<span class='t' style='left:500px;'>is</span>
+<span class='t' style='left:85px;'><a name='1_1'>1</a></span>
+</span>
+<span class='t' style='top:144px;'>
+<span class='t' style='left:100px;'>amended</span>
+<span class='t' style='left:158px;'>by</span>
+<span class='t' style='left:179px;'>adding</span>
+<span class='t' style='left:229px;'>the</span>
+<span class='t' style='left:258px;'>following</span>
+<span class='t' style='left:329px;'>new</span>
+<span class='t' style='left:358px;'>paragraph:</span>
+<span class='t' style='left:85px;'><a name='1_2'>2</a></span>
+</span>
+<span class='t' style='top:162px;'>
+<span class='t' style='left:121px;'>NEW</span>
+<span class='t' style='left:150px;'>PARAGRAPH</span>
+</span>
+<span class='t' style='top:162px;'>
+<span class='t' style='left:214px;'>.</span>
+<span class='t' style='font-style:italic;left:236px;'>0j.</span>
+<span class='t' style='left:270px;'>Be</span>
+<span class='t' style='left:292px;'>subject</span>
+<span class='t' style='left:349px;'>to</span>
+<span class='t' style='left:370px;'>and</span>
+<span class='t' style='left:399px;'>comply</span>
+<span class='t' style='left:449px;'>with</span>
+<span class='t' style='left:485px;'>the</span>
+<span class='t' style='left:85px;'><a name='1_3'>3</a></span>
+</span>
+<span class='t' style='top:180px;'>
+<span class='t' style='left:100px;'>requirements</span>
+<span class='t' style='left:194px;'>of</span>
+<span class='t' style='left:215px;'>section</span>
+<span class='t' style='left:272px;'>279.77</span>
+<span class='t' style='left:322px;'>relating</span>
+<span class='t' style='left:387px;'>to</span>
+<span class='t' style='left:408px;'>the</span>
+<span class='t' style='left:436px;'>prohibition</span>
+<span class='t' style='left:522px;'>on</span>
+<span class='t' style='left:85px;'><a name='1_4'>4</a></span>
+</span>
+<span class='t' style='top:198px;'>
+<span class='t' style='left:100px;'>disciplinary</span>
+<span class='t' style='left:194px;'>action</span>
+<span class='t' style='left:244px;'>for</span>
+<span class='t' style='left:272px;'>the</span>
+<span class='t' style='left:301px;'>use</span>
+<span class='t' style='left:329px;'>of</span>
+<span class='t' style='left:351px;'>legal</span>
+<span class='t' style='left:393px;'>names</span>
+<span class='t' style='left:436px;'>and</span>
+<span class='t' style='left:465px;'>for</span>
+<span class='t' style='left:493px;'>the</span>
+<span class='t' style='left:85px;'><a name='1_5'>5</a></span>
+</span>
+<span class='t' style='top:215px;'>
+<span class='t' style='left:100px;'>failure</span>
+<span class='t' style='left:158px;'>to</span>
+<span class='t' style='left:179px;'>use</span>
+<span class='t' style='left:207px;'>personal</span>
+<span class='t' style='left:272px;'>pronouns</span>
+<span class='t' style='left:336px;'>in</span>
+<span class='t' style='left:358px;'>official</span>
+<span class='t' style='left:422px;'>communications</span>
+<span class='t' style='left:530px;'>in</span>
+<span class='t' style='left:85px;'><a name='1_6'>6</a></span>
+</span>
+<span class='t' style='top:233px;'>
+<span class='t' style='left:100px;'>the</span>
+<span class='t' style='left:129px;'>same</span>
+<span class='t' style='left:165px;'>manner</span>
+<span class='t' style='left:215px;'>as</span>
+<span class='t' style='left:236px;'>a</span>
+<span class='t' style='left:250px;'>school</span>
+<span class='t' style='left:300px;'>district.</span>
+<span class='t' style='left:85px;'><a name='1_7'>7</a></span>
+</span>
+<span class='t' style='top:251px;'>
+<span class='t' style='left:121px;'>Sec.</span>
+<span class='t' style='left:157px;'><a name="section_2">2.</a></span>
+<span class='t' style='left:185px;'>NEW</span>
+<span class='t' style='left:214px;'>SECTION</span>
+<span class='t' style='left:264px;'>.</span>
+<span class='t' style='font-weight:bold;left:285px;'>279.77</span>
+<span class='t' style='font-weight:bold;left:341px;'>Prohibition</span>
+<span class='t' style='font-weight:bold;left:424px;'>on</span>
+<span class='t' style='font-weight:bold;left:445px;'>disciplinary</span>
+<span class='t' style='left:85px;'><a name='1_8'>8</a></span>
+</span>
+<span class='t' style='top:269px;'>
+<span class='t' style='font-weight:bold;left:100px;'>action</span>
+<span class='t' style='font-weight:bold;left:149px;'>——</span>
+<span class='t' style='font-weight:bold;left:170px;'>use</span>
+<span class='t' style='font-weight:bold;left:198px;'>of</span>
+<span class='t' style='font-weight:bold;left:219px;'>legal</span>
+<span class='t' style='font-weight:bold;left:261px;'>names</span>
+<span class='t' style='font-weight:bold;left:302px;'>——</span>
+<span class='t' style='font-weight:bold;left:323px;'>failure</span>
+<span class='t' style='font-weight:bold;left:379px;'>to</span>
+<span class='t' style='font-weight:bold;left:400px;'>use</span>
+<span class='t' style='font-weight:bold;left:428px;'>personal</span>
+<span class='t' style='font-weight:bold;left:490px;'>pronouns.</span>
+<span class='t' style='left:85px;'><a name='1_9'>9</a></span>
+</span>
+<span class='t' style='top:287px;'>
+<span class='t' style='left:121px;'>1.</span>
+<span class='t' style='left:150px;'>The</span>
+<span class='t' style='left:178px;'>board</span>
+<span class='t' style='left:221px;'>of</span>
+<span class='t' style='left:242px;'>directors</span>
+<span class='t' style='left:314px;'>of</span>
+<span class='t' style='left:335px;'>each</span>
+<span class='t' style='left:371px;'>school</span>
+<span class='t' style='left:421px;'>district</span>
+<span class='t' style='left:486px;'>shall</span>
+<span class='t' style='left:78px;'><a name='1_10'>10</a></span>
+</span>
+<span class='t' style='top:305px;'>
+<span class='t' style='left:100px;'>not</span>
+<span class='t' style='left:129px;'>take</span>
+<span class='t' style='left:165px;'>any</span>
+<span class='t' style='left:193px;'>disciplinary</span>
+<span class='t' style='left:286px;'>action</span>
+<span class='t' style='left:336px;'>against</span>
+<span class='t' style='left:394px;'>an</span>
+<span class='t' style='left:415px;'>employee</span>
+<span class='t' style='left:479px;'>of</span>
+<span class='t' style='left:501px;'>the</span>
+<span class='t' style='left:78px;'><a name='1_11'>11</a></span>
+</span>
+<span class='t' style='top:323px;'>
+<span class='t' style='left:100px;'>school</span>
+<span class='t' style='left:150px;'>district,</span>
+<span class='t' style='left:222px;'>a</span>
+<span class='t' style='left:236px;'>contractor</span>
+<span class='t' style='left:315px;'>hired</span>
+<span class='t' style='left:358px;'>by</span>
+<span class='t' style='left:379px;'>the</span>
+<span class='t' style='left:408px;'>school</span>
+<span class='t' style='left:458px;'>district,</span>
+<span class='t' style='left:78px;'><a name='1_12'>12</a></span>
+</span>
+<span class='t' style='top:340px;'>
+<span class='t' style='left:100px;'>or</span>
+<span class='t' style='left:122px;'>a</span>
+<span class='t' style='left:136px;'>student</span>
+<span class='t' style='left:193px;'>enrolled</span>
+<span class='t' style='left:258px;'>in</span>
+<span class='t' style='left:279px;'>the</span>
+<span class='t' style='left:307px;'>school</span>
+<span class='t' style='left:357px;'>district</span>
+<span class='t' style='left:422px;'>for</span>
+<span class='t' style='left:450px;'>addressing</span>
+<span class='t' style='left:78px;'><a name='1_13'>13</a></span>
+</span>
+<span class='t' style='top:358px;'>
+<span class='t' style='left:100px;'>other</span>
+<span class='t' style='left:143px;'>employees,</span>
+<span class='t' style='left:222px;'>contractors,</span>
+<span class='t' style='left:315px;'>or</span>
+<span class='t' style='left:337px;'>students</span>
+<span class='t' style='left:401px;'>using</span>
+<span class='t' style='left:444px;'>the</span>
+<span class='t' style='left:472px;'>employee’s,</span>
+<span class='t' style='left:78px;'><a name='1_14'>14</a></span>
+</span>
+<span class='t' style='top:376px;'>
+<span class='t' style='left:100px;'>contractor’s,</span>
+<span class='t' style='left:201px;'>or</span>
+<span class='t' style='left:222px;'>student’s</span>
+<span class='t' style='left:294px;'>legal</span>
+<span class='t' style='left:337px;'>name.</span>
+<span class='t' style='left:78px;'><a name='1_15'>15</a></span>
+</span>
+<span class='t' style='top:394px;'>
+<span class='t' style='left:121px;'>2.</span>
+<span class='t' style='left:150px;'>The</span>
+<span class='t' style='left:178px;'>board</span>
+<span class='t' style='left:221px;'>of</span>
+<span class='t' style='left:242px;'>directors</span>
+<span class='t' style='left:314px;'>of</span>
+<span class='t' style='left:335px;'>each</span>
+<span class='t' style='left:371px;'>school</span>
+<span class='t' style='left:421px;'>district</span>
+<span class='t' style='left:486px;'>shall</span>
+<span class='t' style='left:528px;'>not</span>
+<span class='t' style='left:78px;'><a name='1_16'>16</a></span>
+</span>
+<span class='t' style='top:412px;'>
+<span class='t' style='left:100px;'>take</span>
+<span class='t' style='left:136px;'>any</span>
+<span class='t' style='left:165px;'>disciplinary</span>
+<span class='t' style='left:258px;'>action</span>
+<span class='t' style='left:308px;'>against</span>
+<span class='t' style='left:365px;'>an</span>
+<span class='t' style='left:386px;'>employee</span>
+<span class='t' style='left:451px;'>of</span>
+<span class='t' style='left:472px;'>the</span>
+<span class='t' style='left:501px;'>school</span>
+<span class='t' style='left:78px;'><a name='1_17'>17</a></span>
+</span>
+<span class='t' style='top:430px;'>
+<span class='t' style='left:100px;'>district,</span>
+<span class='t' style='left:172px;'>a</span>
+<span class='t' style='left:186px;'>contractor</span>
+<span class='t' style='left:265px;'>hired</span>
+<span class='t' style='left:308px;'>by</span>
+<span class='t' style='left:329px;'>the</span>
+<span class='t' style='left:358px;'>school</span>
+<span class='t' style='left:408px;'>district,</span>
+<span class='t' style='left:479px;'>or</span>
+<span class='t' style='left:501px;'>a</span>
+<span class='t' style='left:78px;'><a name='1_18'>18</a></span>
+</span>
+<span class='t' style='top:448px;'>
+<span class='t' style='left:100px;'>student</span>
+<span class='t' style='left:158px;'>enrolled</span>
+<span class='t' style='left:222px;'>in</span>
+<span class='t' style='left:243px;'>the</span>
+<span class='t' style='left:272px;'>school</span>
+<span class='t' style='left:322px;'>district</span>
+<span class='t' style='left:386px;'>for</span>
+<span class='t' style='left:415px;'>failing</span>
+<span class='t' style='left:472px;'>to</span>
+<span class='t' style='left:494px;'>disclose</span>
+<span class='t' style='left:78px;'><a name='1_19'>19</a></span>
+</span>
+<span class='t' style='top:465px;'>
+<span class='t' style='left:100px;'>or</span>
+<span class='t' style='left:122px;'>use</span>
+<span class='t' style='left:150px;'>any</span>
+<span class='t' style='left:179px;'>personal</span>
+<span class='t' style='left:243px;'>pronouns</span>
+<span class='t' style='left:308px;'>in</span>
+<span class='t' style='left:329px;'>the</span>
+<span class='t' style='left:357px;'>greeting</span>
+<span class='t' style='left:422px;'>or</span>
+<span class='t' style='left:443px;'>signature</span>
+<span class='t' style='left:515px;'>block</span>
+<span class='t' style='left:78px;'><a name='1_20'>20</a></span>
+</span>
+<span class='t' style='top:483px;'>
+<span class='t' style='left:100px;'>of</span>
+<span class='t' style='left:122px;'>any</span>
+<span class='t' style='left:150px;'>form</span>
+<span class='t' style='left:186px;'>of</span>
+<span class='t' style='left:207px;'>official</span>
+<span class='t' style='left:272px;'>communication,</span>
+<span class='t' style='left:379px;'>including</span>
+<span class='t' style='left:451px;'>letters,</span>
+<span class='t' style='left:78px;'><a name='1_21'>21</a></span>
+</span>
+<span class='t' style='top:501px;'>
+<span class='t' style='left:100px;'>forms,</span>
+<span class='t' style='left:150px;'>notes,</span>
+<span class='t' style='left:201px;'>or</span>
+<span class='t' style='left:222px;'>electronic</span>
+<span class='t' style='left:301px;'>mail.</span>
+<span class='t' style='left:78px;'><a name='1_22'>22</a></span>
+</span>
+<span class='t' style='top:519px;'>
+<span class='t' style='left:121px;'>3.</span>
+<span class='t' style='left:150px;'>An</span>
+<span class='t' style='left:171px;'>employee</span>
+<span class='t' style='left:235px;'>whose</span>
+<span class='t' style='left:278px;'>employment</span>
+<span class='t' style='left:357px;'>is</span>
+<span class='t' style='left:378px;'>terminated</span>
+<span class='t' style='left:457px;'>in</span>
+<span class='t' style='left:479px;'>violation</span>
+<span class='t' style='left:78px;'><a name='1_23'>23</a></span>
+</span>
+<span class='t' style='top:537px;'>
+<span class='t' style='left:100px;'>of</span>
+<span class='t' style='left:122px;'>this</span>
+<span class='t' style='left:157px;'>section</span>
+<span class='t' style='left:215px;'>may</span>
+<span class='t' style='left:243px;'>enforce</span>
+<span class='t' style='left:300px;'>this</span>
+<span class='t' style='left:336px;'>section</span>
+<span class='t' style='left:393px;'>through</span>
+<span class='t' style='left:451px;'>a</span>
+<span class='t' style='left:465px;'>civil</span>
+<span class='t' style='left:508px;'>action</span>
+<span class='t' style='left:78px;'><a name='1_24'>24</a></span>
+</span>
+<span class='t' style='top:555px;'>
+<span class='t' style='left:100px;'>under</span>
+<span class='t' style='left:143px;'>section</span>
+<span class='t' style='left:201px;'>70A.29,</span>
+<span class='t' style='left:258px;'>subsection</span>
+<span class='t' style='left:337px;'>3.</span>
+<span class='t' style='left:78px;'><a name='1_25'>25</a></span>
+</span>
+<span class='t' style='top:573px;'>
+<span class='t' style='left:121px;'>4.</span>
+<span class='t' style='left:150px;'>For</span>
+<span class='t' style='left:178px;'>purposes</span>
+<span class='t' style='left:243px;'>of</span>
+<span class='t' style='left:264px;'>this</span>
+<span class='t' style='left:300px;'>section,</span>
+<span class='t' style='font-style:italic;left:364px;'>“disciplinary</span>
+<span class='t' style='font-style:italic;left:461px;'>action”</span>
+<span class='t' style='left:78px;'><a name='1_26'>26</a></span>
+</span>
+<span class='t' style='top:590px;'>
+<span class='t' style='left:100px;'>includes</span>
+<span class='t' style='left:165px;'>termination</span>
+<span class='t' style='left:251px;'>of</span>
+<span class='t' style='left:272px;'>employment</span>
+<span class='t' style='left:351px;'>or</span>
+<span class='t' style='left:372px;'>the</span>
+<span class='t' style='left:401px;'>contractual</span>
+<span class='t' style='left:78px;'><a name='1_27'>27</a></span>
+</span>
+<span class='t' style='top:608px;'>
+<span class='t' style='left:100px;'>relationship,</span>
+<span class='t' style='left:201px;'>suspension</span>
+<span class='t' style='left:280px;'>from</span>
+<span class='t' style='left:315px;'>employment</span>
+<span class='t' style='left:394px;'>or</span>
+<span class='t' style='left:415px;'>the</span>
+<span class='t' style='left:444px;'>contractual</span>
+<span class='t' style='left:78px;'><a name='1_28'>28</a></span>
+</span>
+<span class='t' style='top:626px;'>
+<span class='t' style='left:100px;'>relationship,</span>
+<span class='t' style='left:201px;'>demotion,</span>
+<span class='t' style='left:272px;'>expulsion</span>
+<span class='t' style='left:344px;'>from</span>
+<span class='t' style='left:380px;'>school,</span>
+<span class='t' style='left:437px;'>suspension</span>
+<span class='t' style='left:516px;'>from</span>
+<span class='t' style='left:78px;'><a name='1_29'>29</a></span>
+</span>
+<span class='t' style='top:644px;'>
+<span class='t' style='left:100px;'>school,</span>
+<span class='t' style='left:158px;'>detention,</span>
+<span class='t' style='left:236px;'>financial</span>
+<span class='t' style='left:308px;'>penalties,</span>
+<span class='t' style='left:387px;'>and</span>
+<span class='t' style='left:415px;'>written</span>
+<span class='t' style='left:473px;'>or</span>
+<span class='t' style='left:494px;'>verbal</span>
+<span class='t' style='left:78px;'><a name='1_30'>30</a></span>
+</span>
+<span class='t' style='top:662px;'>
+<span class='t' style='left:100px;'>reprimands.</span>
+<span class='t' style='left:78px;'><a name='1_31'>31</a></span>
+</span>
+<span class='t' style='top:680px;'>
+<span class='t' style='left:289px;'>EXPLANATION</span>
+<span class='t' style='left:78px;'><a name='1_32'>32</a></span>
+</span>
+<span class='t' style='top:700px;'>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:160px;'>The</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:180px;'>inclusion</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:230px;'>of</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:244px;'>this</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:269px;'>explanation</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:329px;'>does</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:354px;'>not</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:374px;'>constitute</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:428px;'>agreement</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:478px;'>with</span>
+<span class='t' style='font-size:6.0pt;left:82px;'><a name='1_33'>33</a></span>
+</span>
+<span class='t' style='top:713px;'>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:162px;'>the</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:182px;'>explanation’s</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:252px;'>substance</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:302px;'>by</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:317px;'>the</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:336px;'>members</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:376px;'>of</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:391px;'>the</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:411px;'>general</span>
+<span class='t' style='font-size:6.0pt;font-weight:bold;left:451px;'>assembly.</span>
+<span class='t' style='font-size:6.0pt;left:82px;'><a name='1_34'>34</a></span>
+</span>
+<span class='t' style='top:739px;'>
+<span class='t' style='left:121px;'>This</span>
+<span class='t' style='left:157px;'>bill</span>
+<span class='t' style='left:193px;'>prohibits</span>
+<span class='t' style='left:264px;'>school</span>
+<span class='t' style='left:314px;'>districts</span>
+<span class='t' style='left:386px;'>and</span>
+<span class='t' style='left:415px;'>charter</span>
+<span class='t' style='left:472px;'>schools</span>
+<span class='t' style='left:78px;'><a name='1_35'>35</a></span>
+</span>
+<span class='t' style='top:778px;'>
+<span class='t' style='left:292px;'>-1-</span>
+</span>
+<span class='t' style='top:761px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>LSB</span>
+<span class='t' style='font-size:8.0pt;left:403px;'>2215HV</span>
+<span class='t' style='font-size:8.0pt;left:446px;'>(2)</span>
+<span class='t' style='font-size:8.0pt;left:471px;'>90</span>
+</span>
+<span class='t' style='top:776px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>jda/jh</span>
+</span>
+<span class='t' style='top:776px;'>
+<span class='t' style='font-size:8.0pt;left:535px;'>1/</span>
+<span class='t' style='font-size:8.0pt;left:551px;'>2</span>
+</span>
+<span class='l' style='left:121px;top:176px;width:93px;'></span>
+<span class='l' style='left:185px;top:265px;width:79px;'></span>
+</div>
+<div class='p'>
+<span class='t' style='top:75px;'>
+<span class='t' style='left:300px;'>H.F.</span>
+<span class='t' style='left:337px;'>620</span>
+</span>
+<span class='t' style='top:126px;'>
+<span class='t' style='left:100px;'>from</span>
+<span class='t' style='left:136px;'>taking</span>
+<span class='t' style='left:186px;'>disciplinary</span>
+<span class='t' style='left:279px;'>action</span>
+<span class='t' style='left:329px;'>against</span>
+<span class='t' style='left:387px;'>employees,</span>
+<span class='t' style='left:465px;'>contractors,</span>
+<span class='t' style='left:85px;'><a name='2_1'>1</a></span>
+</span>
+<span class='t' style='top:144px;'>
+<span class='t' style='left:100px;'>or</span>
+<span class='t' style='left:122px;'>students</span>
+<span class='t' style='left:186px;'>for</span>
+<span class='t' style='left:215px;'>the</span>
+<span class='t' style='left:243px;'>use</span>
+<span class='t' style='left:272px;'>of</span>
+<span class='t' style='left:293px;'>legal</span>
+<span class='t' style='left:336px;'>names</span>
+<span class='t' style='left:379px;'>or</span>
+<span class='t' style='left:400px;'>for</span>
+<span class='t' style='left:429px;'>the</span>
+<span class='t' style='left:457px;'>failure</span>
+<span class='t' style='left:514px;'>to</span>
+<span class='t' style='left:536px;'>use</span>
+<span class='t' style='left:85px;'><a name='2_2'>2</a></span>
+</span>
+<span class='t' style='top:162px;'>
+<span class='t' style='left:100px;'>personal</span>
+<span class='t' style='left:165px;'>pronouns</span>
+<span class='t' style='left:229px;'>in</span>
+<span class='t' style='left:251px;'>official</span>
+<span class='t' style='left:315px;'>communications.</span>
+<span class='t' style='left:85px;'><a name='2_3'>3</a></span>
+</span>
+<span class='t' style='top:180px;'>
+<span class='t' style='left:121px;'>The</span>
+<span class='t' style='left:150px;'>bill</span>
+<span class='t' style='left:186px;'>prohibits</span>
+<span class='t' style='left:257px;'>the</span>
+<span class='t' style='left:286px;'>board</span>
+<span class='t' style='left:329px;'>of</span>
+<span class='t' style='left:350px;'>directors</span>
+<span class='t' style='left:422px;'>of</span>
+<span class='t' style='left:443px;'>school</span>
+<span class='t' style='left:85px;'><a name='2_4'>4</a></span>
+</span>
+<span class='t' style='top:198px;'>
+<span class='t' style='left:100px;'>districts</span>
+<span class='t' style='left:172px;'>and</span>
+<span class='t' style='left:200px;'>the</span>
+<span class='t' style='left:229px;'>governing</span>
+<span class='t' style='left:301px;'>boards</span>
+<span class='t' style='left:351px;'>of</span>
+<span class='t' style='left:372px;'>charter</span>
+<span class='t' style='left:429px;'>schools</span>
+<span class='t' style='left:487px;'>from</span>
+<span class='t' style='left:85px;'><a name='2_5'>5</a></span>
+</span>
+<span class='t' style='top:215px;'>
+<span class='t' style='left:100px;'>taking</span>
+<span class='t' style='left:150px;'>any</span>
+<span class='t' style='left:179px;'>disciplinary</span>
+<span class='t' style='left:272px;'>action</span>
+<span class='t' style='left:322px;'>against</span>
+<span class='t' style='left:379px;'>an</span>
+<span class='t' style='left:401px;'>employee,</span>
+<span class='t' style='left:472px;'>contractor,</span>
+<span class='t' style='left:85px;'><a name='2_6'>6</a></span>
+</span>
+<span class='t' style='top:233px;'>
+<span class='t' style='left:100px;'>or</span>
+<span class='t' style='left:122px;'>student</span>
+<span class='t' style='left:179px;'>for</span>
+<span class='t' style='left:207px;'>addressing</span>
+<span class='t' style='left:286px;'>other</span>
+<span class='t' style='left:329px;'>employees,</span>
+<span class='t' style='left:408px;'>contractors,</span>
+<span class='t' style='left:501px;'>or</span>
+<span class='t' style='left:85px;'><a name='2_7'>7</a></span>
+</span>
+<span class='t' style='top:251px;'>
+<span class='t' style='left:100px;'>students</span>
+<span class='t' style='left:165px;'>using</span>
+<span class='t' style='left:208px;'>the</span>
+<span class='t' style='left:236px;'>employee’s,</span>
+<span class='t' style='left:322px;'>contractor’s,</span>
+<span class='t' style='left:423px;'>or</span>
+<span class='t' style='left:444px;'>student’s</span>
+<span class='t' style='left:516px;'>legal</span>
+<span class='t' style='left:85px;'><a name='2_8'>8</a></span>
+</span>
+<span class='t' style='top:269px;'>
+<span class='t' style='left:100px;'>name.</span>
+<span class='t' style='left:85px;'><a name='2_9'>9</a></span>
+</span>
+<span class='t' style='top:287px;'>
+<span class='t' style='left:121px;'>The</span>
+<span class='t' style='left:150px;'>bill</span>
+<span class='t' style='left:186px;'>prohibits</span>
+<span class='t' style='left:257px;'>the</span>
+<span class='t' style='left:286px;'>board</span>
+<span class='t' style='left:329px;'>of</span>
+<span class='t' style='left:350px;'>directors</span>
+<span class='t' style='left:421px;'>of</span>
+<span class='t' style='left:443px;'>school</span>
+<span class='t' style='left:78px;'><a name='2_10'>10</a></span>
+</span>
+<span class='t' style='top:305px;'>
+<span class='t' style='left:100px;'>districts</span>
+<span class='t' style='left:172px;'>and</span>
+<span class='t' style='left:200px;'>the</span>
+<span class='t' style='left:229px;'>governing</span>
+<span class='t' style='left:301px;'>boards</span>
+<span class='t' style='left:351px;'>of</span>
+<span class='t' style='left:372px;'>charter</span>
+<span class='t' style='left:429px;'>schools</span>
+<span class='t' style='left:487px;'>from</span>
+<span class='t' style='left:78px;'><a name='2_11'>11</a></span>
+</span>
+<span class='t' style='top:323px;'>
+<span class='t' style='left:100px;'>taking</span>
+<span class='t' style='left:150px;'>any</span>
+<span class='t' style='left:179px;'>disciplinary</span>
+<span class='t' style='left:272px;'>action</span>
+<span class='t' style='left:322px;'>against</span>
+<span class='t' style='left:379px;'>an</span>
+<span class='t' style='left:401px;'>employee,</span>
+<span class='t' style='left:472px;'>contractor,</span>
+<span class='t' style='left:78px;'><a name='2_12'>12</a></span>
+</span>
+<span class='t' style='top:340px;'>
+<span class='t' style='left:100px;'>or</span>
+<span class='t' style='left:122px;'>student</span>
+<span class='t' style='left:179px;'>for</span>
+<span class='t' style='left:207px;'>failing</span>
+<span class='t' style='left:265px;'>to</span>
+<span class='t' style='left:286px;'>disclose</span>
+<span class='t' style='left:351px;'>or</span>
+<span class='t' style='left:372px;'>use</span>
+<span class='t' style='left:400px;'>any</span>
+<span class='t' style='left:429px;'>personal</span>
+<span class='t' style='left:493px;'>pronouns</span>
+<span class='t' style='left:78px;'><a name='2_13'>13</a></span>
+</span>
+<span class='t' style='top:358px;'>
+<span class='t' style='left:100px;'>in</span>
+<span class='t' style='left:122px;'>the</span>
+<span class='t' style='left:150px;'>greeting</span>
+<span class='t' style='left:215px;'>or</span>
+<span class='t' style='left:236px;'>signature</span>
+<span class='t' style='left:308px;'>block</span>
+<span class='t' style='left:351px;'>of</span>
+<span class='t' style='left:372px;'>any</span>
+<span class='t' style='left:400px;'>form</span>
+<span class='t' style='left:436px;'>of</span>
+<span class='t' style='left:457px;'>official</span>
+<span class='t' style='left:78px;'><a name='2_14'>14</a></span>
+</span>
+<span class='t' style='top:376px;'>
+<span class='t' style='left:100px;'>communication.</span>
+<span class='t' style='left:78px;'><a name='2_15'>15</a></span>
+</span>
+<span class='t' style='top:394px;'>
+<span class='t' style='left:121px;'>The</span>
+<span class='t' style='left:150px;'>bill</span>
+<span class='t' style='left:186px;'>allows</span>
+<span class='t' style='left:236px;'>an</span>
+<span class='t' style='left:257px;'>employee</span>
+<span class='t' style='left:321px;'>whose</span>
+<span class='t' style='left:364px;'>employment</span>
+<span class='t' style='left:443px;'>is</span>
+<span class='t' style='left:464px;'>terminated</span>
+<span class='t' style='left:78px;'><a name='2_16'>16</a></span>
+</span>
+<span class='t' style='top:412px;'>
+<span class='t' style='left:100px;'>in</span>
+<span class='t' style='left:122px;'>violation</span>
+<span class='t' style='left:193px;'>of</span>
+<span class='t' style='left:215px;'>these</span>
+<span class='t' style='left:258px;'>provisions</span>
+<span class='t' style='left:336px;'>to</span>
+<span class='t' style='left:358px;'>enforce</span>
+<span class='t' style='left:415px;'>the</span>
+<span class='t' style='left:443px;'>provisions</span>
+<span class='t' style='left:78px;'><a name='2_17'>17</a></span>
+</span>
+<span class='t' style='top:430px;'>
+<span class='t' style='left:100px;'>through</span>
+<span class='t' style='left:158px;'>a</span>
+<span class='t' style='left:172px;'>civil</span>
+<span class='t' style='left:215px;'>action</span>
+<span class='t' style='left:265px;'>which</span>
+<span class='t' style='left:308px;'>allows</span>
+<span class='t' style='left:358px;'>the</span>
+<span class='t' style='left:386px;'>aggrieved</span>
+<span class='t' style='left:458px;'>employee</span>
+<span class='t' style='left:522px;'>to</span>
+<span class='t' style='left:78px;'><a name='2_18'>18</a></span>
+</span>
+<span class='t' style='top:448px;'>
+<span class='t' style='left:100px;'>receive</span>
+<span class='t' style='left:158px;'>reinstatement,</span>
+<span class='t' style='left:265px;'>with</span>
+<span class='t' style='left:301px;'>or</span>
+<span class='t' style='left:322px;'>without</span>
+<span class='t' style='left:379px;'>back</span>
+<span class='t' style='left:415px;'>pay,</span>
+<span class='t' style='left:451px;'>civil</span>
+<span class='t' style='left:494px;'>damages</span>
+<span class='t' style='left:78px;'><a name='2_19'>19</a></span>
+</span>
+<span class='t' style='top:465px;'>
+<span class='t' style='left:100px;'>in</span>
+<span class='t' style='left:122px;'>an</span>
+<span class='t' style='left:143px;'>amount</span>
+<span class='t' style='left:193px;'>not</span>
+<span class='t' style='left:222px;'>to</span>
+<span class='t' style='left:243px;'>exceed</span>
+<span class='t' style='left:293px;'>three</span>
+<span class='t' style='left:336px;'>times</span>
+<span class='t' style='left:379px;'>the</span>
+<span class='t' style='left:407px;'>aggrieved</span>
+<span class='t' style='left:479px;'>employee’s</span>
+<span class='t' style='left:78px;'><a name='2_20'>20</a></span>
+</span>
+<span class='t' style='top:483px;'>
+<span class='t' style='left:100px;'>annual</span>
+<span class='t' style='left:150px;'>wages</span>
+<span class='t' style='left:193px;'>and</span>
+<span class='t' style='left:222px;'>benefits,</span>
+<span class='t' style='left:293px;'>and</span>
+<span class='t' style='left:322px;'>any</span>
+<span class='t' style='left:351px;'>other</span>
+<span class='t' style='left:393px;'>equitable</span>
+<span class='t' style='left:465px;'>relief</span>
+<span class='t' style='left:515px;'>the</span>
+<span class='t' style='left:78px;'><a name='2_21'>21</a></span>
+</span>
+<span class='t' style='top:501px;'>
+<span class='t' style='left:100px;'>court</span>
+<span class='t' style='left:143px;'>deems</span>
+<span class='t' style='left:186px;'>appropriate,</span>
+<span class='t' style='left:279px;'>including</span>
+<span class='t' style='left:351px;'>attorney</span>
+<span class='t' style='left:415px;'>fees</span>
+<span class='t' style='left:451px;'>and</span>
+<span class='t' style='left:480px;'>costs.</span>
+<span class='t' style='left:78px;'><a name='2_22'>22</a></span>
+</span>
+<span class='t' style='top:519px;'>
+<span class='t' style='left:100px;'>Injunctive</span>
+<span class='t' style='left:179px;'>relief</span>
+<span class='t' style='left:229px;'>is</span>
+<span class='t' style='left:251px;'>also</span>
+<span class='t' style='left:286px;'>available.</span>
+<span class='t' style='left:78px;'><a name='2_23'>23</a></span>
+</span>
+<span class='t' style='top:537px;'>
+<span class='t' style='left:121px;'>The</span>
+<span class='t' style='left:150px;'>bill</span>
+<span class='t' style='left:186px;'>defines</span>
+<span class='t' style='left:243px;'>“disciplinary</span>
+<span class='t' style='left:343px;'>action”</span>
+<span class='t' style='left:400px;'>to</span>
+<span class='t' style='left:422px;'>include</span>
+<span class='t' style='left:78px;'><a name='2_24'>24</a></span>
+</span>
+<span class='t' style='top:555px;'>
+<span class='t' style='left:100px;'>termination</span>
+<span class='t' style='left:186px;'>of</span>
+<span class='t' style='left:208px;'>employment</span>
+<span class='t' style='left:286px;'>or</span>
+<span class='t' style='left:308px;'>the</span>
+<span class='t' style='left:336px;'>contractual</span>
+<span class='t' style='left:422px;'>relationship,</span>
+<span class='t' style='left:78px;'><a name='2_25'>25</a></span>
+</span>
+<span class='t' style='top:573px;'>
+<span class='t' style='left:100px;'>suspension</span>
+<span class='t' style='left:179px;'>from</span>
+<span class='t' style='left:215px;'>employment</span>
+<span class='t' style='left:294px;'>or</span>
+<span class='t' style='left:315px;'>the</span>
+<span class='t' style='left:344px;'>contractual</span>
+<span class='t' style='left:430px;'>relationship,</span>
+<span class='t' style='left:78px;'><a name='2_26'>26</a></span>
+</span>
+<span class='t' style='top:590px;'>
+<span class='t' style='left:100px;'>demotion,</span>
+<span class='t' style='left:172px;'>expulsion</span>
+<span class='t' style='left:244px;'>from</span>
+<span class='t' style='left:279px;'>school,</span>
+<span class='t' style='left:337px;'>suspension</span>
+<span class='t' style='left:415px;'>from</span>
+<span class='t' style='left:451px;'>school,</span>
+<span class='t' style='left:78px;'><a name='2_27'>27</a></span>
+</span>
+<span class='t' style='top:608px;'>
+<span class='t' style='left:100px;'>detention,</span>
+<span class='t' style='left:179px;'>financial</span>
+<span class='t' style='left:251px;'>penalties,</span>
+<span class='t' style='left:330px;'>and</span>
+<span class='t' style='left:358px;'>written</span>
+<span class='t' style='left:415px;'>or</span>
+<span class='t' style='left:437px;'>verbal</span>
+<span class='t' style='left:78px;'><a name='2_28'>28</a></span>
+</span>
+<span class='t' style='top:626px;'>
+<span class='t' style='left:100px;'>reprimands.</span>
+<span class='t' style='left:78px;'><a name='2_29'>29</a></span>
+</span>
+<span class='t' style='top:778px;'>
+<span class='t' style='left:292px;'>-2-</span>
+</span>
+<span class='t' style='top:761px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>LSB</span>
+<span class='t' style='font-size:8.0pt;left:403px;'>2215HV</span>
+<span class='t' style='font-size:8.0pt;left:446px;'>(2)</span>
+<span class='t' style='font-size:8.0pt;left:471px;'>90</span>
+</span>
+<span class='t' style='top:776px;'>
+<span class='t' style='font-size:8.0pt;left:378px;'>jda/jh</span>
+</span>
+<span class='t' style='top:776px;'>
+<span class='t' style='font-size:8.0pt;left:535px;'>2/</span>
+<span class='t' style='font-size:8.0pt;left:551px;'>2</span>
+</span>
+</div>

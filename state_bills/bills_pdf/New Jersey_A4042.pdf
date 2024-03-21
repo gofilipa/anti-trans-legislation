@@ -1,0 +1,711 @@
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:"Albertus Extra Bold";
+	panose-1:2 14 8 2 4 3 4 2 2 4;}
+@font-face
+	{font-family:Marlett;
+	panose-1:0 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoDocumentMap, li.MsoDocumentMap, div.MsoDocumentMap
+	{margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	background:navy;
+	font-size:12.0pt;
+	font-family:"Tahoma",sans-serif;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+span.11ptChar
+	{mso-style-name:11ptChar;
+	font-family:"Times New Roman",serif;}
+span.BillHead
+	{mso-style-name:BillHead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeading2
+	{mso-style-name:BillHeading2;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.BillHeadUnBold
+	{mso-style-name:BillHeadUnBold;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+span.BillLanguage
+	{mso-style-name:BillLanguage;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.bpuBill, li.bpuBill, div.bpuBill
+	{mso-style-name:bpuBill;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:26.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuHeadSpon, li.bpuHeadSpon, div.bpuHeadSpon
+	{mso-style-name:bpuHeadSpon;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.bpuHeadSponChar
+	{mso-style-name:bpuHeadSponChar;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuIntro, li.bpuIntro, div.bpuIntro
+	{mso-style-name:bpuIntro;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuLegislature, li.bpuLegislature, div.bpuLegislature
+	{mso-style-name:bpuLegislature;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:24.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuNormText, li.bpuNormText, div.bpuNormText
+	{mso-style-name:bpuNormText;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuReprint, li.bpuReprint, div.bpuReprint
+	{mso-style-name:bpuReprint;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:22.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.bpuSponsor, li.bpuSponsor, div.bpuSponsor
+	{mso-style-name:bpuSponsor;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.bpuState, li.bpuState, div.bpuState
+	{mso-style-name:bpuState;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	font-weight:bold;}
+span.charMarlett
+	{mso-style-name:charMarlett;
+	font-family:Marlett;}
+p.ElevenPt, li.ElevenPt, div.ElevenPt
+	{mso-style-name:ElevenPt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage, li.FronterPage, div.FronterPage
+	{mso-style-name:FronterPage;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPage12pt, li.FronterPage12pt, div.FronterPage12pt
+	{mso-style-name:FronterPage12pt;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageBillHeading, li.FronterPageBillHeading, div.FronterPageBillHeading
+	{mso-style-name:FronterPageBillHeading;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FronterPageTBox2, li.FronterPageTBox2, div.FronterPageTBox2
+	{mso-style-name:FronterPageTBox2;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+p.FronterPageTextBox, li.FronterPageTextBox, div.FronterPageTextBox
+	{mso-style-name:FronterPageTextBox;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.FronterSameAs, li.FronterSameAs, div.FronterSameAs
+	{mso-style-name:FronterSameAs;
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.HangingAnAct, li.HangingAnAct, div.HangingAnAct
+	{mso-style-name:HangingAnAct;
+	mso-style-link:"HangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.HangingAnActChar
+	{mso-style-name:"HangingAnAct Char";
+	mso-style-link:HangingAnAct;
+	letter-spacing:.2pt;}
+span.Para10pt
+	{mso-style-name:Para10pt;
+	font-family:"Times New Roman",serif;}
+p.Pg2Footer, li.Pg2Footer, div.Pg2Footer
+	{mso-style-name:Pg2Footer;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:8.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.StyleFronterPage11pt, li.StyleFronterPage11pt, div.StyleFronterPage11pt
+	{mso-style-name:"Style FronterPage + 11 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.StyleFronterPageLoweredby3pt, li.StyleFronterPageLoweredby3pt, div.StyleFronterPageLoweredby3pt
+	{mso-style-name:"Style FronterPage + Lowered by  3 pt";
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;
+	position:relative;
+	top:3.0pt;}
+p.StyleFronterSameAsPatternSolid100White, li.StyleFronterSameAsPatternSolid100White, div.StyleFronterSameAsPatternSolid100White
+	{mso-style-name:"Style FronterSameAs + Pattern\: Solid \(100%\) \(White\)";
+	margin:0in;
+	margin-bottom:.0001pt;
+	background:white;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Style1, li.Style1, div.Style1
+	{mso-style-name:Style1;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:"Times New Roman",serif;}
+span.Whereas
+	{mso-style-name:Whereas;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;
+	font-weight:bold;}
+span.Style10pt
+	{mso-style-name:"Style 10 pt";
+	font-family:"Times New Roman",serif;}
+p.FronterPageNOCAPS, li.FronterPageNOCAPS, div.FronterPageNOCAPS
+	{mso-style-name:FronterPageNOCAPS;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.bpuWpGraphic, li.bpuWpGraphic, div.bpuWpGraphic
+	{mso-style-name:bpuWpGraphic;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.sponUdate, li.sponUdate, div.sponUdate
+	{mso-style-name:sponUdate;
+	margin:0in;
+	margin-bottom:.0001pt;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.fronterpagebillhead
+	{mso-style-name:fronterpagebillhead;
+	font-family:"Times New Roman",serif;
+	font-variant:small-caps;}
+p.FPHangingAnAct, li.FPHangingAnAct, div.FPHangingAnAct
+	{mso-style-name:FPHangingAnAct;
+	mso-style-link:"FPHangingAnAct Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.4in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.FPHangingAnActChar
+	{mso-style-name:"FPHangingAnAct Char";
+	mso-style-link:FPHangingAnAct;
+	letter-spacing:.2pt;}
+span.LeftBrackt
+	{mso-style-name:LeftBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.RightBrackt
+	{mso-style-name:RightBrackt;
+	font-family:"Albertus Extra Bold",sans-serif;
+	font-weight:bold;}
+span.BoldItal
+	{mso-style-name:BoldItal;
+	font-weight:bold;
+	font-style:italic;}
+p.ApropTab, li.ApropTab, div.ApropTab
+	{mso-style-name:ApropTab;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:15.1pt;
+	margin-bottom:.0001pt;
+	text-indent:-9.35pt;
+	line-height:120%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingSup, li.HangingSup, div.HangingSup
+	{mso-style-name:HangingSup;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.2in;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-indent:-.2in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableBottom, li.HangingTableBottom, div.HangingTableBottom
+	{mso-style-name:HangingTableBottom;
+	margin-top:0in;
+	margin-right:1.0in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+p.HangingTableTop, li.HangingTableTop, div.HangingTableTop
+	{mso-style-name:HangingTableTop;
+	margin-top:0in;
+	margin-right:.5in;
+	margin-bottom:0in;
+	margin-left:.8in;
+	margin-bottom:.0001pt;
+	text-indent:-.8in;
+	line-height:120%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	letter-spacing:.2pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	letter-spacing:.2pt;}
+.MsoChpDefault
+	{font-size:10.0pt;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 14.0in;
+	margin:1.5in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:8.5in 14.0in;
+	margin:1.0in 113.75pt 1.0in 113.75pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:8.5in 14.0in;
+	margin:1.0in 1.75in 1.3in 2.0in;}
+div.WordSection3
+	{page:WordSection3;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=bpuBill><a name=bpuFrontPg></a>ASSEMBLY, No. 4042 </p>
+
+<p class=bpuWpGraphic></p>
+
+<p class=bpuState>STATE OF NEW JERSEY</p>
+
+<p class=bpuLegislature>220th LEGISLATURE</p>
+
+<p class=bpuWpGraphic>&nbsp; </p>
+
+<p class=bpuIntro>INTRODUCED MAY 16, 2022</p>
+
+<p class=bpuIntro>&nbsp;</p>
+
+</div>
+
+<span style='font-size:11.0pt;line-height:120%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection2>
+
+<p class=bpuIntro>&nbsp;</p>
+
+<p class=bpuSponsor>Sponsored by:</p>
+
+<p class=bpuSponsor>Assemblyman&nbsp; ERIK PETERSON</p>
+
+<p class=bpuSponsor>District 23 (Hunterdon, Somerset and Warren)</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>&nbsp;</p>
+
+<p class=bpuSponsor>SYNOPSIS</p>
+
+<p class=bpuNormText>&nbsp;&nbsp;&nbsp;&nbsp; "Children Innocence Protection Act." </p>
+
+<p class=bpuNormText>&nbsp;</p>
+
+<p class=bpuSponsor>CURRENT VERSION OF TEXT </p>
+
+<p class=bpuNormText>&nbsp;&nbsp;&nbsp;&nbsp; As introduced.</p>
+
+<p class=bpuNormText>&nbsp;&nbsp; </p>
+
+</div>
+
+<span style='font-size:10.0pt;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p class=HangingAnAct style='line-height:150%'><span class=BillHead>An Act</span><span
+class=HangingAnActChar> concerning sex education and the administration of
+surveys in public schools, supplementing chapter 35 of Title 18A of the New
+Jersey Statutes, and repealing P.L.2001, c.364 and P.L.2021, c.156.</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; <span class=BillHeading2>Be It
+Enacted </span><span class=BillLanguage>by the Senate and General Assembly of
+the State of New Jersey:</span></p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 1.&nbsp;&nbsp;&nbsp; This act shall be known
+and may be cited as the "Children Innocence Protection Act."</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 2.&nbsp;&nbsp;&nbsp; The Legislature finds
+and declares that parents and guardians have a fundamental right to make
+decisions regarding the upbringing and control of their children.&nbsp; It is
+fitting and proper for the Legislature to affirm the absolute control of
+parents and guardians to decide what their children are taught in school with
+regard to sex and gender in school and to decide what personal information is
+revealed about their children.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 3.&nbsp;&nbsp;&nbsp; a.&nbsp; Notwithstanding the
+provisions of any law, rule, or regulation to the contrary, classroom
+instruction by school district personnel or third parties on sex, sex acts,
+abortion, birth control, sexual orientation, or gender identity shall not occur
+in any manner in kindergarten through grade five in any school of a school
+district.&nbsp; </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp;&nbsp; Notwithstanding the
+provisions of any law, rule, or regulation to the contrary, classroom
+instruction by school district personnel or third parties on sex, sex acts,
+abortion, birth control, sexual orientation, or gender identity shall not occur
+in any manner in grade six through 12 in any school of a school district,
+unless prior to the classroom instruction occurring, the school district:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (1) provides all parents and
+guardians with written detailed information on the curriculum and subjects to
+be taught;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp; provides all parents and
+guardians with an easily accessible electronic method to review lesson plans
+and ask questions;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (3)&nbsp;&nbsp; receives the express
+written consent of each parent or guardian of a student that will receive the
+classroom instruction.&nbsp; </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; c.&nbsp;&nbsp;&nbsp;&nbsp; The provisions of this
+section shall not apply to any curriculum or classroom instruction concerning the
+subjects of anatomy or biology, provided that the curriculum or classroom
+instruction is intended for a course or portion of a course in science.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; d.&nbsp;&nbsp;&nbsp; Any school district
+personnel that teaches or discusses any topic in a classroom in violation of
+the provisions of this section, or otherwise fails to comply with the
+provisions of this section, shall be included as a party in any enforcement
+action available pursuant to section 5 of this act.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 4.&nbsp;&nbsp;&nbsp; a.&nbsp; A school district
+shall not administer to a student any academic or nonacademic survey,
+assessment, analysis, or evaluation that reveals information about the student
+or the student's family, unless the school district:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (1)&nbsp;&nbsp; notifies the student's
+parent or guardian of its intent to administer a survey, assessment, analysis,
+or evaluation, and provides a copy of the survey, assessment, analysis, or evaluation,
+at least two weeks prior to its administration;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp; includes as the first
+item of the notification required pursuant to this subsection, in bold face
+type, a statement explaining that a student's parent or guardian may decline
+the administration of the survey, assessment, analysis, or evaluation and that
+declining shall not in any way impact the student's academics or be used
+against the student at the school; and</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (3)&nbsp;&nbsp; receives prior written
+informed consent from the student's parent or guardian to administer the
+survey, assessment, analysis, or evaluation.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp;&nbsp; A school district shall
+not engage, contract, or partner with any private for profit or nonprofit
+entity for the purposes of administering to a student any academic or
+nonacademic survey, assessment, analysis, or evaluation that reveals
+information about the student or the student's family.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 5.&nbsp;&nbsp;&nbsp; A parent or guardian
+alleging that the school district or any personnel of the school district
+knowingly, willfully, or negligently violated the provisions of this act may:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; a.&nbsp;&nbsp;&nbsp;&nbsp; request the
+Commissioner of Education to appoint a special administrative law judge to hear
+the parent or guardian's concerns; the special administrative law judge shall
+determine facts relating to the allegation, consider information provided by
+the school district and the parent or guardian, and render a recommended
+decision for resolution by the State Board of Education within 30 days after
+receipt of the request by the parent or guardian; the State Board of Education
+shall approve or reject the recommended decision at its next regularly
+scheduled meeting that is no less than seven calendar days and no more than 30
+calendar days after the date the recommended decision is transmitted to the
+State Board of Education; or </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; b.&nbsp;&nbsp;&nbsp; bring an action against
+the school district to obtain a declaratory judgment that the school district
+procedure or practice violates the provisions of this act and seek injunctive
+relief. &nbsp;A court may award damages and shall award reasonable attorney fees and
+court costs to a parent or guardian who receives declaratory or injunctive
+relief.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 6.&nbsp;&nbsp;&nbsp; The following sections
+are repealed:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; Section 1 of P.L.2001, c.364
+(C.18A:36-34); and</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; Section 1 of P.L.2021, c.156
+(C.18A:36-34.1).</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; 7.&nbsp;&nbsp;&nbsp; This act shall take
+effect immediately.</p>
+
+<p class=MsoNormal align=center style='text-align:center;line-height:150%'>STATEMENT</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; This bill prohibits a school
+district from teaching students about sex education under certain circumstances
+and prohibits a school district from administering to a student any academic or
+nonacademic survey, assessment, analysis, or evaluation which reveals
+information concerning the student or the student's family, unless the school
+district meets certain requirements.&nbsp; </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; The bill provides that classroom
+instruction by school district personnel or third parties on sex, sex acts, abortion,
+birth control, sexual orientation, or gender identity will not occur in any
+manner in kindergarten through grade five in any school of a school district.&nbsp; The
+bill also provides that classroom instruction by school district personnel or
+third parties on sex, sex acts, abortion, birth control, sexual orientation, or
+gender identity will not occur in any manner in grade six through 12 in any
+school of a school district, unless prior to the classroom instruction
+occurring, the school district:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (1) provides all parents and
+guardians with written detailed information on the curriculum and subjects to
+be taught;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp; provides all parents and
+guardians with an easily accessible electronic method to review lesson plans
+and ask questions;</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (3)&nbsp;&nbsp; receives the express
+written consent of each parent or guardian of a student that will receive the
+classroom instruction. </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; The provisions of the bill
+will not apply to any curriculum or classroom instruction concerning the
+subjects of anatomy or biology, provided that the curriculum or classroom
+instruction is intended for a course or portion of a course in science.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; Under current law, a school
+district may administer a survey to a student that reveals certain information
+about the student, or the student's family, only if the district obtains the
+prior written informed consent of the student's parent or guardian.&nbsp; If the
+district obtains prior written informed consent of the student's parent or
+guardian, the law permits the district to administer a survey that reveals
+information concerning political affiliations; mental and psychological
+problems potentially embarrassing to the student or the student's family;
+sexual behavior and attitudes; illegal, anti-social, self-incriminating and
+demeaning behavior; critical appraisals of other individuals with whom a
+respondent has a close family relationship; legally recognized privileged or
+analogous relationships, such as those of lawyers, physicians, and ministers;
+income; or social security number.&nbsp; </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; Additionally, current law
+permits a school district to administer anonymous, voluntary surveys concerning
+student health upon prior written notification to parents and guardians.&nbsp;
+Specifically, the law permits school districts to administer a survey
+concerning the use of alcohol, tobacco, drugs, and vaping; sexual behavior and
+attitudes; behaviors that may contribute to intentional or unintentional
+injuries or violence; or physical activity and nutrition-related behaviors.&nbsp;
+These surveys concerning student health may be administered two weeks after
+written notification is provided to parents and guardians.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; This bill repeals the
+aforementioned sections of current law that permit school districts to
+administer certain surveys, and expressly prohibits school districts from administering
+any survey that reveals information about a student or a student's family,
+unless the school district: (1) notifies the student's parent or guardian of
+its intent to administer a survey, and provides a copy of the survey, two weeks
+prior to its administration; (2) includes as the first item of the
+notification, in bold face type, a statement explaining that a student's parent
+or guardian may decline the administration of the survey, and that declining
+the survey will not in any way impact the student's academics or be used
+against the student at the school; and (3) receives prior written informed
+consent from the student's parent or guardian.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; The bill also prohibits a
+school district from engaging, contracting, or partnering with any private for
+profit or nonprofit entity for the purposes of administering to a student any
+academic or nonacademic survey, assessment, analysis, or evaluation that
+reveals information about the student or the student's family.</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; Under the bill, a parent or
+guardian alleging that the school district or any personnel of the school
+district knowingly, willfully, or negligently violated the provisions of the
+bill may:</p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (1)&nbsp;&nbsp; request the Commissioner
+of Education to appoint a special administrative law judge to hear the parent
+or guardian's concerns; the special administrative law judge will determine
+facts relating to the allegation, consider information provided by the school
+district and the parent or guardian, and render a recommended decision for
+resolution by the State Board of Education within 30 days after receipt of the
+request by the parent or guardian; the State Board of Education will approve or
+reject the recommended decision at its next regularly scheduled meeting that is
+no less than seven calendar days and no more than 30 calendar days after the
+date the recommended decision is transmitted to the State Board of Education;
+or </p>
+
+<p class=MsoNormal style='line-height:150%'>&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp;&nbsp; bring an action against
+the school district to obtain a declaratory judgment that the school district
+procedure or practice violates the provisions of the bill and seek injunctive
+relief. &nbsp;A court may award damages and will award reasonable attorney fees and
+court costs to a parent or guardian who receives declaratory or injunctive
+relief.</p>
+
+</div>
+

@@ -1,0 +1,161 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.mibilldigest, li.mibilldigest, div.mibilldigest
+	{mso-style-name:mi_bill_digest;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillindex, li.mibillindex, div.mibillindex
+	{mso-style-name:mi_bill_index;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitle, li.mibilltitle, div.mibilltitle
+	{mso-style-name:mi_bill_title;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillenactment, li.mibillenactment, div.mibillenactment
+	{mso-style-name:mi_bill_enactment;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillstatute, li.mibillstatute, div.mibillstatute
+	{mso-style-name:mi_bill_statute;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillheader, li.mibillheader, div.mibillheader
+	{mso-style-name:mi_bill_header;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	text-decoration:underline;}
+p.mibilllongbillnumber, li.mibilllongbillnumber, div.mibilllongbillnumber
+	{mso-style-name:mi_bill_longbillnumber;
+	margin:0in;
+	text-align:center;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillemptyline, li.mibillemptyline, div.mibillemptyline
+	{mso-style-name:mi_bill_emptyline;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilldonotdelete, li.mibilldonotdelete, div.mibilldonotdelete
+	{mso-style-name:mi_bill_do_not_delete;
+	margin-top:0in;
+	margin-right:5.65pt;
+	margin-bottom:12.0pt;
+	margin-left:14.45pt;
+	text-align:justify;
+	text-indent:-14.45pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	color:white;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillheader><span style='text-decoration:none'>&nbsp;</span></p>
+
+<p class=mibilllongbillnumber>HOUSE BILL NO. 4546</p>
+
+<p class=mibilldonotdelete><img width=624 height=250
+src="HB4546_files/image001.png"
+alt="May 11, 2023, Introduced by Reps. Jaime Greene, St. Germaine, Schmaltz, Wendzel, Aragona, Meerman, Alexander, Bierlein, DeBoyer, Maddock, Johnsen, Markkanen, Cavitt, Hoadley, Outman, Rigas, Fox, Schriver, Wozniak, Bezotte, Martin, Neyer, Kunse, Friske, DeBoer, Carra, Schuette, Smit and Beeler and referred to the Committee on Government Operations."></p>
+
+<p class=mibilltitle>A bill to require awards, rankings, and records of
+outcomes in separate female and male sporting events to be categorized
+consistent with each competitor's biological sex.</p>
+
+<p class=mibillenactment>the people of the state of michigan enact:</p>
+
+<p class=mibillstatute><a name="sec_import_start_1_1"></a>Sec. 1. This act may
+be cited as the &quot;female athletics integrity of records (FAIR) act&quot;.</p>
+
+<p class=mibillstatute><a name="sec_import_start_2_2"></a>Sec. 2. As used in
+this act:</p>
+
+<p class=mibillstatute>(a) <span style='color:black'>&quot;Biological sex&quot;
+</span>means the state of being female or the state of being male, as an
+innate, objective<span style='color:black'> </span>biological condition
+determined at the conception of the human being.</p>
+
+<p class=mibillstatute>(b) &quot;Sporting event&quot; means an athletic event to
+which all of the following apply:</p>
+
+<p class=mibillstatute>(<i><span style='font-family:"Times New Roman",serif'>i</span></i>)
+Individuals compete individually.</p>
+
+<p class=mibillstatute>(<i><span style='font-family:"Times New Roman",serif'>ii</span></i>)
+There are separate competitions for females and males.</p>
+
+<p class=mibillstatute>(<i><span style='font-family:"Times New Roman",serif'>iii</span></i>)
+The event is in whole or in part publicly funded.</p>
+
+<p class=mibillstatute><a name="sec_import_start_3_3"></a>Sec. 3. Though an
+individual in a sporting event participates in the competition designated for
+members of the opposite <span style='color:black'>biological </span>sex,
+official awards, rankings, and records of results shall nonetheless be
+categorized consistent with each competitor's <span style='color:black'>biological
+</span>sex.</p>
+
+</div>
+

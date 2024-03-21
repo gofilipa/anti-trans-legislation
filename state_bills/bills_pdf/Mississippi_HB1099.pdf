@@ -1,0 +1,572 @@
+<style id="dynCom" type="text/css"><!-- --></style>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	margin-bottom:.0001pt;
+	line-height:12.0pt;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	color:black;}
+
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{mso-style-link:"Comment Text Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	color:black;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Courier New";
+	color:black;}
+span.MsoLineNumber
+	{font-family:"Courier New";
+	font-variant:normal !important;
+	color:windowtext;
+	text-transform:none;
+	position:relative;
+	top:0pt;
+	letter-spacing:0pt;
+	text-shadow:none;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none none;
+	vertical-align:baseline;}
+p
+	{margin-right:0in;
+	margin-left:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{mso-style-link:"Comment Subject Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Balloon Text Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	font-size:9.0pt;
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Courier New";
+	color:black;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Courier New";
+	color:black;}
+span.CommentTextChar
+	{mso-style-name:"Comment Text Char";
+	mso-style-link:"Comment Text";
+	font-family:"Calibri",sans-serif;}
+span.CommentSubjectChar
+	{mso-style-name:"Comment Subject Char";
+	mso-style-link:"Comment Subject";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	color:black;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:black;
+	font-weight:bold;}
+span.msoIns
+	{mso-style-name:"";
+	text-decoration:underline;
+	color:teal;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.5in 64.1pt .25in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=MsoNormal>MISSISSIPPI LEGISLATURE</p>
+
+<p class=MsoNormal>2023 Regular Session</p>
+
+<p class=MsoNormal>To: Appropriations</p>
+
+<p class=MsoNormal>By: Representative Criswell</p>
+
+<h1 align=center style='text-align:center'>House Bill 1099</h1>
+
+<p class=MsoNormal>AN ACT TO REQUIRE A FIDUCIARY OR THE GOVERNING BOARD OF A
+PUBLIC RETIREMENT SYSTEM, IN MAKING AND SUPERVISING INVESTMENTS FOR THE PUBLIC
+RETIREMENT SYSTEM, TO DISCHARGE ITS DUTIES SOLELY IN THE FINANCIAL INTEREST OF
+THE PARTICIPANTS AND BENEFICIARIES FOR THE EXCLUSIVE PURPOSES OF PROVIDING
+FINANCIAL BENEFITS TO PARTICIPANTS AND THEIR BENEFICIARIES AND DEFRAYING
+REASONABLE EXPENSES OF ADMINISTERING THE SYSTEM; TO PROVIDE THAT AN INVESTMENT
+MANAGER RETAINED BY THE GOVERNING BOARD SHALL BE SUBJECT TO THE SAME FIDUCIARY
+DUTIES AS THE BOARD; TO REQUIRE A FIDUCIARY TO TAKE INTO ACCOUNT ONLY FINANCIAL
+FACTORS WHEN DISCHARGING ITS DUTIES WITH RESPECT TO A RETIREMENT PLAN; TO
+PROVIDE THAT FINANCIAL FACTORS DO NOT INCLUDE ANY ACTION TAKEN, OR FACTOR
+CONSIDERED, BY A FIDUCIARY WITH ANY PURPOSE TO FURTHER SOCIAL, POLITICAL OR
+IDEOLOGICAL INTERESTS; TO PROVIDE THAT ALL SHARES HELD DIRECTLY OR INDIRECTLY
+BY OR ON BEHALF OF A PUBLIC RETIREMENT SYSTEM AND/OR THE PARTICIPANTS AND THEIR
+BENEFICIARIES SHALL BE VOTED SOLELY IN THE FINANCIAL INTEREST OF PLAN
+PARTICIPANTS AND THEIR BENEFICIARIES; TO PROVIDE THAT THIS ACT, OR ANY CONTRACT
+SUBJECT TO THIS ACT, MAY BE ENFORCED BY THE ATTORNEY GENERAL; TO PROVIDE THAT A
+PERSON OR COMPANY WHO SERVES AS A FIDUCIARY AND WHO VIOLATES THE FIDUCIARY DUTY
+IMPOSED BY THIS ACT SHALL BE OBLIGATED TO PAY DAMAGES TO THE PUBLIC RETIREMENT
+SYSTEM IN AN AMOUNT EQUAL TO THREE TIMES ALL MONIES PAID TO THE PERSON OR
+COMPANY BY THE SYSTEM FOR THE SERVICES OF THE PERSON OR COMPANY; TO AMEND
+SECTIONS 25-11-121 AND 25-11-407, MISSISSIPPI CODE OF 1972, TO CONFORM TO THE
+PRECEDING PROVISIONS; AND FOR RELATED PURPOSES.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; BE IT ENACTED BY THE
+LEGISLATURE OF THE STATE OF MISSISSIPPI:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; <u>SECTION 1.</u></b> &nbsp;<b>Definitions.
+&nbsp;</b>As used in this act, the following terms shall be defined as provided in this
+subsection:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (a) &nbsp;&quot;Board&quot; means
+the board of trustees or other governing board of the public retirement system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (b) &nbsp;&quot;Fiduciary&quot;
+includes any person acting on behalf of the board of trustees as an investment
+manager or proxy advisor.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (c) &nbsp;&quot;Fiduciary commitment&quot;
+means any evidence of a fiduciary's purpose in managing assets as a fiduciary,
+including, but not limited to, any of the following in a fiduciary's capacity
+as a fiduciary:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (i) &nbsp;Advertising,
+statements, explanations, reports, letters to clients, communications with
+portfolio companies, statements of principles, or commitments; or</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (ii) &nbsp;Participation
+in, affiliation with, or status as a signatory to, any coalition, initiative,
+joint statement of principles, or agreement.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (c) &nbsp;&quot;Financial&quot;
+means having been prudently determined by a fiduciary to have a material effect
+on the financial risk or the financial return of an investment.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (i) &nbsp;The term &quot;financial&quot;
+does not include any action taken, or factor considered, by a fiduciary with
+any purpose whatsoever to further social, political or ideological interests.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (ii) &nbsp;A fiduciary
+may reasonably be determined to have taken an action, or considered a factor,
+with a purpose to further social, political, or ideological interests based
+upon evidence indicating such a purpose, including, but not limited to, any fiduciary
+commitment to further, through portfolio company engagement, board or
+shareholder votes, or otherwise as a fiduciary, any of the following beyond what
+controlling federal or state law requires:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 1. &nbsp;Eliminating,
+reducing, offsetting, or disclosing greenhouse gas emissions;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 2. &nbsp;Divesting
+from, limiting investment in, or limiting the activities or investments of, any
+company, for failing, or not committing, to meet environmental standards or
+disclosures;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 3. &nbsp;Access to
+abortion, sex or gender change or transgender surgery; or</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; 4. &nbsp;Divesting
+from, limiting investment in, or limiting the activities or investments of, any
+company that engages in, facilitates, or supports the manufacture, import,
+distribution, marketing or advertising, sale, or lawful use of firearms, ammunition
+or components parts and accessories of firearms or ammunition.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (d) &nbsp;&quot;Governmental
+entity&quot; means:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (i) &nbsp;The State of Mississippi
+or any political subdivision of the state; or</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (ii) &nbsp;Any school,
+college, university, administration, authority, or other enterprise operated by
+the state or any political subdivision of the state.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (e) &nbsp;&quot;Public retirement
+system,&quot; &quot;system&quot; or &quot;plan&quot; means any retirement or
+pension system or plan maintained, provided or offered by a governmental entity.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; <u>SECTION 2.</u> &nbsp;Fiduciary
+duty. &nbsp;</b>(1) &nbsp;In making and supervising investments of the reserve fund of a
+public retirement system, a fiduciary or the board shall discharge its duties
+solely in the financial interest of the participants and beneficiaries for the
+exclusive purposes of:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (a) &nbsp;Providing
+financial benefits to participants and their beneficiaries; and</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (b) &nbsp;Defraying
+reasonable expenses of administering the system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (2) &nbsp;An investment manager retained
+by the board shall be subject to the same fiduciary duties as the board.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (3) &nbsp;A fiduciary shall take
+into account only financial factors when discharging its duties with respect to
+a plan. </p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (4) &nbsp;All shares held directly
+or indirectly by or on behalf of a public retirement system and/or the
+participants and their beneficiaries shall be voted solely in the financial
+interest of plan participants and their beneficiaries.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (5) &nbsp;Unless no economically
+practicable alternative is available, the governmental entity that establishes
+or maintains a public retirement system or the board of the system may not
+grant proxy voting authority to any person who is not a part of the governmental
+entity, unless that person has a practice of, and in writing commits to, follow
+guidelines that match the governmental entity's and the board's obligation to
+act solely upon financial factors.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (5) &nbsp;Unless no economically
+practicable alternative is available, public retirement system assets shall not
+be entrusted to a fiduciary, unless that fiduciary has a practice of, and in
+writing commits to, follow guidelines, when engaging with portfolio companies
+and voting shares or proxies, that match the governmental entity's and the board's
+obligation to act solely upon financial factors.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (6) &nbsp;Unless no economically
+practicable alternative is available, a fiduciary or the board may not adopt a
+practice of following the recommendations of a proxy advisor or other service
+provider, unless such advisor or service provider has a practice of, and in
+writing commits to, follow proxy voting guidelines that match the governmental
+entity's and the board's obligation to act solely upon financial factors.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (7) &nbsp;All proxy votes shall
+be tabulated and reported annually to the board. &nbsp;For each vote, the report
+shall contain a vote caption, the plan's vote, the recommendation of company
+management, and, if applicable, the proxy advisor's recommendation. These
+reports shall be posted on a publicly available webpage on the board's website.<b>
+</b></p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; <u>SECTION 3.</u> &nbsp;Enforcement.</b>
+&nbsp;(1) &nbsp;This act, or any contract subject to this act, may be enforced by the Attorney
+General. </p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (2) &nbsp;If the Attorney General
+has reasonable cause to believe that a person has engaged in, is engaging in,
+or is about to engage in, a violation of this act, he or she may:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (a) &nbsp;Require such
+person to file on such forms as he or she prescribes a statement or report in
+writing, under oath, as to all the facts and circumstances concerning the violation;
+and</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (b) &nbsp;Such other data
+and information as he or she may deem necessary.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (3) &nbsp;In addition to any
+other remedies available at law or equity, a person or company who serves as a
+fiduciary and who violates Section 2 of this act shall be obligated to pay
+damages to the public retirement system in an amount equal to three (3) times
+all monies paid to the person or company by the system for the services of the person
+or company.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; SECTION 4.</b>&nbsp; Section
+25-11-121, Mississippi Code of 1972, is amended as follows:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; 25-11-121.&nbsp; (1)&nbsp; The board shall,
+from time to time, determine the current requirements for benefit payments and administrative
+expense which shall be maintained as a cash working balance, except that such cash
+working balance shall not exceed at any time an amount necessary to meet the current
+obligations of the system for a period of ninety (90) days.&nbsp; Any amounts in excess
+of such cash working balance shall be invested, as follows:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (a)&nbsp; Funds may be deposited
+in any institution insured by the Federal Deposit Insurance Corporation that maintains
+a facility that takes deposits in the State of Mississippi or a custodial bank;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (b)&nbsp; Corporate bonds and
+taxable municipal bonds; or corporate short-term obligations of corporations or
+of wholly owned subsidiaries of corporations, whose short-term obligations are rated
+A-2 or better by Standard and Poor's, rated P-2 or better by Moody's Investment
+Service, F-2 or better by Fitch Ratings, Ltd., or the equivalent of these ratings
+if assigned by another United States Securities and Exchange Commission designated
+Nationally Recognized Statistical Rating Organization;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (c)&nbsp; Agency and nonagency
+residential and commercial mortgage-backed securities and collateralized mortgage
+obligations;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (d)&nbsp; Asset-backed securities;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (e)&nbsp; Bank loans;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (f)&nbsp; Convertible bonds;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (g)&nbsp; Bonds of the Tennessee
+Valley Authority;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (h)&nbsp; Bonds, notes, certificates
+and other valid obligations of the United States, and other valid obligations of
+any federal instrumentality that issues securities under authority of an act of
+Congress and are exempt from registration with the Securities and Exchange Commission;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (i)&nbsp; Bonds, notes, debentures
+and other securities issued by any federal instrumentality and fully guaranteed
+by the United States;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (j)&nbsp; Interest-bearing revenue
+bonds or notes or bonds or notes which are general obligations of any state in the
+United States or of any city or county therein;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (k)&nbsp; Bonds of established
+non-United States companies and foreign government securities.&nbsp; The board may take
+requisite action to effectuate or hedge transactions or invest in currency through
+foreign or domestic banks, including the purchase and sale, transfer, exchange,
+or otherwise disposal of, and generally deal in foreign exchange through the use
+of foreign currency, interbank forward contracts, futures contracts, options contracts,
+swaps and other related derivative instruments, notwithstanding any other provisions
+of this article to the contrary;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (l)&nbsp; Shares of stocks, common
+and/or preferred, of corporations created by or existing under the laws of the United
+States or any state, district or territory thereof and shares of stocks, common
+and/or preferred, and convertible securities of non-United States companies; provided:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (i)&nbsp; The maximum investments
+in stocks shall not exceed eighty percent (80%) of the total book value of the total
+investment fund of the system;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ii)&nbsp; The stock of such
+corporation shall:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.&nbsp; Be listed on
+a national stock exchange; or</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.&nbsp; Be traded in
+the over-the-counter market;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iii)&nbsp; The outstanding
+shares of such corporation shall have a total market value of not less than Fifty
+Million Dollars ($50,000,000.00);</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (iv)&nbsp; The amount of
+investment in any one (1) corporation shall not exceed three percent (3%) of the
+book value of the assets of the system;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (v)&nbsp; The shares of any
+one (1) corporation owned by the system shall not exceed five percent (5%) of that
+corporation's outstanding stock.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; The board may take requisite
+action utilizing foreign currency as an investment vehicle, or to effectuate or
+hedge transactions for shares of stocks and convertible securities of non-United
+States companies through foreign or domestic banks, including the purchase and sale,
+transfer, exchange, or otherwise disposal of, and generally deal in foreign exchange
+through the use of foreign currency, interbank forward contracts, futures contracts,
+options contracts, swaps and other related derivative instruments, notwithstanding
+any other provisions of this article to the contrary;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (m)&nbsp; Covered call and put
+options on securities or indices traded on one or more of the regulated exchanges;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (n)&nbsp; Pooled or commingled
+funds managed by a corporate trustee or by a Securities and Exchange Commission
+registered investment advisory firm retained as an investment manager by the board
+of trustees, and shares of investment companies and unit investment trusts registered
+under the Investment Company Act of 1940, where such pooled or commingled funds
+or shares are comprised of common or preferred stocks, bonds, money market instruments
+or other investments authorized under this section.&nbsp; Such investment in commingled
+funds or shares shall be held in trust; provided that the total book value of investments
+under this paragraph shall at no time exceed five percent (5%) of the total book
+value of all investments of the system.&nbsp; Any investment manager approved by the
+board of trustees shall invest such commingled funds or shares as a fiduciary <u>in
+accordance with Sections 1 though 3 of this act</u>;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (o)&nbsp; Pooled or commingled
+real estate funds or real estate securities managed by a corporate trustee or by
+a Securities and Exchange Commission registered investment advisory firm retained
+as an investment manager by the board of trustees. Such investment in commingled
+funds or shares shall be held in trust; provided that the total book value of investments
+under this paragraph shall at no time exceed ten percent (10%) of the total book
+value of all investments of the system.&nbsp; Any investment manager approved by the
+board of trustees shall invest such commingled funds or shares as a fiduciary <u>in
+accordance with Sections 1 though 3 of this act</u>.&nbsp; The ten percent (10%) limitation
+in this paragraph shall not be subject to the five percent (5%) limitation in paragraph
+(n) of this subsection;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (p)&nbsp; Types of investments
+not specifically authorized by this subsection if the investments are in the form
+of a separate account managed by a Securities and Exchange Commission registered
+investment advisory firm retained as an investment manager by the board; or a limited
+partnership or commingled fund approved by the board; provided that the total book
+value of investments under this paragraph shall at no time exceed twenty percent
+(20%) of the total book value of all investments of the system.&nbsp; Any person or entity
+who exercises any discretionary authority or discretionary control respecting management
+of the separate account, limited partnership or commingled fund, or who exercises
+any authority or control respecting management or disposition of the assets of the
+separate account, limited partnership or commingled fund, shall exercise such authority
+or control as a fiduciary <u>in accordance with Sections 1 though 3 of this act</u>.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (2)&nbsp; All investments shall be
+acquired at prices not exceeding the prevailing market values for such investments.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (3)&nbsp; Any limitations herein set
+forth shall be applicable only at the time of purchase and shall not require the
+liquidation of any investment at any time.&nbsp; All investments shall be clearly marked
+to indicate ownership by the system and to the extent possible shall be registered
+in the name of the system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (4)&nbsp; Subject to the above terms,
+conditions, limitations and restrictions, the board shall have power to sell, assign,
+transfer and dispose of any of the securities and investments of the system, provided
+that said sale, assignment or transfer has the majority approval of the entire board.&nbsp;
+The board may employ or contract with investment managers, evaluation services or
+other such services as determined by the board to be necessary for the effective
+and efficient operation of the system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (5)&nbsp; Except as otherwise provided
+herein, no trustee and no employee of the board shall have any direct or indirect
+interest in the income, gains or profits of any investment made by the board, nor
+shall any such person receive any pay or emolument for his services in connection
+with any investment made by the board.&nbsp; No trustee or employee of the board shall
+become an endorser or surety, or in any manner an obligor for money loaned by or
+borrowed from the system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (6)&nbsp; All interest derived from
+investments and any gains from the sale or exchange of investments shall be credited
+by the board to the account of the system.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (7)&nbsp; The board of trustees shall
+credit regular interest to the annuity savings account monthly. &nbsp;Regular interest
+shall mean such per centum rate to be compounded annually as set by the board of
+trustees through regulation.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (8)&nbsp; The board of trustees shall
+be the custodian of the funds of the system.&nbsp; All retirement allowance payrolls
+shall be certified by the executive director who shall furnish the board a surety
+bond in a company authorized to do business in Mississippi in such an amount as
+shall be required by the board, the premium to be paid by the board from the expense
+account.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (9)&nbsp; For the purpose of meeting
+disbursements for retirement allowances, annuities and other payments, cash may
+be kept available, not exceeding the requirements of the system for a period of
+ninety (90) days, on deposit in one or more banks or trust companies organized under
+the laws of the State of Mississippi or the laws of the United States, provided
+that the sum on deposit in any one (1) bank or trust company shall not exceed thirty-five
+percent (35%) of the paid-up capital and regular surplus of such bank or trust company.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (10)&nbsp; The board, the executive
+director and employees shall discharge their duties with respect to the investments
+of the system solely for the interest of the system with the care, skill, prudence
+and diligence under the circumstances then prevailing that a prudent investor acting
+in a like capacity and familiar with such matters would use in the conduct of an
+enterprise of a like character and with like aims, including diversifying the investments
+of the system so as to minimize the risk of large losses, unless under the circumstances
+it is clearly prudent not to do so. &nbsp;<u>The board, the executive director and employees
+shall discharge their duties under this subsection in accordance with Sections 1
+though 3 of this act.</u></p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; (11)&nbsp; Documentary material or
+data made or received by the system which consists of trade secrets or commercial
+or financial information that relates to the investments of the system shall be
+exempt from the Mississippi Public Records Act of 1983 if the disclosure of the
+material or data is likely to impair the system's ability to obtain such information
+in the future, or is likely to cause substantial harm to the competitive position
+of the person or entity from whom the information was obtained.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; SECTION 5.</b>&nbsp; Section
+25-11-407, Mississippi Code of 1972, is amended as follows:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; 25-11-407.&nbsp; The Board of
+Trustees of the Public Employees' Retirement System shall designate not less than
+three (3) nor more than five (5) companies to provide annuity contracts, mutual
+fund accounts or similar investment products, and the types of investment
+contracts or funds that may be offered by those companies.&nbsp; In making those
+designations, the board of trustees shall consider and be guided by:</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (a)&nbsp; The nature and
+extent of the rights and benefits to be provided by those contracts or
+accounts, or both, for participants and their beneficiaries;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (b)&nbsp; The relation of
+those rights and benefits to the amount of contributions to be made;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (c)&nbsp; The suitability of
+those rights and benefits to the needs of the participants;</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (d)&nbsp; The efficacy of
+the contracts or accounts, or both, in the recruitment and retention of faculty
+and administrators; </p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (e)&nbsp; The ability and
+experience of the designated&nbsp; companies in providing those suitable rights and
+benefits under&nbsp; those contracts or accounts, or both; and</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; (f)&nbsp; The ability and
+experience of the designated companies to provide both suitable participant
+investment guidance and investment options.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'>&nbsp;&nbsp;&nbsp;&nbsp; The companies shall act in a
+fiduciary capacity <u>in accordance with Sections 1 through 3 of this act</u>
+in selecting investment products that are suitable for the optional retirement
+program.&nbsp; It shall be the duty of the companies to report to and seek approval
+from the board for the investment products made available under this paragraph
+and to report the participant use of those options annually.&nbsp; The board
+reserves the right to refuse or discontinue any product offered by those
+companies.</p>
+
+<p class=MsoNormal style='line-height:24.0pt'><b>&nbsp;&nbsp;&nbsp;&nbsp; SECTION 6.</b>&nbsp; This act
+shall take effect and be in force from and after July 1, 2023.</p>
+
+</div>
+
+<div>
+
+<hr class=msocomoff align=left size=1 width="33%">
+
+</div>
+

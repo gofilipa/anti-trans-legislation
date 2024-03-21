@@ -1,0 +1,232 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.mibilldigest, li.mibilldigest, div.mibilldigest
+	{mso-style-name:mi_bill_digest;
+	margin-top:0in;
+	margin-right:.3pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:11.0pt;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillindex, li.mibillindex, div.mibillindex
+	{mso-style-name:mi_bill_index;
+	margin-top:0in;
+	margin-right:.3pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:11.0pt;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitle, li.mibilltitle, div.mibilltitle
+	{mso-style-name:mi_bill_title;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillnonstatute, li.mibillnonstatute, div.mibillnonstatute
+	{mso-style-name:mi_bill_nonstatute;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillarticletitle, li.mibillarticletitle, div.mibillarticletitle
+	{mso-style-name:mi_bill_articletitle;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;}
+span.mibillnew
+	{mso-style-name:mi_bill_new;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:bold;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibillheader, li.mibillheader, div.mibillheader
+	{mso-style-name:mi_bill_header;
+	margin:0in;
+	text-align:center;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	text-decoration:underline;}
+p.mibilllongbillnumber, li.mibilllongbillnumber, div.mibilllongbillnumber
+	{mso-style-name:mi_bill_longbillnumber;
+	margin:0in;
+	text-align:center;
+	font-size:28.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillarticleclause, li.mibillarticleclause, div.mibillarticleclause
+	{mso-style-name:mi_bill_articleclause;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitleline2, li.mibilltitleline2, div.mibilltitleline2
+	{mso-style-name:mi_bill_titleline2;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilldonotdelete, li.mibilldonotdelete, div.mibilldonotdelete
+	{mso-style-name:mi_bill_do_not_delete;
+	margin-top:0in;
+	margin-right:5.65pt;
+	margin-bottom:12.0pt;
+	margin-left:14.45pt;
+	text-align:justify;
+	text-indent:-14.45pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	color:white;}
+p.mibillemptyline, li.mibillemptyline, div.mibillemptyline
+	{mso-style-name:mi_bill_emptyline;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillheader><span style='text-decoration:none'>&nbsp;</span></p>
+
+<p class=mibilllongbillnumber>HOUSE JOINT RESOLUTION E</p>
+
+<p class=mibilldonotdelete><img width=624 height=250
+src="HJRE_files/image001.png"
+alt="June 14, 2023, Introduced by Reps. Carra, Fox, Smit, DeSana, Rigas, Schriver, Maddock, Jaime Greene and Friske and referred to the Committee on Government Operations."></p>
+
+<p class=mibilltitle>A joint resolution proposing an amendment to the state
+constitution of 1963, by adding section 29 to article I, to provide definitions
+for certain laws, rules, and regulations that relate to an individual's sex and
+to impose certain protections and requirements that relate to an individual's
+sex.</p>
+
+<p class=mibilltitleline2>Resolved by the Senate and House of Representatives
+of the state of Michigan, That the following amendment to the state
+constitution of 1963, to provide definitions for certain laws, rules, and
+regulations that relate to an individual's sex and to impose certain
+protections and requirements that relate to an individual's sex, is proposed,
+agreed to, and submitted to the people of the state:</p>
+
+<p class=mibillarticletitle>article I</p>
+
+<p class=mibillnonstatute><a name="sec_import_start_I_29"></a><span
+class=mibillnew><span style='color:black'>Sec. 29. (1) Notwithstanding any
+provision of state law to the contrary, with respect to the application of an
+individual's biological sex under any state law, rule, or regulation, the
+following apply:</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(a)
+&quot;Sex&quot; means the individual's biological sex, either male or female,
+at birth.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(b)
+&quot;Female&quot; means an individual whose biological reproductive system is
+developed to produce ova.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(c)
+&quot;Male&quot; means an individual whose biological reproductive system is
+developed to fertilize the ova of a female.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(d)
+&quot;Woman&quot; and &quot;girl&quot; mean human females.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(e)
+&quot;Man&quot; and &quot;boy&quot; mean human males.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(f)
+&quot;Mother&quot; means a parent of the female sex.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(g)
+&quot;Father&quot; means a parent of the male sex.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(h)
+With respect to biological sex, &quot;equal&quot; does not mean the same or
+identical, and separate accommodations are not inherently unequal.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(2)
+An individual born with a medically verifiable diagnosis of disorder or
+difference in sex development must be provided legal protections and
+accommodations afforded under the Americans with disabilities act of 1990, 42
+USC 12101 to 12213, and any similar state laws.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(3)
+Laws, rules, and regulations that distinguish between the sexes are subject to
+intermediate constitutional scrutiny. Intermediate constitutional scrutiny
+forbids unfair discrimination against similarly situated male and female
+individuals but allows the law to distinguish between the sexes if the
+distinctions are substantially related to important governmental objectives.
+Notwithstanding any provision of state law to the contrary, distinctions
+between the sexes with respect to athletics, prisons or other detention
+facilities, domestic violence shelters, rape crisis centers, locker rooms,
+restrooms, and other areas where biology, safety, or privacy are implicated and
+result in separate accommodations are substantially related to the important
+governmental objectives of protecting the health, safety, and privacy of
+individuals in those circumstances.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(4)
+Any school district, or public school in that school district, and any agency,
+department, office, or political subdivision of this state that collects vital
+statistics for the purpose of complying with antidiscrimination laws or for the
+purpose of gathering accurate public health, crime, economic, or other data
+shall identify each individual who is part of the collected dataset as either
+male or female at birth.</span></span></p>
+
+<p class=mibillarticleclause><a name="resolved_enacting_section"></a>Resolved
+further, That the foregoing amendment shall be submitted to the people of the
+state at the next general election in the manner provided by law.</p>
+
+</div>
+

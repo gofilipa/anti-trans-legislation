@@ -1,0 +1,210 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.mibilldigest, li.mibilldigest, div.mibilldigest
+	{mso-style-name:mi_bill_digest;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillindex, li.mibillindex, div.mibillindex
+	{mso-style-name:mi_bill_index;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitle, li.mibilltitle, div.mibilltitle
+	{mso-style-name:mi_bill_title;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillenactment, li.mibillenactment, div.mibillenactment
+	{mso-style-name:mi_bill_enactment;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	font-weight:bold;}
+span.mibillnew
+	{mso-style-name:mi_bill_new;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibillheader, li.mibillheader, div.mibillheader
+	{mso-style-name:mi_bill_header;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	text-decoration:underline;}
+p.mibilltitleline2, li.mibilltitleline2, div.mibilltitleline2
+	{mso-style-name:mi_bill_titleline2;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillnonstatute, li.mibillnonstatute, div.mibillnonstatute
+	{mso-style-name:mi_bill_nonstatute;
+	margin-top:0in;
+	margin-right:.3pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilllongbillnumber, li.mibilllongbillnumber, div.mibilllongbillnumber
+	{mso-style-name:mi_bill_longbillnumber;
+	margin:0in;
+	text-align:center;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillemptyline, li.mibillemptyline, div.mibillemptyline
+	{mso-style-name:mi_bill_emptyline;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilldonotdelete, li.mibilldonotdelete, div.mibilldonotdelete
+	{mso-style-name:mi_bill_do_not_delete;
+	margin-top:0in;
+	margin-right:5.65pt;
+	margin-bottom:12.0pt;
+	margin-left:14.45pt;
+	text-align:justify;
+	text-indent:-14.45pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	color:white;}
+p.mibilltitleline3, li.mibilltitleline3, div.mibilltitleline3
+	{mso-style-name:mi_bill_titleline3;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillheader><span style='text-decoration:none'>&nbsp;</span></p>
+
+<p class=mibilllongbillnumber>HOUSE BILL NO. 4510</p>
+
+<p class=mibilldonotdelete><img width=624 height=250
+src="HB4510_files/image001.png"
+alt="May 04, 2023, Introduced by Reps. Maddock, Carra, DeBoyer, Alexander, Bierlein, Markkanen, Rigas, Paquette, Johnsen, Prestin, Hoadley, Neyer, BeGole, Meerman, St. Germaine, Smit, Fox, Friske, DeSana and Bollin and referred to the Committee on Government Operations."></p>
+
+<p class=mibilltitle><a name=BillTitle>A bill to amend 1976 PA 451, entitled</a></p>
+
+<p class=mibilltitleline2>&quot;The revised school code,&quot;</p>
+
+<p class=mibilltitleline3>(MCL 380.1 to 380.1852) by adding section 1146a.</p>
+
+<p class=mibillenactment>the people of the state of michigan enact:</p>
+
+<p class=mibillnonstatute><a name="sec_import_start_380_1146a"></a><span
+class=mibillnew><span style='color:black;background:white'>Sec. 1146a. (1)
+Subject to subsection (2), a public school shall ensure that every
+multiple-occupancy restroom or changing area designated for pupil use must be
+used by individuals based only on biological sex.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(2) This section does not apply to an individual entering a
+multiple-occupancy restroom or changing area designated for use by the opposite
+biological sex when entering in any of the following circumstances:</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(a) For custodial purposes.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(b) For maintenance or inspection purposes.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(c) To render medical assistance.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(d) To accompany a pupil needing assistance when the
+assisting individual is an employee of the public school or the pupil's parent
+or legal guardian or authorized caregiver.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(e) To receive assistance in using the multiple-occupancy
+restroom or changing area.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(f) When the restroom has been temporarily designated for use
+by that individual's biological sex.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(3) As used in this section:</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(a) &quot;Authorized caregiver&quot; means a caregiver as
+that term is defined in section 3 of the designated caregiver act, 2016 PA 85,
+MCL 333.26283.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(b) &quot;Biological sex&quot; means the physical condition
+of being male or female, as stated on an individual's original birth
+certificate.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black;
+background:white'>(c) &quot;Multiple-occupancy restroom or changing area&quot;
+means an area in a public school building designed or designated to be used by
+more than 1 pupil at a time, where pupils may be in various stages of undress
+in the presence of other pupils or individuals. The term may include, but is
+not limited to, a school restroom, locker room, changing room, or shower room.</span></span></p>
+
+</div>
+

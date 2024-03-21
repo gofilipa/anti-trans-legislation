@@ -1,0 +1,341 @@
+
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Yu Gothic Light";
+	panose-1:2 11 3 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"\@Yu Gothic Light";}
+ /* Style Definitions */
+ p.scemptylineheader, li.scemptylineheader, div.scemptylineheader
+	{mso-style-name:sc_emptyline_header;
+	margin:0in;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scbillheader, li.scbillheader, div.scbillheader
+	{mso-style-name:sc_bill_header;
+	margin:0in;
+	text-align:center;
+	font-size:15.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.scbilltitle, li.scbilltitle, div.scbilltitle
+	{mso-style-name:sc_bill_title;
+	margin:0in;
+	text-align:justify;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	text-transform:uppercase;}
+p.scenactingwords, li.scenactingwords, div.scenactingwords
+	{mso-style-name:sc_enacting_words;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scnewcodesection, li.scnewcodesection, div.scnewcodesection
+	{mso-style-name:sc_new_code_section;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scdirectionallanguage, li.scdirectionallanguage, div.scdirectionallanguage
+	{mso-style-name:sc_directional_language;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scnoncodifiedsection, li.scnoncodifiedsection, div.scnoncodifiedsection
+	{mso-style-name:sc_non_codified_section;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scemptyline, li.scemptyline, div.scemptyline
+	{mso-style-name:sc_empty_line;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scbillendxx, li.scbillendxx, div.scbillendxx
+	{mso-style-name:sc_bill_end_xx;
+	margin:0in;
+	text-align:center;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.scbillwhereasclause, li.scbillwhereasclause, div.scbillwhereasclause
+	{mso-style-name:sc_bill_whereas_clause;
+	margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:.7in 81.35pt .7in 81.35pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+<title>2023-2024 Bill 4290 Text of Previous Version (Apr. 06, 2023) - South Carolina Legislature Online</title><meta name="keywords" content="DEI in higher education"></head>
+
+<body lang="EN-US" style='word-wrap:break-word'><p style="text-align: center;"><span style="font-weight: bold;">South Carolina General Assembly</span><br>125th Session, 2023-2024</p><p style="font-weight: bold;">Bill 4290</p><hr><p><span style="text-decoration: line-through;">Indicates Matter Stricken</span><br><span style="text-decoration: underline;">Indicates New Matter</span></p><hr><p style="text-align: center;">(Text matches printed bills. Document has been reformatted to meet World Wide Web specifications.)</p>
+
+<div class="WordSection1">
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scemptylineheader">&nbsp;</p>
+
+<p class="scbillheader">A bill</p>
+
+<p class="scemptyline">&nbsp;</p>
+
+<p class="scbilltitle">TO AMEND THE SOUTH CAROLINA CODE OF LAWS BY ADDING SECTION
+59-101-60 SO AS TO PROVIDE NECESSARY DEFINITIONS, TO PROVIDE EACH PUBLIC
+INSTITUTION OF HIGHER LEARNING ANNUALLY SHALL REPORT THE TOTAL NUMBER OF ADMINISTRATIVE
+AND NONTEACHING POSITIONS THAT SUPPORT OR ARE ASSOCIATED WITH DIVERSITY,
+EQUITY, AND INCLUSION INITIATIVES AT THE INSTITUTION; TO PROHIBIT THESE
+INSTITUTIONS FROM GRANTING PREFERENCE TO APPLICANTS FOR ADMISSION, EMPLOYMENT,
+OR PROMOTION ON THE BASIS OF RACE, SEX, COLOR, ETHNICITY, OR NATIONAL ORIGIN,
+SUBJECT TO AN EXCEPTION; TO PROHIBIT THESE INSTITUTIONS FROM MAKING DIVERSITY
+TRAINING MANDATORY; TO PROHIBIT THESE INSTITUTIONS FROM REQUIRING OR SOLICITING
+DIVERSITY STATEMENTS AS PART OF THEIR ADMISSIONS OR EMPLOYMENT APPLICATION
+PROCESSES, AMONG OTHER THINGS; AND TO CLARIFY THAT THESE PROVISIONS DO NOT
+PROHIBIT CERTAIN PROGRAMS REQUIRED TO COMPLY WITH SPECIFIC FEDERAL
+REQUIREMENTS.<a name="at_f9c14f2e4"></a></p>
+
+<p class="scbillwhereasclause">&nbsp;</p>
+
+<p class="scenactingwords"><a name="ew_ebd69ec1a">B</a>e it enacted by the
+General Assembly of the State of South Carolina:</p>
+
+<p class="scemptyline">&nbsp;</p>
+
+<p class="scdirectionallanguage"><a name="bs_num_1_a83a01b88">S</a>ECTION 1.&nbsp; <a name="dl_33682f914">A</a>rticle 1, Chapter 101, Title 59 of the S.C. Code is
+amended by adding:</p>
+
+<p class="scemptyline">&nbsp;</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ns_T59C101N60_3f6e69f88">S</a>ection
+59-101-60. <a name="ss_T59C101N60SA_lv1_103118241">(</a>A) For purposes of this
+section:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S1_lv2_58b62041c">(</a>1)
+"Diversity, equity, and inclusion" or "DEI" includes:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sa_lv3_017802ac2">(</a>a)
+any effort by a public institution of higher learning, or sanctioned by a
+public institution of higher learning, to:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Si_lv4_7a9d6b7d2">(</a>i)
+promote or promulgate policies and procedures at the institution designed and
+implemented with reference to race, color, or ethnicity; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sii_lv4_fb2c233d6">(</a>ii) promote or promulgate trainings,
+programming, or activities at the institution designed and implemented with
+reference to race, color, ethnicity, gender identity, or sexual orientation; or</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Siii_lv4_0f63ca6d2">(</a>iii) promote as the official
+position of the institution, the administration of the institution, or any
+administrative unit of the institution, a particular, widely contested opinion
+referencing unconscious or implicit bias, cultural appropriation, allyship,
+transgender ideology, microaggressions, group marginalization, anti-racism, systemic
+oppression, social justice, intersectionality, neo-pronouns, heteronormativity,
+disparate impact, gender theory, racial or sexual privilege, or any related
+formulation of these concepts; or</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sb_lv3_8e377bf1e">(</a>b)
+any division, office, center, or other unit of the institution or component of
+the institution that is responsible for creating, developing, designing,
+implementing, organizing, planning, or promoting policies, programming,
+training, practices, activities, and procedures relating to diversity, equity,
+and inclusion. </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S2_lv2_4a118081c">(</a>2)
+"Diversity, equity, and inclusion officer" or "DEI officer" means an individual
+who is a full or part-time employee of the institution or component of the
+institution, or an independent contractor of the institution, whose duties for
+the institution include coordinating, creating, developing, designing,
+implementing, organizing, planning, or promoting policies, programming,
+training, practices, activities, and procedures relating to diversity, equity,
+and inclusion.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S3_lv2_d5cc3b28f">(</a>3)
+"Diversity, equity, and inclusion training" or "DEI training" means training,
+seminar, discussion group, workshop, or other instructional program, whether
+provided in-person, online, or by any other means, with a purpose of advising,
+counseling, demonstrating, explaining, instructing, or teaching participants
+about diversity, equity, and inclusion, including:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sa_lv3_795961de6">(</a>a)
+interrelated concepts purporting to:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Si_lv4_9125f4466">(</a>i)
+describe or expose structures, systems, or relations of power, privilege, or
+subordination on the basis of race, sex, color, gender, ethnicity, gender
+identity, or sexual orientation; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sii_lv4_1e2c98f19">(</a>ii) describe methods to identify,
+dismantle, or oppose such structures, systems, or relations; or </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Siii_lv4_dd658f9ad">(</a>iii) justify differential treatment
+or special benefits conferred on the basis of race, sex, color, gender,
+ethnicity, gender identity, or sexual orientation; or</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sb_lv3_9ab64a048">(</a>b)
+concepts of unconscious or implicit bias, cultural appropriation, allyship,
+transgenderism, microaggressions, micro-invalidation, group marginalization,
+anti-racism, systemic oppression, ethnocentrism, structural racism, structural
+inequity, social justice, intersectionality, neo-pronouns, inclusive language,
+heteronormativity, disparate impact, gender identity, gender theory, racial or
+sexual privilege, or related formulations of these concepts.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S4_lv2_ae4aae570">(</a>4)
+"Diversity statement" means any written or oral statement discussing:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sa_lv3_e4bc31a6a">(</a>a)
+the race, sex, color, ethnicity, gender identity, or sexual orientation of the
+person making the statement;</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sb_lv3_8ad0ccebd">(</a>b)
+the views of the person making the statement on, experience with, or
+contributions to:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Si_lv4_9f2fee860">(</a>i)
+diversity, equity, and inclusion; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sii_lv4_0bdb78268">(</a>ii) marginalized groups; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Siii_lv4_e4b72aaa1">(</a>iii) anti-racism; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Siv_lv4_bed052da6">(</a>iv) social justice; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sv_lv4_0313b6e46">(</a>v)
+intersectionality; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Svi_lv4_a5c457bd8">(</a>vi) confessing one's race-based
+privilege; or </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Svii_lv4_2ff419c6e">(</a>vii) related concepts; </p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sc_lv3_8ca8d5e18">(</a>c)
+the views of the person making the statement on, experience with the race, sex,
+color, ethnicity, gender identity, or sexual orientation of students and
+co-workers; or</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60Sd_lv3_e6742c425">(</a>d)
+the views of the person making the statement regarding any theory or practice
+that advocates for the differential treatment of any individual or groups of
+individuals based on race, sex, color, gender, ethnicity, gender identity, or
+sexual orientation.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60SB_lv1_a24d4a4b6">(</a>B)
+Each public institution of higher learning annually before July first shall
+issue a report detailing the total number of administrative and nonteaching
+positions that support or are associated with diversity, equity, and inclusion
+initiatives at the institution. The report must include the total salaries and
+total operating costs associated with DEI at the institution for the preceding
+fiscal year. The institution shall provide these reports to each member of the
+House of Representatives and each member of the Senate.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60SC_lv1_92ad8a17e">(</a>C) A
+public institution of higher learning may grant preference to any applicant for
+admission or employment or promotion on the basis of race, sex, color,
+ethnicity, or national origin. Nothing in this subsection may be interpreted as
+prohibiting bona fide qualifications based on sex that are conducive to the
+normal operation of the institution.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60SD_lv1_8136be5df">(</a>D) A
+public institution of higher learning may not make diversity training
+mandatory, including a requirement:</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S1_lv2_c1722db9a">(</a>1)
+of any kind imposed on a student, employee, or applicant for employment including,
+but not limited to, a requirement, the nonfulfillment of which may adversely
+affect the status, salary, or benefits of an employee or applicant for
+employment at the institution or component;</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S2_lv2_fd98c9c26">(</a>2)
+to participate in any administrative process or decision-making body of the
+institution, such as a hiring committee; or</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60S3_lv2_2d78a6bb7">(</a>3)
+to participate in any otherwise available program sponsored by the institution
+or component.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60SE_lv1_c97770b99">(</a>E) A
+public institution of higher learning may not require or solicit a diversity
+statement as part of an admissions process, employment application process,
+hiring process, contract renewal process, or promotion process; or as a
+condition of participation in any administrative or decision-making function of
+the institution. Additionally, the institution may not grant preferential
+consideration to an applicant, teacher, employee, or student for opinions
+expressed or action taken pertaining to another individual or a group of
+individuals in which the institution's consideration is based on race, sex,
+color, ethnicity, gender identity, or sexual orientation of those other
+individuals.</p>
+
+<p class="scnewcodesection">&nbsp;&nbsp;&nbsp; <a name="ss_T59C101N60SF_lv1_8bbee2881">(</a>F)
+The provisions of this section do not prohibit any program or training scripted
+by licensed attorneys and required to comply with the institution's obligations
+under Title IX of the Education Amendments of 1972, as amended, the Americans
+with Disabilities Act, as amended, the Age Discrimination in Employment Act, as
+amended, Title VI of the Civil Rights Act of 1964, applicable court order, or
+other applicable state and federal law, provided the institution makes the
+materials for the program publicly available on the institution's website.</p>
+
+<p class="scemptyline">&nbsp;</p>
+
+<p class="scnoncodifiedsection"><a name="eff_date_section"></a><a name="bs_num_2_lastsection">S</a>ECTION 2.&nbsp; This act takes effect upon approval
+by the Governor.</p>
+
+<p class="scbillendxx">----XX----</p>
+
+</div>
+
+<p>This web page was last updated on April 06, 2023 at 11:15 AM</p></body>
+
+</html>

@@ -1,0 +1,236 @@
+<style>
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.mibilldigest, li.mibilldigest, div.mibilldigest
+	{mso-style-name:mi_bill_digest;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillindex, li.mibillindex, div.mibillindex
+	{mso-style-name:mi_bill_index;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilltitle, li.mibilltitle, div.mibilltitle
+	{mso-style-name:mi_bill_title;
+	margin:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillenactment, li.mibillenactment, div.mibillenactment
+	{mso-style-name:mi_bill_enactment;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	font-weight:bold;}
+span.mibillnew
+	{mso-style-name:mi_bill_new;
+	font-family:"Courier New";
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:bold;
+	font-style:normal;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibillheader, li.mibillheader, div.mibillheader
+	{mso-style-name:mi_bill_header;
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";
+	text-transform:uppercase;
+	text-decoration:underline;}
+p.mibilltitleline2, li.mibilltitleline2, div.mibilltitleline2
+	{mso-style-name:mi_bill_titleline2;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibillnonstatute, li.mibillnonstatute, div.mibillnonstatute
+	{mso-style-name:mi_bill_nonstatute;
+	margin-top:0in;
+	margin-right:.3pt;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-indent:.5in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilllongbillnumber, li.mibilllongbillnumber, div.mibilllongbillnumber
+	{mso-style-name:mi_bill_longbillnumber;
+	margin:0in;
+	text-align:center;
+	font-size:32.0pt;
+	font-family:"Arial",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+p.mibillemptyline, li.mibillemptyline, div.mibillemptyline
+	{mso-style-name:mi_bill_emptyline;
+	margin:0in;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+p.mibilldonotdelete, li.mibilldonotdelete, div.mibilldonotdelete
+	{mso-style-name:mi_bill_do_not_delete;
+	margin-top:0in;
+	margin-right:5.65pt;
+	margin-bottom:12.0pt;
+	margin-left:14.45pt;
+	text-align:justify;
+	text-indent:-14.45pt;
+	font-size:11.5pt;
+	font-family:"Times New Roman",serif;
+	color:white;}
+span.mibillinsertromannumeral
+	{mso-style-name:mi_bill_insert_romannumeral;
+	font-family:"Times New Roman",serif;
+	font-variant:normal !important;
+	text-transform:none;
+	font-weight:bold;
+	font-style:italic;
+	text-decoration:none;
+	vertical-align:baseline;}
+p.mibilltitleline3, li.mibilltitleline3, div.mibilltitleline3
+	{mso-style-name:mi_bill_titleline3;
+	margin-top:10.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:150%;
+	font-size:11.5pt;
+	font-family:"Courier New";}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:612.1pt 792.1pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+
+
+<div class=WordSection1>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibilldigest>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillindex>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillemptyline>&nbsp;</p>
+
+<p class=mibillheader><span style='text-decoration:none'>&nbsp;</span></p>
+
+<p class=mibilllongbillnumber>HOUSE BILL NO. 4540</p>
+
+<p class=mibilldonotdelete><img width=624 height=250
+src="HB4540_files/image001.png"
+alt="May 09, 2023, Introduced by Rep. Paquette and referred to the Committee on Government Operations."></p>
+
+<p class=mibilltitle><a name=BillTitle>A bill to amend 1931 PA 328, entitled</a></p>
+
+<p class=mibilltitleline2>&quot;The Michigan penal code,&quot;</p>
+
+<p class=mibilltitleline3>(MCL 750.1 to 750.568) by adding section 135b.</p>
+
+<p class=mibillenactment>the people of the state of michigan enact:</p>
+
+<p class=mibillnonstatute><a name="sec_import_start_750_135b"></a><span
+class=mibillnew><span style='color:black;background:white'>Sec. 135b. </span></span><span
+class=mibillnew><span style='color:black'>(1) A person shall not provide a
+puberty-blocking drug to a minor to delay or suppress pubertal development in
+that minor to assist that minor with a gender transition.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(2) A
+person shall not provide genital gender reassignment surgery to a minor.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(3) A
+person who violates this section is guilty of a felony punishable by
+imprisonment for not more than 4 years.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(4)
+As used in this section: </span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(a)
+&quot;Gender transition&quot; means the process in which an individual shifts
+from identifying with and living as a gender that corresponds to the
+individual's sex to identifying with and living as a gender different from the
+individual's sex, and may include social, legal, or physical changes. </span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(b)
+&quot;Genital gender reassignment surgery&quot; means a medical procedure that
+is knowingly performed to assist an individual with a gender transition,
+including, but not limited to, any of the following:</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>i</span></span><span
+class=mibillnew><span style='color:black'>) A penectomy, orchiectomy,
+vaginoplasty, clitoroplasty, or vulvoplasty for a male sex patient.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>ii</span></span><span
+class=mibillnew><span style='color:black'>) A hysterectomy or ovariectomy for a
+female sex patient.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>iii</span></span><span
+class=mibillnew><span style='color:black'>) A surgical reconstruction of the
+fixed part of the urethra with or without a metoidioplasty.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>iv</span></span><span
+class=mibillnew><span style='color:black'>) A phalloplasty, vaginectomy, or
+scrotoplasty, or the implantation of erection or testicular prostheses for a
+female sex patient.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(c)
+&quot;Minor&quot; means an individual who is less than 18 years of age.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(d) &quot;Puberty-blocking
+drug&quot; means either of the following:</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>i</span></span><span
+class=mibillnew><span style='color:black'>) A gonadotropin-releasing hormone
+analogue or other synthetic drug used in a male sex individual to stop
+luteinizing hormone secretion or production and testosterone secretion or
+production.</span></span></p>
+
+<p class=mibillnonstatute><span class=mibillnew><span style='color:black'>(</span></span><span
+class=mibillinsertromannumeral><span style='color:black'>ii</span></span><span
+class=mibillnew><span style='color:black'>) A synthetic drug used in a female
+sex individual to stop the production or secretion of estrogens and progesterone.</span></span></p>
+
+</div>
+
