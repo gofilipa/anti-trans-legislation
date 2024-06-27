@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-06-27 Thu 16:33 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="CaladoF" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org988cb78">1. What can language models tell us about transphobia?</a>
+<ul>
+<li><a href="#org15c8703">1.1. revision notes</a></li>
+<li><a href="#orgfa41ea8">1.2. overview</a></li>
+<li><a href="#orgf71890a">1.3. Thank you for having me here today.</a></li>
+<li><a href="#orgec29000">1.4. <span class="todo TODO">TODO</span> antitrans quotes</a></li>
+<li><a href="#org4d89514">1.5. what does knowledge do?</a></li>
+<li><a href="#orga1ca3c3">1.6. fear</a></li>
+<li><a href="#orgfba7297">1.7. deep look into llms and prediction</a>
+<ul>
+<li><a href="#org53f7ea0">1.7.1. data cleaning / close readings of language "regardless"</a></li>
+<li><a href="#orgcb2b9c0">1.7.2. training process</a></li>
+</ul>
+</li>
+<li><a href="#orga452871">1.8. <span class="todo TODO">TODO</span> approximation &#x2013;&gt; passing</a></li>
+<li><a href="#org1cfb1f1">1.9. plausibility</a></li>
+<li><a href="#orge6557e9">1.10. pattern matching code</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org988cb78" class="outline-2">
+<h2 id="org988cb78"><span class="section-number-2">1.</span> What can language models tell us about transphobia?</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+<a href="https://bit.ly/gc-english-2024">https://bit.ly/gc-english-2024</a>
+</p>
+</div>
+
+<div id="outline-container-org15c8703" class="outline-3">
+<h3 id="org15c8703"><span class="section-number-3">1.1.</span> revision notes</h3>
+<div class="outline-text-3" id="text-1-1">
+<p>
+Structure:
+</p>
+<ul class="org-ul">
+<li>overview</li>
+<li>introduction: transphobia quotes from Shrier? or Cass, WPATH? Or the
+bills?</li>
+<li>what can we learn by studying fear?
+<ul class="org-ul">
+<li>Sedgwick</li>
+<li>not about unearthing transphobia but studying how it moves.</li>
+</ul></li>
+<li>ROGD and interest in fear</li>
+<li>deep look into llms, how they are trained
+<ul class="org-ul">
+<li>they work by approximation, normalization, in a mathematical
+process.</li>
+</ul></li>
+<li>relationship to Trans Studies and the desire to "pass"</li>
+<li></li>
+</ul>
+
+<p>
+Add:
+</p>
+<ul class="org-ul">
+<li class="off"><code>[&#xa0;]</code> start with quote on transphobia, from shrier, cass, or WPATH
+files?</li>
+<li class="off"><code>[&#xa0;]</code> training process: vectors</li>
+<li class="off"><code>[&#xa0;]</code> training process: hypothesis, loss, gradient
+<ul class="org-ul">
+<li>this is the work, making all of this intelligible to non-technical
+audiences, in a way that excites them.</li>
+</ul></li>
+<li class="off"><code>[&#xa0;]</code> close readings of state bills.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgfa41ea8" class="outline-3">
+<h3 id="orgfa41ea8"><span class="section-number-3">1.2.</span> overview</h3>
+<div class="outline-text-3" id="text-1-2">
+<p>
+About my work customizing an AI model to study transphobia in
+language&#x2013;specifically, in current "anti-trans" legislation that is
+proliferating across the United States. This work involves:
+</p>
+<ul class="org-ul">
+<li>data gathering, cleaning, and processing</li>
+<li>AI model fine-tuning</li>
+<li>future work in:
+<ul class="org-ul">
+<li>futher cleaning, processing</li>
+<li>RAG methods</li>
+</ul></li>
+</ul>
+
+<p>
+The focus on the fine-tuning process is to exploit the ways that
+models learn, which is by a method of generalization, to inform the
+study of transphobia. And how they might engage with conversations in
+Trans Studies regarding transphobia, particularly as manifested in the
+last several years in the false condition of ROGD, Rapid Onset Gender
+Dysphoria.
+</p>
+
+<p>
+Research question:
+</p>
+<ul class="org-ul">
+<li>Training is a kind of normalization of language meaning. It
+approximates. How can this be related to Trans Studies?</li>
+<li>ROGD is the idea that being trans is contagious. The condition
+itself implies that there is a fear of transness, a transphobia. It
+is <i>this fear</i> that I am interested in.</li>
+<li>Is there a way to use the training process to study the appeal and
+seduction of transphobia? The way that transphobia <i>moves</i>?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgf71890a" class="outline-3">
+<h3 id="orgf71890a"><span class="section-number-3">1.3.</span> Thank you for having me here today.</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+These days, public discourse seems to be beyond the reach of (or even
+desire for) deep, critical thinking. Right now, we're witnessing a
+particular kind of discourse around feminism, "gender critical
+feminism," that twists understandings of tolerance and equality to
+perpatuate a patriarchial control over identity and expression.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgec29000" class="outline-3">
+<h3 id="orgec29000"><span class="section-number-3">1.4.</span> <span class="todo TODO">TODO</span> antitrans quotes</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+One way that we've seen this is in the explosion of "anti-trans"
+literature across the United States. For those who are unfamiliar,
+this legislation limits trans peoples' access to basic healthcare,
+public facilities, legal recognition, and more.
+</p>
+
+<p>
+[ANTI-TRANS LEGISLATION MAP]
+</p>
+
+<p>
+Here, you can see a map of where these bills are most concentrated
+across the country, and a chart of how many bills are proposed and
+passed over the last four years. Notice that this year, though we are
+hardly in the fifth month, we’ve almost caught up to the total bills
+for last year.
+</p>
+
+<p>
+[SOME QUOTES? THAT SHOW REASONING BEHIND THESE BILLS]
+</p>
+
+<p>
+SOME ANALYSIS ON THIS PAPER, ABOUT FEAR.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org4d89514" class="outline-3">
+<h3 id="org4d89514"><span class="section-number-3">1.5.</span> what does knowledge do?</h3>
+<div class="outline-text-3" id="text-1-5">
+<p>
+Humanists have unique tools for thinking through such discourses based
+on fear and repression.
+</p>
+
+<p>
+Here, I’m inspired by the scholarship of Eve Kosofsky Sedgwick, who is
+a major and influential figure in Queer Studies. She is most famous
+for books like <i>The Epistemology of the Closet</i> (pictured on the left)and her essay, "Paranoid Reading and Reparative Reading" (pictured
+right), where she seeks and analyzes queer themes and repressive
+structures in authors like Henry James, Oscar Wilde, and Marcel
+Proust.
+</p>
+
+<p>
+Within the context of this project, I'm interested in Sedgwick's work
+for two reasons. First, though she doesn't write about technology, her
+means of analysis, particularly her manner of close-reading, lends
+well to deconstructing computational concepts. The way she structures
+her material, often thinking in terms of binaries and other highly
+delineated structures, evokes (for me) the constraints of
+computational forms. In <i>Epistemology of the Closet</i>, for example, she
+expose what she calls the unstable binaries between heterosexual and
+homosexual categories. Through close-readings of fiction, she exposes
+the inherent instability of these binaries — where one term is not
+symmetrical or simply subordinated to another, but rather, depends the
+other for its meaning through “simultaneous subsumption and exclusion”
+(10). Such binaries, she explains, are “sites that are peculiarly
+densely charged with lasting potentials for powerful manipulation”
+(10).
+</p>
+
+<p>
+The second reason I'm interested in Sedgwick is because she offers
+provocative ways of thinking through repressive discourses like those
+based on fear. Throughout the trajectory of her career, her reading
+develops from one that she calls "paranoid reading" into a new mode
+called “reparative reading.” She defines paranoid reading as a
+critical practice based on “the logic of repression” (a logic which
+she traces to Foucault), that searches for hidden meaning in text with
+the goal of exposing "truth". In her famous essay on this topic,
+Sedgwick asserts that this practice, of unveiling or exposing truth,
+in critical analysis, does not do much. Merely knowing that something
+is true, revealing the presence of systematic oppression, injustice,
+discrimination, for example (and here, Sedgwick is theorizing within
+the context of the AIDs crisis), is not enough to “enjoin that person
+to any specific train of epistemological or narrative consequences”
+(123). Rather, Sedwicks seeks to
+</p>
+
+<blockquote>
+<p>
+"Mov[e] from the rather fixed question Is a particular piece of
+knowledge true, and how can we know? to the further questions: what
+does knowledge do–the pursuit of it, the having and exposing of it"
+(124, Touching Feeling)
+</p>
+</blockquote>
+
+<p>
+Sedgwick proposes a mode of “reparative reading,” which focuses on
+connection rather than exposure, in which a reader allows herself to
+be taken by surprise. What if, Sedgwick asks, we take something that
+is typically seen as a negative, structuring force in queer identity,
+like the feeling of shame, and examine how it unlocks creativity and
+productivity? Sedgwick describes shame as a contagious affect, which
+may be read as a mobilizing and creative force in text: she explains
+that,
+</p>
+
+<p>
+[SLIDE 6: SHAME QUOTES]
+</p>
+
+<blockquote>
+<p>
+“Shame—living, as it does, on and in the muscles and capillaries of
+the face—seems to be uniquely contagious from one person to another."
+(63 Touching Feeling).
+</p>
+</blockquote>
+
+<p>
+She also describes shame as:
+</p>
+
+<blockquote>
+<p>
+“not a discrete intrapsychic structure, but a kind of free radical
+that (in different people and different cultures) attaches to and
+permanently intensifies or alters the meaning of—of almost anything: a
+zone of the body, a sensory system, a prohibited or indeed a permitted
+behavior, another affect such as anger or arousal, a named identity, a
+script for interpreting other people’s behavior toward oneself” (62)
+</p>
+</blockquote>
+
+<p>
+She demonstrates this reading practice by analyzing metaphors that are
+made possible through shame, for example in the fiction of Henry
+James. In one example, she connects moments of "blushing" and
+"flushing" to a fantasy of the skin being entered. Shame, in this
+reading, is a way of pulling other affects and images into relation.
+This is opposed to paranoid reading, which might plumb shame for what
+it reveals about a hidden or repressed sexuality. She explains that,
+“When we tune into James’s language on these frequencies, it is not as
+superior, privileged eavesdroppers on a sexual narrative hidden from
+himself; rather, it is as an audience offered the privilege of sharing
+his exhibitionistic enjoyment and performance of a sexuality organized
+around shame” (54).
+</p>
+<ul class="org-ul">
+<li>shame as something that spreads, opens, makes new kinds of
+connections possible; rather than something to simply prove the
+existance. What does <i>shame do</i>?</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orga1ca3c3" class="outline-3">
+<h3 id="orga1ca3c3"><span class="section-number-3">1.6.</span> fear</h3>
+<div class="outline-text-3" id="text-1-6">
+<p>
+I'm interested in this move that Sedgwick makes, of taking what is
+typically seen as a negative, repressive affect, like shame, and
+seeing how it opens up possibilities for reading new connections in
+text. Specifically, I wonder one might read something productive in
+fear&#x2013;of the phobias&#x2013;that pervade anti-trans discourses. 
+</p>
+
+<p>
+In my current work, I am exploring this fear in anti-trans legislation.
+</p>
+
+<p>
+[ROGD PAPER]
+</p>
+
+<p>
+For example, one of the things I'm studying is the (now disproved)
+clinical phenomenon of so-called "Rapid Onset Gender Dysphoria"
+(ROGD), which stipulates that trans-ness can be contagious among
+adolescents. The phrase was coined by Dr. Lisa Littman in her study of
+parents of transgender youth, published in 2018. In her study, Littman
+interviews over 250 parents of transgender children and concludes that
+what she calls "peer contagion" of gender dysphoria may be a
+contributing factor for adolescents who decide to transition. Almost
+immediately following its publication, Littman's study was criticized,
+including by the publisher, and its methodology and findings have been
+disavowed by every major medical association since then.
+</p>
+
+<p>
+Although ROGD is not recognized as a valid diagnosis, it has been used
+and is still used as fodder for anti-trans propaganda and
+discrimination. It has made its way into the public lexicon, appearing
+in books, shows, and most importantly for my project, legislative
+bills that are being written, debated, and passed across the United
+States.
+</p>
+
+<p>
+ADD SHRIER: SOME QUOTES ABOUT RODG
+</p>
+
+<p>
+I’m interested in this threat of gender transgression, and
+specifically, in the language outlawing gender transgression, of
+transitioning from one gender to another, or of opting out of binary
+systems of gender. Why is this particular kind of transgression so
+controversial among a large part of our population? Why is the fear of
+this transgression itself so contagious?
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfba7297" class="outline-3">
+<h3 id="orgfba7297"><span class="section-number-3">1.7.</span> deep look into llms and prediction</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+To study this transphobia, I've decided to train an LLM off
+definitions of gender (and related terms) from the anti-trans bills. I
+am interested in how these models are created, how they are "trained,"
+so to speak, so I can trace how they perpetuate biases, like
+transphobia, from their training data into the text that they
+generate.
+</p>
+
+<p>
+In what follows, I'm going to outline a bit of the data gatherering,
+processing, and model training that I've been doing for a little over
+the last year, that I've worked on this project.
+</p>
+
+<p>
+<a href="./img/datasets_hf.png">image of dataset from HF</a>
+</p>
+
+<p>
+The first dataset that I created, which is now available on
+HuggingFace Datasets (for those of you who don't know, a platform for
+sharing Machine Learning projects and tools, much like Github),
+consists of definitions of "gender" and related terms from
+congressional and senate bills, from the last two years. It consists
+of 82 rows, a very small dataset, which I gathered and cleaned using
+Python programming.
+</p>
+
+<p>
+<a href="./img/df.png">image of df of bills</a>
+</p>
+
+<p>
+Here's an image of the bills that I gathered and scraped from
+congressional servers. Here, I had to download a dataset of the bill
+ID numbers from the congress.gov website. Then I wrote a web scraper
+to get the plain text of all the bills by their ID. After gathering
+the bills, I went through an intensive data preparation process, which
+involved cleaning the text and extracting definitions of gender and
+related terms from it. I'll highlight some of the major moves from
+this process.
+</p>
+
+<p>
+First, for those of you familiar with Natural Language Processing
+methods, I created an Named Entity Recognizer to recognize terms
+related to gender and related terms. 
+</p>
+
+<p>
+<a href="./img/ner.png">image of ner code</a>
+</p>
+
+<p>
+You can see here a list of labels, organized into the general
+categories "sex", "gender", and "sexulaity", with each label
+specifying a pattern, like the phrase "biological sex" for example.
+I tried to include various formulations of each term, for example,
+"transgender" is delineated three ways, as a single word, as a
+two-word phrase, and as a hypthenated word. This ensures that I would
+capture all or most instances of the terms.
+</p>
+
+<p>
+Then, I used that entity recognizer as a basis for a pattern matcher,
+which would search for those phrases if they are contained within a
+definition. 
+</p>
+
+<p>
+<a href="./img/matcher.png">image of matcher code</a>
+</p>
+
+<p>
+Here you can see the pattern matcher's logic. It starts by searching
+for punctuation (specifically, I'm looking for a quotation mark, which
+typically surrounds definitions), then looking for a gender term (from
+the recognizer), then some wild card terms, just in case there are
+extra words or punctuation in the definition, and finally, some terms
+that are common in definitions, like "means", "signifies", or
+"includes." For those of you who can read some Python, you'll
+recognize that I've written comments (indicated by the hashtag
+character) that describes what parts of the matcher is doing.
+</p>
+
+<p>
+<a href="./img/matcher_results.png">image of the matcher results</a>
+</p>
+
+<p>
+Then, I ran the matcher to extract the definitions from the bills.
+Here are some of the initial results from that extraction. You can see
+that the matcher was sensitive enough to capture longer phrases, like
+"gender transition surgery means" as well as variants of how
+definitions are constructed, using the word "includes" instead of
+"means", for example.
+</p>
+
+<p>
+After extracting the definitions, I then cleaned them up and formatted
+them into a neat (or neater) list of definitions. For that, I used
+regex (Regular Expressions). The final output then contains
+definitions like the following:
+</p>
+
+<blockquote>
+<p>
+'The term gender identity means a persons self-perception of their gender or claimed gender, regardless of the persons biological sex.',
+'The term gender means the psychological, behavioral, social, and cultural aspects of being male or female.',
+ 'The term gender transition means the process in which an individual goes from identifying with and living as a gender that corresponds to his or her biological sex to identifying with and living as a gender different from his or her biological sex, and may involve social, legal, or physical changes.',
+ 'The term biological sex means the indication of male or female sex by reproductive potential or capacity, sex chromosomes, naturally occurring sex hormones, gonads, or internal or external genitalia present at birth.',
+</p>
+</blockquote>
+</div>
+
+
+
+
+
+<div id="outline-container-org53f7ea0" class="outline-4">
+<h4 id="org53f7ea0"><span class="section-number-4">1.7.1.</span> data cleaning / close readings of language "regardless"</h4>
+<div class="outline-text-4" id="text-1-7-1">
+<p>
+Right now, I am currently the middle of a data gathering and model
+training process, to study how models perpetuate this fear from their
+training data onto their outputs. I am compiling a dataset of gender
+and related terms from these bills. I’m interested specifically in how
+these bills, which limit trans peoples’ rights, are framing what it
+means to be trans and to receive gender affirming healthcare.
+</p>
+
+<p>
+[SLIDES OF DEFS FROM BILLS]
+</p>
+
+<p>
+Here’s some examples of the language that I extracted so far from the
+legislation. The dataset is focused on definitions of gender identity
+and related terms, like “biological sex” and “gender transition
+procedure,” which are underlined here. To get these definitions, I had
+to scrape the bill text from congress.gov’s servers. And when I had
+the bill text, I wrote a pattern matcher to extract textual patterns
+that resemble definitions. (If you’re interested in this process, all
+my code is on github).
+</p>
+
+<p>
+[SOME WORDS IN BLUE]
+</p>
+
+<p>
+Here, the text in blue indicates words and phrases that seem to
+suggest underlying assumptions about binary gender and gender
+transgression. Right now, I am interested how these assumptions are
+being constructed in subtle ways, in seemingly harmless formulations.
+For example, I am interested in the word “regardless,” which appears
+in many of definitions, and collapses an essentialized notion of
+binary gender with biological sex, and contrasts that with gender as
+expression.
+</p>
+
+<p>
+As I continue to build and clean my dataset (which is a long,
+technical process that involves data gathering, processing, and
+cleaning), I've also been dabbling with using them to train AI models.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-orgcb2b9c0" class="outline-4">
+<h4 id="orgcb2b9c0"><span class="section-number-4">1.7.2.</span> training process</h4>
+<div class="outline-text-4" id="text-1-7-2">
+<p>
+As all of you probably know, the training process begins with the
+model scraping and processing massive amounts of text from the
+internet. From this training data, it develops an understanding of
+what words mean based on context, compile numerical probabilities for
+each word relationship to other words in the database. It represents
+these probabilities with numbers, with actually a very large list of
+numbers, known technically as "word vectors."
+</p>
+
+<p>
+[KING - MAN + WOMAN = QUEEN]
+</p>
+
+<p>
+Here is a famous formula that introduced this technology “word
+vectors” to the world, which comes from the paper “Efficient
+Estimation of Word Representations in Vector Space,” which was
+published by Google researchers in 2013.
+</p>
+
+<p>
+[WORD VEC PAPER]
+</p>
+
+<p>
+In this formula, the idea is that by taking all the numbers that
+represent king, then subtracting the ones that represent man, and
+adding the ones that represent woman, you will get queen. I won't get
+into the sexism of this formula (what exactly is being subtracted, for
+example? is it a biological thing, a social thing?), but I want to
+point out that it has great currency as it is the formula that
+introduced this technology to the world.
+</p>
+
+<p>
+You can think of these numbers, or scores, functioning like
+definitions, which represent the word's meaning for the computer.
+Here's an example of the vector for the word "woman." (taken from a
+famous word vector dataset called "GLOVE" based off of Twitter data).
+</p>
+
+<p>
+[WOMAN VECTOR]
+</p>
+
+<p>
+To us, these scores look just like a long list of numbers, but to a
+computer, the scores represent a given word's meaning through its
+relationship to every other word in the entire dataset of words.
+That's why, by the way, these models are so large, and why they take
+so long to train. It's because every single word is represented by a
+massive list of probabilities, probabilities for how that word relates
+to every other word in the language. A language model will generate
+content by doing math with the scores attached to each word in its
+database. And the math that they use to make generate text is actually
+math that many of us have heard of before in math class: things like
+matrix multiplication and cosine similarity.
+</p>
+
+<p>
+Prediction, in other words, pervades the whole process. And
+prediction opens a connection between Machine Learning and Trans
+Studies concepts. To demonstrate this connection, I'm going to go into
+a bit of detail behind the training process for these tools,
+explaining some of the mathematical operations in a way that is
+(hopefully) intelligible to non-experts.
+</p>
+
+<p>
+So what are these operations, and how do they work? When a text
+generation model is being trained, it is given a prompt word, let's
+say "woman", and it guesses which word ought to follow "woman." After
+making some guess, let's say it guesses "flies," it then compares it's
+prediction with the actual word from the training sample, "runs" or
+"sings," for example. Once it sees the actual, correct answer, then it
+modifies its data (represented by the word vector), for "woman." With
+enough examples, the model can then create a robust enough vector for
+woman so that it can use this term appropriately even within different
+contexts.
+</p>
+
+<p>
+To create these word vectors, there are three steps, each representing
+an important mathematical function.
+</p>
+
+<p>
+[SLIDE LIST OF FUNCTIONS]
+</p>
+
+<ol class="org-ol">
+<li>first, the hypothesis function</li>
+<li>second, the loss function</li>
+<li>third, the minimizing loss function</li>
+</ol>
+
+<p>
+The hypothesis function starts the process. Because the machine
+doesn't know what words mean, it has to "guess." So it populates each
+word with a vector, consisting of random numbers. It's a starting
+point.
+</p>
+
+<p>
+After making this guess, it moves to the loss funciton. Here, the
+machine will check its prediction against the actual result. It's
+prediction will be wrong, maybe even wildly wrong, but that doesn't
+matter. It compares between the two, the prediction and the result,
+and calculates the difference between them. This calculation is known
+as the "loss."
+</p>
+
+<p>
+Finally, it moves to the minimizing loss function, which employs
+algorithms from calculus (like gradient descent) in order to <i>very
+slightly</i> minimize the loss. In other words, it adjusts the original
+prediction so that it is slightly closer to the intended result. The
+adjustments here are very small, incremental. Because it doesn't know
+the correct answer, it makes a huge number of guesses. This may seem
+inefficient, but with enough guesses, it can actually adjust the
+numbers until there is <i>no difference</i> or <i>almost zero difference</i>
+between our prediction and the actual result.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orga452871" class="outline-3">
+<h3 id="orga452871"><span class="section-number-3">1.8.</span> <span class="todo TODO">TODO</span> approximation &#x2013;&gt; passing</h3>
+<div class="outline-text-3" id="text-1-8">
+<p>
+They work by approximation. A kind of normalization of language. Each
+step of the process it inches toward this goal
+</p>
+
+<p>
+They are turning semantic expressivity into something that can be
+computed and predicted. There's a kind of grounding here.
+</p>
+
+<p>
+There is a connection between how language models approach language,
+what they do to language (the normalization, approximation) of
+language, and what Trans Studies scholars defines as a central desire
+to pass.
+</p>
+
+
+
+<p>
+This method of prediction is a way of normalizing, approximating, how
+language works by using math.
+</p>
+
+
+<p>
+So, put simply: it generalizes how language works by studying examples
+of language forms. Given how much the training data, and the specific
+configurations of words in the training data, affect the model's text
+output, I am very interested in using AI tools to study anti-trans
+bias, and particularly, the fear of contagion, of ROGD.
+</p>
+</div>
+</div>
+
+
+<div id="outline-container-org1cfb1f1" class="outline-3">
+<h3 id="org1cfb1f1"><span class="section-number-3">1.9.</span> plausibility</h3>
+<div class="outline-text-3" id="text-1-9">
+<p>
+Leaving aside all the hype about AI, and whether or not it is
+“intelligent,” or moving toward what the industry calls “general
+intelligence,” AI tools like large language models are really good at
+one thing: at making predictions. At generating content that is
+plausible. This is a fascinating phenomenon, because it makes them
+very good at guessing or improvising, but not at all good at being
+creative, at innovating. A language model can only generate what it
+has already seen before. Even a phenomenon like “hallucination,” that
+a language model spews text that has no bearing in reality, is based
+on the tendency of models to repeat what they've already seen. They
+hallucinate not because they are creative or random, but because they
+are designed from statistical processes to generate what is most
+plausible rather than accurate.
+</p>
+
+<p>
+This tendency toward plausibility creates an interesting perspective
+for me to think through how Trans Studies scholars have characterized
+trans affects. Typically, these scholars describe trans affective
+modes by distinguishing them from "queer" modes. In a roundtable
+called "Thinking with Trans Now" published in Social Text, trans
+studies scholar Eliza Steinbock explains,
+</p>
+
+<p>
+“trans analytics have (historically, though not universally) a
+different set of primary affects than queer theory. Both typically
+take pain as a reference point, but then their affective interest
+zags. Queer relishes the joy of subversion. Trans trades in quotidian
+boredom. Queer has a celebratory tone. Trans speaks in sober detail.
+Perhaps the style of trans studies has been for the most part realist,
+but this should not be mistaken for base materialism. Even speculative
+thinking requires enough detail to launch into new realms.”
+</p>
+
+<p>
+Other trans scholars like Marquis Bey and Andrea Long Chu have made
+similar points; with Bey making the point that queer's intervention
+can be described as "anti" or militant, while trans is "non" or based
+in refusal ("Thinking with Trans Now"); and Chu has remarked that
+trans studies, rather than resisting norms, "requires that we
+understand–as we never have before–what it means to be attached to a
+norm, by desire, by habit, by survival" ("After Trans Studies" 108).
+</p>
+
+<p>
+This makes me wonder, could AI-generated text, as a kind of
+approximation, a normalization, of its training data, be used to study
+the attachments to norms and the quotidian that characterizes trans
+affective modes? Could the same processes also be used to study the
+attachment to norms that characterizes the opposite movement, in
+transphobia, like perspectives driven by the fear of ROGD? What might
+outputs from AI text generation suggest about the allure, the threat,
+the “seduction,” as Trans Studies scholar Cassius Adair puts it, of
+gender transgression?
+</p>
+
+<p>
+While this project might sound very ambitious, I'll admit that, so
+far, my results are not very encouraging. I need to continue to add
+more training data and to tweak my model configuration, probably
+numerous times, before I find something really interesting.
+</p>
+
+<p>
+Nonetheless, here are some excerpts of my language generated by my
+model, which I trained by feeding it some examples of anti-trans
+legislation that I have already prepared.
+</p>
+
+<p>
+[SLIDE SHOWING THE GENERATED TEXT]
+</p>
+
+<p>
+Here, you can see the prompt text (so, text that I entered as a prompt
+to the model, in italics) and the AI model’s responses (where it
+provides a continuation of my prompt) in normal, unitalicized text.
+</p>
+
+<p>
+As you can see from skimming the results, the models are showcasing
+the tendency toward plausibility, specifically in the tendency to
+repeat itself, which is a fascinating concept in machine learning.
+</p>
+
+<p>
+I will close now by coming back to this idea of fear, and particularly
+the fear of contagion, which drives some strains of transphobia.
+Cassius Adair offers a useful perspective for thinking through the
+fear of contagion. In his study of trans erotics, and specifically
+“trans for trans” or "t4t erotics," Adair asks, "Why shouldn't
+transness be transmissible or contagious? Why can't the erotic be a
+site of producing trans identity or practices?" He points out that,
+after all, cis people do it all the time: they use sexuality and
+sexual encounters as sites of identity formation.
+</p>
+
+<p>
+Here, I see Adair doing for contagion what Sedgwick does for shame:
+turning something that is traditionally seen as a negative into
+something that may be generative and productive.
+</p>
+
+<p>
+It is the same kind of thing I hope to accomplish with this project,
+and something that I think is possible by using the tools that we gain
+in English departments—that is—by close reading, or what Sedgwick
+calls, "imaginative close reading."
+</p>
+
+<p>
+This is a kind of reading that allows one to take what has been a tool
+of oppression and turn it into a creative resource. Sedgwick explains
+that this kind of reading exposes “the ways selves and communities
+succeed in extracting sustenance from the objects of a culture—even of
+a culture whose avowed desire has often been not to sustain them”
+(Touching Feeling 151). Thank you.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge6557e9" class="outline-3">
+<h3 id="orge6557e9"><span class="section-number-3">1.10.</span> pattern matching code</h3>
+<div class="outline-text-3" id="text-1-10">
+<p>
+lower: gender
+</p>
+
+<p>
+is_punct: true
+</p>
+
+<p>
+lower: means, signifies, is defined
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: CaladoF</p>
+<p class="date">Created: 2024-06-27 Thu 16:33</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
