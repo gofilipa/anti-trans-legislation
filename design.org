@@ -27,22 +27,6 @@ Add:
 - [ ] close readings of state bills. 
 
 ** overview
-About my work customizing an AI model to study transphobia in
-language--specifically, in current "anti-trans" legislation that is
-proliferating across the United States. This work involves:
-- data gathering, cleaning, and processing
-- AI model fine-tuning
-- future work in:
-  - futher cleaning, processing
-  - RAG methods
-
-The focus on the fine-tuning process is to exploit the ways that
-models learn, which is by a method of generalization, to inform the
-study of transphobia. And how they might engage with conversations in
-Trans Studies regarding transphobia, particularly as manifested in the
-last several years in the false condition of ROGD, Rapid Onset Gender
-Dysphoria.
-
 Research question:
 - Training is a kind of normalization of language meaning. It
   approximates. How can this be related to Trans Studies?
@@ -53,72 +37,155 @@ Research question:
   seduction of transphobia? The way that transphobia /moves/?
 
 ** Thank you for having me here today.
-These days, public discourse seems to be beyond the reach of (or even
-desire for) deep, critical thinking. Right now, we're witnessing a
-particular kind of discourse around feminism, "gender critical
-feminism," that twists understandings of tolerance and equality to
-perpatuate a patriarchial control over identity and expression.
+SLIDE 1 - TITLE
 
-** TODO antitrans quotes
-One way that we've seen this is in the explosion of "anti-trans"
-literature across the United States. For those who are unfamiliar,
-this legislation limits trans peoples' access to basic healthcare,
-public facilities, legal recognition, and more.
+Today I'm going to talk about my work customizing, that is,
+fine-tuning, a large language model for text generation, to study
+language related to sex, gender, and sexuality. Specifically, I'm
+interested in how language can encode bias and discrimination about
+sex, gender, and sexuality. I believe that language models are apt
+tools for studying bias in language, which I will demonstrate in this
+talk through an analysis of the fine-tuning process. In what follows,
+I will walk you through that process of model fine-tuning, with the
+goal of surfacing the roles that approximation and plausibility play
+in llm text generation, and how these concepts relate specifically to
+critical theorizing about sex, gender, and sexuality.
 
-[ANTI-TRANS LEGISLATION MAP]
+My custom dataset, which I have been using to fine-tune AI models, is
+built from a collection of "anti-trans" legislation that has been
+sweeping across the United States over the past several years. 
 
-Here, you can see a map of where these bills are most concentrated
-across the country, and a chart of how many bills are proposed and
-passed over the last four years. Notice that this year, though we are
-hardly in the fifth month, we’ve almost caught up to the total bills
-for last year.
+SLIDE 2 - ANTI-TRANS LEGISLATION TRACKER
 
-[SOME QUOTES? THAT SHOW REASONING BEHIND THESE BILLS]
+Here are some images from a wonderful website, The "Anti-Trans
+Legislation Tracker," by journalist Erin Reed, who is carefully
+following the legislation as it is being debated and passed all over
+the country. For those of you who are not aware, this legislation
+limits trans peoples' basic rights: like access to healthcare and
+bathrooms. As you can see in the bottom graph, the number of bills has
+been exploding in recent years, with the number of bills in this
+current year already about to overtake that of last year.
 
-SOME ANALYSIS ON THIS PAPER, ABOUT FEAR.
+I'm interesed in how these bills are defining terms like gender, sex,
+and sexuality. So I created a list of these terms, and used that list
+to fine-tune an llm for text generation. The idea was that I could
+then query the model, asking it questions like "what is sex" and "what
+is gender".
+
+I anticipated that the results (which I will show at the end of my
+talk) would reveal how bias adheres to nuances of language, to things
+like word choice and syntax. I also anticipated that something about
+the fine-tuning process itself might suggest something about reading
+practices, specifically the way that we analyze concepts like
+transphobia from a humanistic perspective. How might transphobia, as a
+kind of fear, emerge in text that has been, so to speak,
+computationally "generalized" through a massive statistical process
+designed to predict the next most plausible word?
+
+** RODG
+Before I turn to the technical processes of creating my dataset and
+training the language model, I want to linger a bit over this notion
+of fear, specifically as it drives discourses of transphobia in the
+United States. Underlying a lot of these bills, especially the ones
+that ban "gender affirming care" for adolescents, is a fear of
+transness as being something contagious.
+
+SLIDE 3 - LITTMAN'S PAPER
+
+In 2018, a very controversial paper by Lisa Littman was released,
+which coined the term "Rapid Onset Gender Dysphoria," to describe a
+condition in which transness can be spread among adolescents in friend
+groups and other social settings. The paper recieved numerous
+criticisms, which involving how it recruited research subjects, which
+are parents of transgendered teens, from notable anti-trans or gender
+critical websites and online forums, to the writer Littman, who had
+not previously studied the topic, and who had accepted feedback from
+biased sources, like the publisher of a forum called "Youth
+TransCritical Professionals."
+
+Although the term "Rapid Onset Gender Dysphoria" is not recognized by
+any major medical association, and has been denounced by several,
+Littman's paper has had an effect on public discourse, sparking
+numerous books, shows, and programming around ROGD.
+
+SLIDE 4 - WPATH & CASS
+
+Some recent examples include the "WPATH files", a supposed expose of
+medical malpractice with regard to trans-affirmative care, which
+targets WPATH, or the World Professional Association for Transgender
+Health. Another is the "Cass Review" in the UK, which was commissioned
+by the NHS and recommends limiting medical treatments like puberty
+blockers and hormones for teenagers until they become legal adults.
+
+SLIDE 5 - SHRIER BOOK COVER
+
+The academic research constrasts with more popular works, like the
+book "Irreversible Damage The Transgender Craze Seducing Our
+Daughters", by author Abigail Shrier, which was released in 2020 to
+mixed reviews. Shrier's thesis, which becomes more and more explicit
+as the book progresses, is that minors do not know what they want, and
+cannot be trusted to make what she calls "irreversable" decisions.
+According to Shrier, even something like social transition, in which a
+person changes names, pronouns, and dress, is dangerous because it is
+difficult to reverse. She writes with a disarming irony, for example,
+saying things like:
+
+SLIDE 6 - SHRIER QUOTE
+
+#+begin_quote
+"Of course, the very prospect that their child might self-harm would
+bring all but the coldest parents to their knees. If adopting [his] new
+name and pronouns and buying [him] new opposite-sex clothing is what it
+takes to keep [him] alive, most parents would leap aboard the gender
+train... You don’t want your child to hang 'himself' in the garage
+just because you accidentally referred to her as 'Rebecca.'” (103-104)
+#+end_quote
 
 ** what does knowledge do?
 Humanists have unique tools for thinking through such discourses based
-on fear and repression.
+on fear and repression of sex, gender, and sexuality.
+
+SLIDE 7 - SEDGWICK WORKS
 
 Here, I’m inspired by the scholarship of Eve Kosofsky Sedgwick, who is
-a major and influential figure in Queer Studies. She is most famous
-for books like /The Epistemology of the Closet/ (pictured on the left)and her essay, "Paranoid Reading and Reparative Reading" (pictured
-right), where she seeks and analyzes queer themes and repressive
-structures in authors like Henry James, Oscar Wilde, and Marcel
-Proust.
+a major and influential figure in my field, which is Queer Studies.
+She is most famous for books like /The Epistemology of the Closet/
+(pictured on the left) and later on, her essay, "Paranoid Reading and
+Reparative Reading" (pictured right), where she seeks and analyzes
+repressive structures in authors like Henry James, Oscar Wilde, and
+Marcel Proust.
 
 Within the context of this project, I'm interested in Sedgwick's work
-for two reasons. First, though she doesn't write about technology, her
-means of analysis, particularly her manner of close-reading, lends
-well to deconstructing computational concepts. The way she structures
-her material, often thinking in terms of binaries and other highly
-delineated structures, evokes (for me) the constraints of
-computational forms. In /Epistemology of the Closet/, for example, she
-expose what she calls the unstable binaries between heterosexual and
-homosexual categories. Through close-readings of fiction, she exposes
-the inherent instability of these binaries — where one term is not
-symmetrical or simply subordinated to another, but rather, depends the
-other for its meaning through “simultaneous subsumption and exclusion”
-(10). Such binaries, she explains, are “sites that are peculiarly
-densely charged with lasting potentials for powerful manipulation”
-(10).
+for two reasons. First, though she doesn't write about technology
+explicitly, her means of analysis, particularly her manner of
+close-reading, lends well to deconstructing computational concepts.
+The way she structures her material, often thinking in terms of
+binaries and other highly delineated structures, evokes (for me) the
+constraints of computational forms, and the productive ways of
+thinking with these constraints. In /Epistemology of the Closet/, for
+example, she expose what she calls the unstable binaries between
+heterosexual and homosexual categories. Through close-readings of
+fiction, she exposes the inherent instability of these binaries —
+where one term is not simply symmetrical or subordinated to another,
+but rather, depends the other for its meaning through “simultaneous
+subsumption and exclusion” (10). Such binaries, she explains, are
+“sites that are peculiarly densely charged with lasting potentials for
+powerful manipulation” (10).
 
 The second reason I'm interested in Sedgwick is because she offers
 provocative ways of thinking through repressive discourses like those
 based on fear. Throughout the trajectory of her career, her reading
-develops from one that she calls "paranoid reading" into a new mode
-called “reparative reading.” She defines paranoid reading as a
-critical practice based on “the logic of repression” (a logic which
-she traces to Foucault), that searches for hidden meaning in text with
-the goal of exposing "truth". In her famous essay on this topic,
-Sedgwick asserts that this practice, of unveiling or exposing truth,
-in critical analysis, does not do much. Merely knowing that something
-is true, revealing the presence of systematic oppression, injustice,
-discrimination, for example (and here, Sedgwick is theorizing within
-the context of the AIDs crisis), is not enough to “enjoin that person
-to any specific train of epistemological or narrative consequences”
-(123). Rather, Sedwicks seeks to
+develops from one that she calls "paranoid reading" (illustrated in
+/Epistemology of the Closet/) into a new mode called “reparative
+reading.” She defines paranoid reading as a critical practice based on
+“the logic of repression” (a logic which she traces to Foucault), that
+searches for hidden meaning in text with the goal of exposing "truth".
+In her famous essay on this topic, the essay on the right, Sedgwick
+asserts that this practice, of unveiling or exposing truth, for
+example, revealing the presence of systematic oppression, injustice,
+discrimination, is not enough to “enjoin that person to any specific
+train of epistemological or narrative consequences” (123). Rather,
+Sedwicks seeks to
 
 #+begin_quote
 "Mov[e] from the rather fixed question Is a particular piece of
@@ -132,11 +199,11 @@ connection rather than exposure, in which a reader allows herself to
 be taken by surprise. What if, Sedgwick asks, we take something that
 is typically seen as a negative, structuring force in queer identity,
 like the feeling of shame, and examine how it unlocks creativity and
-productivity? Sedgwick describes shame as a contagious affect, which
-may be read as a mobilizing and creative force in text: she explains
-that,
+productivity? Sedgwick here describes shame as a contagious affect,
+which may be read as a mobilizing and creative force in text. She
+explains that,
 
-[SLIDE 6: SHAME QUOTES]
+SLIDE 8: SHAME QUOTES
 
 #+begin_quote
 “Shame—living, as it does, on and in the muscles and capillaries of
@@ -157,125 +224,101 @@ script for interpreting other people’s behavior toward oneself” (62)
 
 She demonstrates this reading practice by analyzing metaphors that are
 made possible through shame, for example in the fiction of Henry
-James. In one example, she connects moments of "blushing" and
-"flushing" to a fantasy of the skin being entered. Shame, in this
-reading, is a way of pulling other affects and images into relation.
-This is opposed to paranoid reading, which might plumb shame for what
-it reveals about a hidden or repressed sexuality. She explains that,
-“When we tune into James’s language on these frequencies, it is not as
-superior, privileged eavesdroppers on a sexual narrative hidden from
-himself; rather, it is as an audience offered the privilege of sharing
-his exhibitionistic enjoyment and performance of a sexuality organized
-around shame” (54).
-- shame as something that spreads, opens, makes new kinds of
-  connections possible; rather than something to simply prove the
-  existance. What does /shame do/?
+James, where she connects moments of "blushing" and "flushing" to a
+fantasy of the skin being entered. Shame, in her reading, is a way of
+pulling other affects and images into relation. This is opposed to
+paranoid reading, which might plumb shame for what it reveals about a
+hidden or repressed sexuality. She explains that, “When we tune into
+... language on these frequencies, it is not as superior, privileged
+eavesdroppers on a sexual narrative... rather, it is as an audience
+offered the privilege of sharing... exhibitionistic enjoyment and
+performance of a sexuality organized around shame” (54).
 
-** fear
+In other words, rather than ask "What does shame reveal," Sedgwick
+asks, "What does shame do"?
+
 I'm interested in this move that Sedgwick makes, of taking what is
 typically seen as a negative, repressive affect, like shame, and
 seeing how it opens up possibilities for reading new connections in
 text. Specifically, I wonder one might read something productive in
 fear--of the phobias--that pervade anti-trans discourses. 
 
-In my current work, I am exploring this fear in anti-trans legislation.
-
-[ROGD PAPER]
-
-For example, one of the things I'm studying is the (now disproved)
-clinical phenomenon of so-called "Rapid Onset Gender Dysphoria"
-(ROGD), which stipulates that trans-ness can be contagious among
-adolescents. The phrase was coined by Dr. Lisa Littman in her study of
-parents of transgender youth, published in 2018. In her study, Littman
-interviews over 250 parents of transgender children and concludes that
-what she calls "peer contagion" of gender dysphoria may be a
-contributing factor for adolescents who decide to transition. Almost
-immediately following its publication, Littman's study was criticized,
-including by the publisher, and its methodology and findings have been
-disavowed by every major medical association since then.
-
-Although ROGD is not recognized as a valid diagnosis, it has been used
-and is still used as fodder for anti-trans propaganda and
-discrimination. It has made its way into the public lexicon, appearing
-in books, shows, and most importantly for my project, legislative
-bills that are being written, debated, and passed across the United
-States.
-
-ADD SHRIER: SOME QUOTES ABOUT RODG
-
-I’m interested in this threat of gender transgression, and
-specifically, in the language outlawing gender transgression, of
-transitioning from one gender to another, or of opting out of binary
-systems of gender. Why is this particular kind of transgression so
-controversial among a large part of our population? Why is the fear of
-this transgression itself so contagious?
+Moving back to my work, to the language around anti-trans
+discrimination, I’m interested in this threat of gender transgression,
+and specifically, in the language outlawing gender transgression in
+the anti-trans bills. Why is this fear of gender transition, or opting
+out of binary systems of gender, so seductive to a large part of our
+population? Why is the fear of this transgression itself so
+contagious?
 
 ** processing and training
-To study this transphobia, I've decided to train an LLM off
-definitions of gender (and related terms) from the anti-trans bills. I
-am interested in how these models are created, how they are "trained,"
-so to speak, so I can trace how they perpetuate biases, like
-transphobia, from their training data into the text that they
-generate.
+As I mentinoed earlier, I've decided to train an LLM off definitions
+of gender (and related terms) from these anti-trans bills. I am
+interested in how the training process of these models, and the effect
+of this training process on bias in language.
 
 In what follows, I'm going to outline a bit of the data gatherering,
-processing, and model training that I've been doing for a little over
-the last year, that I've worked on this project.
+processing, and model training. The goal will be to trace how
+technical processes perpetuate biases, like transphobia, from their
+training data into the text that they generate.
 
-[[./img/datasets_hf.png][image of dataset from HF]]
+SLIDE 9 - HUGGINGFACE DATASETS
 
 The first dataset that I created, which is now available on
-HuggingFace Datasets (for those of you who don't know, a platform for
-sharing Machine Learning projects and tools, much like Github),
-consists of definitions of "gender" and related terms from
-congressional and senate bills, from the last two years. It consists
-of 82 rows, a very small dataset, which I gathered and cleaned using
-Python programming.
+HuggingFace Datasets (for those of you who don't know, HuggingFace is
+a platform for sharing Machine Learning projects and tools, much like
+Github). It consists of definitions of "gender" and related terms from
+congressional and senate bills, from the last two years. It's a
+relatively small dataset, topping out at 82 rows. But I've been using
+it as a kind of test dataset while I work on gathering the state
+bills, which scattered across various legislative websites.
 
-[[./img/df.png][image of df of bills]]
+SLIDE 10 - DF OF BILLS
 
-Here's an image of the bills that I gathered and scraped from
-congressional servers. Here, I had to download a dataset of the bill
-ID numbers from the congress.gov website. Then I wrote a web scraper
-to get the plain text of all the bills by their ID. After gathering
-the bills, I went through an intensive data preparation process, which
-involved cleaning the text and extracting definitions of gender and
-related terms from it. I'll highlight some of the major moves from
-this process.
+For this dataset, the gathering process began on congress.gov, where I
+downloaded metadata containing bill titles, ID numbers, and other
+metadata. Then I wrote a web scraper to get the plain text of all the
+bills by their ID. After gathering the bills, I went through an
+intensive data preparation process, which involved cleaning the text
+and extracting definitions of gender and related terms from it. I'll
+highlight some of the major moves from this process. (And I'll also
+say here that all of my Python code that I wrote for this project is
+publically available, under my github profile).
 
-First, for those of you familiar with Natural Language Processing
-methods, I created an Named Entity Recognizer to recognize terms
-related to gender and related terms. 
+To extract the definitions of gender terms from these bills, the first
+thing I did was to write a pattern matcher, known technically as a
+"named entity recognizer" (for those of you familiar with NLP), that
+can recognize terms like "gender" and other related terms in text.
 
-[[./img/ner.png][image of ner code]]
+SLIDE 11 - NER CODE
 
 You can see here a list of labels, organized into the general
 categories "sex", "gender", and "sexulaity", with each label
-specifying a pattern, like the phrase "biological sex" for example.
-I tried to include various formulations of each term, for example,
+specifying a pattern, like the phrase "biological sex" for example. I
+tried to include various formulations of each term, for example,
 "transgender" is delineated three ways, as a single word, as a
 two-word phrase, and as a hypthenated word. This ensures that I would
-capture all or most instances of the terms.
+capture most if not all instances of the term
 
-Then, I used that entity recognizer as a basis for a pattern matcher,
-which would search for those phrases if they are contained within a
-definition. 
+Then, I used that entity recognizer as a basis for a more
+sophisticated matcher, which would search for those phrases if they
+are contained within a definition.
 
-[[./img/matcher.png][image of matcher code]]
+SLIDE 12 - MATCHER CODE
 
-Here you can see the pattern matcher's logic. It starts by searching
-for punctuation (specifically, I'm looking for a quotation mark, which
-typically surrounds definitions), then looking for a gender term (from
-the recognizer), then some wild card terms, just in case there are
-extra words or punctuation in the definition, and finally, some terms
-that are common in definitions, like "means", "signifies", or
-"includes." For those of you who can read some Python, you'll
-recognize that I've written comments (indicated by the hashtag
-character) that describes what parts of the matcher is doing.
-
-[[./img/matcher_results.png][image of the matcher results]]
+For those of you familiar with JSON syntax, you can perhaps see the
+pattern matcher's logic. It starts by searching for punctuation
+(specifically, I'm looking for a quotation mark, which typically
+surrounds definitions), then looking for a gender term (that pulls
+from the entity recognizer), then some wild card terms, just in case
+there are extra words or punctuation in the definition. Finally, I
+indicate some terms that are common in definitions, like "means",
+"signifies", or "includes."
 
 Then, I ran the matcher to extract the definitions from the bills.
+
+SLIDE 13 - MATCHER RESULTS
+
 Here are some of the initial results from that extraction. You can see
 that the matcher was sensitive enough to capture longer phrases, like
 "gender transition surgery means" as well as variants of how
@@ -283,9 +326,12 @@ definitions are constructed, using the word "includes" instead of
 "means", for example.
 
 After extracting the definitions, I then cleaned them up and formatted
-them into a neat (or neater) list of definitions. For that, I used
-regex (Regular Expressions). The final output then contains
+them into a neat (or neater) list of definitions. To do that, I used
+regex (Regular Expressions), which is a powerful (but famously
+convoluted) way of doing word searches. The final output then contains
 definitions like the following:
+
+SLIDE 14 - DEFS
 
 #+begin_quote
 'The term gender identity means a persons self-perception of their gender or claimed gender, regardless of the persons biological sex.',
@@ -299,10 +345,10 @@ in subtle ways, in seemingly harmless formulations. For example, in
 the first definition, I am interested in the words "self-perception"
 and "claimed", and how a view of gender identity as a subjective
 experience engages with behavioral dimensions of gender expression, at
-least as it has been theorized by scholars like Judith Butler. I am
-also interested in the word “regardless,” which appears often, in
-about half of the definitions, and suggests a kind of contrast between
-sex and gender that seems to reify some kind of binary opposition or
+least as it has been theorized by Queer Studies scholars like Judith
+Butler. I am also interested in the word “regardless,” which appears
+often, in about half of the definitions, and suggests a contrast
+between sex and gender that seems to reify a binary opposition or
 tension between the two. In other words, gender as being defined
 without regard to sex, as if notions of gender and sex do not
 influence each other, and never blend into one another, or make
@@ -310,102 +356,77 @@ productive use of each other. Again I'm thinking here of Judith
 Butler, and her famous (and contentious) claim that even biological
 sex is a discursive phenomenon.
 
-As I continue to build and clean my dataset (which is a long,
-technical process that involves data gathering, processing, and
-cleaning), I've also been dabbling with using them to train AI models.
+As I continue to build and clean my datasets, I've also been dabbling
+with using them to train AI models.
 
-As all of you probably know, the training process begins with the
-model scraping and processing massive amounts of text from the
-internet. From this training data, it develops an understanding of
-what words mean based on context, compile numerical probabilities for
-each word relationship to other words in the database. It represents
-these probabilities with numbers, with actually a very large list of
-numbers, known technically as "word vectors."
-
-[KING - MAN + WOMAN = QUEEN]
-
-Here is a famous formula that introduced this technology “word
-vectors” to the world, which comes from the paper “Efficient
-Estimation of Word Representations in Vector Space,” which was
-published by Google researchers in 2013.
-
-[WORD VEC PAPER]
-
-In this formula, the idea is that by taking all the numbers that
-represent king, then subtracting the ones that represent man, and
-adding the ones that represent woman, you will get queen. I won't get
-into the sexism of this formula (what exactly is being subtracted, for
-example? is it a biological thing, a social thing?), but I want to
-point out that it has great currency as it is the formula that
-introduced this technology to the world.
-
-You can think of these numbers, or scores, functioning like
-definitions, which represent the word's meaning for the computer.
-Here's an example of the vector for the word "woman." (taken from a
-famous word vector dataset called "GLOVE" based off of Twitter data).
-
-[WOMAN VECTOR]
+As you may already know, an AI model "learns" what words mean based on
+context. From its training data, it compile numerical probabilities
+for each word relationship to other words in the database. It
+represents these probabilities with numbers, with actually a very
+large list of numbers, known technically as "word vectors."
 
 To us, these scores look just like a long list of numbers, but to a
 computer, the scores represent a given word's meaning through its
-relationship to every other word in the entire dataset of words.
-That's why, by the way, these models are so large, and why they take
-so long to train. It's because every single word is represented by a
-massive list of probabilities, probabilities for how that word relates
-to every other word in the language. A language model will generate
-content by doing math with the scores attached to each word in its
-database. And the math that they use to make generate text is actually
-math that many of us have heard of before in math class: things like
-matrix multiplication and cosine similarity.
+relationship to every other word in the entire dataset of words. A
+language model will generate content by doing math with the scores
+attached to each word in its database. And the math that they use to
+make generate text is math that many of us have heard of before in
+high school math: things like matrix multiplication and cosine
+similarity.
+
+SLIDE 15 - VECTORS
+
+And here's a famous example of a very simple formula. In this formula,
+the idea is that by taking all the numbers that represent king, then
+subtracting the ones that represent man, and adding the ones that
+represent woman, you will get queen. I won't get into the sexism of
+this formula (what exactly is being subtracted, for example? is it a
+biological object, a social behavior?), but I want to point out that
+it has great currency as it is the formula that introduced this
+technology to the world, in the paper displayed here, back in 2013.  
 
 Prediction, in other words, pervades the whole process. And
 prediction opens a connection between Machine Learning and Trans
 Studies concepts. To demonstrate this connection, I'm going to go into
 a bit of detail behind the training process for these tools,
-explaining some of the mathematical operations in a way that is
-(hopefully) intelligible to non-experts.
-
-So what are these operations, and how do they work? When a text
-generation model is being trained, it is given a prompt word, let's
-say "woman", and it guesses which word ought to follow "woman." After
-making some guess, let's say it guesses "flies," it then compares it's
-prediction with the actual word from the training sample, "runs" or
-"sings," for example. Once it sees the actual, correct answer, then it
-modifies its data (represented by the word vector), for "woman." With
-enough examples, the model can then create a robust enough vector for
-woman so that it can use this term appropriately even within different
-contexts.
+explaining some of the mathematical operations. 
 
 To create these word vectors, there are three steps, each representing
 an important mathematical function.
 
-[SLIDE LIST OF FUNCTIONS]
+SLIDE 16 - LIST OF FUNCTIONS
 
 1. first, the hypothesis function
 2. second, the loss function
 3. third, the minimizing loss function
 
-The hypothesis function starts the process. Because the machine
-doesn't know what words mean, it has to "guess." So it populates each
-word with a vector, consisting of random numbers. It's a starting
-point.
+First, because the machine doesn't know what words mean, it has to
+"guess." (This is called the hypothesis function), Here, it populates
+each word with a vector, consisting of random numbers. It's a starting
+point. These random numbers will determine what word it chooses to
+follow any given word. It might guess that the word "woman", for
+example, should be followed by the word "flies".
 
-After making this guess, it moves to the loss funciton. Here, the
-machine will check its prediction against the actual result. It's
-prediction will be wrong, maybe even wildly wrong, but that doesn't
-matter. It compares between the two, the prediction and the result,
-and calculates the difference between them. This calculation is known
-as the "loss."
+After making this guess, it moves to the next step. Here, the machine
+will check its prediction against the actual result. In the example,
+the actual result is "sings." It's prediction was wrong, but that
+doesn't matter. It compares between the two, the prediction and the
+result, and calculates the difference between them. This calculation
+is made by using what's called the "loss function."
 
-Finally, it moves to the minimizing loss function, which employs
+Finally, it moves to the minimizing this "loss", which employs
 algorithms from calculus (like gradient descent) in order to /very
 slightly/ minimize the loss. In other words, it adjusts the original
 prediction so that it is slightly closer to the intended result. The
 adjustments here are very small, incremental. Because it doesn't know
 the correct answer, it makes a huge number of guesses. This may seem
 inefficient, but with enough guesses, it can actually adjust the
-numbers until there is /no difference/ or /almost zero difference/
-between our prediction and the actual result.
+numbers until there is /almost zero difference/ between our prediction
+and the actual result.
+
+With enough examples, the model can then create a robust enough vector
+for woman so that it can use this term appropriately even within
+different contexts.
 
 ** TODO approximation --> passing
 
@@ -527,12 +548,25 @@ succeed in extracting sustenance from the objects of a culture—even of
 a culture whose avowed desire has often been not to sustain them”
 (Touching Feeling 151). Thank you.
 
-** pattern matching code
+** bank
 
-lower: gender
+[KING - MAN + WOMAN = QUEEN]
 
-is_punct: true
+Here is a famous formula that introduced this technology “word
+vectors” to the world, which comes from the paper “Efficient
+Estimation of Word Representations in Vector Space,” which was
+published by Google researchers in 2013.
 
-lower: means, signifies, is defined
+[WORD VEC PAPER]
+
+
+
+You can think of these numbers, or scores, functioning like
+definitions, which represent the word's meaning for the computer.
+Here's an example of the vector for the word "woman." (taken from a
+famous word vector dataset called "GLOVE" based off of Twitter data).
+
+[WOMAN VECTOR]
+
 
 
