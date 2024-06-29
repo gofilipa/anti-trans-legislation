@@ -1,40 +1,22 @@
 * What can language models tell us about transphobia?
 
-https://bit.ly/gc-english-2024
 
-** revision notes
-Structure:
-- overview
-- introduction: transphobia quotes from Shrier? or Cass, WPATH? Or the
-  bills? 
+
+** outline
+- anti-trans legislation, transphobia
 - what can we learn by studying fear?
-  - Sedgwick
-  - not about unearthing transphobia but studying how it moves.
+  - Sedgwick: studying how fear moves.
 - ROGD and interest in fear
 - deep look into llms, how they are trained
   - they work by approximation, normalization, in a mathematical
     process.
 - relationship to Trans Studies and the desire to "pass"
-- 
-
-Add:
-- [ ] start with quote on transphobia, from shrier, cass, or WPATH
-  files?
-- [ ] training process: vectors
-- [ ] training process: hypothesis, loss, gradient
-  - this is the work, making all of this intelligible to non-technical
-    audiences, in a way that excites them.
-- [ ] close readings of state bills. 
+- plausibility and passing
 
 ** overview
 Research question:
-- Training is a kind of normalization of language meaning. It
-  approximates. How can this be related to Trans Studies?
-- ROGD is the idea that being trans is contagious. The condition
-  itself implies that there is a fear of transness, a transphobia. It
-  is /this fear/ that I am interested in.
-- Is there a way to use the training process to study the appeal and
-  seduction of transphobia? The way that transphobia /moves/?
+- Is there a way to use the llm training process to study the appeal
+  and seduction of transphobia? The way that transphobia /moves/?
 
 ** Thank you for having me here today.
 SLIDE 1 - TITLE
@@ -424,39 +406,18 @@ inefficient, but with enough guesses, it can actually adjust the
 numbers until there is /almost zero difference/ between our prediction
 and the actual result.
 
-With enough examples, the model can then create a robust enough vector
-for woman so that it can use this term appropriately even within
-different contexts.
-
-** TODO approximation --> passing
-
-They work by approximation. A kind of normalization of language. Each
-step of the process it inches toward this goal
-
-They are turning semantic expressivity into something that can be
-computed and predicted. There's a kind of grounding here.
-
-There is a connection between how language models approach language,
-what they do to language (the normalization, approximation) of
-language, and what Trans Studies scholars defines as a central desire
-to pass.
-
-
-
-This method of prediction is a way of normalizing, approximating, how
-language works by using math.
-
-
-So, put simply: it generalizes how language works by studying examples
-of language forms. Given how much the training data, and the specific
-configurations of words in the training data, affect the model's text
-output, I am very interested in using AI tools to study anti-trans
-bias, and particularly, the fear of contagion, of ROGD.
-
+With enough examples, the model can then create
+a robust enough vector for woman so that it can use this term
+appropriately even within different contexts.
 
 ** plausibility 
+The point I'm trying to make is that these models work by
+approximation. A kind of normalization of language. Each step of the
+process it inches toward this goal. They are turning semantic
+expressivity into something that can be computed and predicted.
+
 Leaving aside all the hype about AI, and whether or not it is
-“intelligent,” or moving toward what the industry calls “general
+“intelligent,” or moving toward what marketing calls “general
 intelligence,” AI tools like large language models are really good at
 one thing: at making predictions. At generating content that is
 plausible. This is a fascinating phenomenon, because it makes them
@@ -476,6 +437,7 @@ modes by distinguishing them from "queer" modes. In a roundtable
 called "Thinking with Trans Now" published in Social Text, trans
 studies scholar Eliza Steinbock explains,
 
+#+begin_quote
 “trans analytics have (historically, though not universally) a
 different set of primary affects than queer theory. Both typically
 take pain as a reference point, but then their affective interest
@@ -484,6 +446,7 @@ boredom. Queer has a celebratory tone. Trans speaks in sober detail.
 Perhaps the style of trans studies has been for the most part realist,
 but this should not be mistaken for base materialism. Even speculative
 thinking requires enough detail to launch into new realms.”
+#+end_quote
 
 Other trans scholars like Marquis Bey and Andrea Long Chu have made
 similar points; with Bey making the point that queer's intervention
@@ -493,34 +456,35 @@ trans studies, rather than resisting norms, "requires that we
 understand–as we never have before–what it means to be attached to a
 norm, by desire, by habit, by survival" ("After Trans Studies" 108).
 
+It seems to me--there is a fascinating connection between how language
+models approach language, what they do to language (the normalization,
+approximation) of language, and what Trans Studies scholars defines as
+a central desire to pass.
+
 This makes me wonder, could AI-generated text, as a kind of
 approximation, a normalization, of its training data, be used to study
-the attachments to norms and the quotidian that characterizes trans
-affective modes? Could the same processes also be used to study the
-attachment to norms that characterizes the opposite movement, in
-transphobia, like perspectives driven by the fear of ROGD? What might
-outputs from AI text generation suggest about the allure, the threat,
-the “seduction,” as Trans Studies scholar Cassius Adair puts it, of
-gender transgression?
+the attachments to norms and the quotidian that characterizes--not
+trans affective modes--but those based on fear of transness? Could
+these same processes be used to study the attachment to norms that
+characterizes transphobia, like perspectives driven by the fear of
+ROGD? What might outputs from AI text generation suggest about the
+allure, the threat, the “seduction,” as Trans Studies scholar Cassius
+Adair puts it, of gender transgression?
 
 While this project might sound very ambitious, I'll admit that, so
-far, my results are not very encouraging. I need to continue to add
-more training data and to tweak my model configuration, probably
-numerous times, before I find something really interesting.
+far, my results are not very encouraging. I need to continue to tweak
+my model configuration, probably numerous times, before I find
+something really interesting.
+
+SLIDE 
 
 Nonetheless, here are some excerpts of my language generated by my
 model, which I trained by feeding it some examples of anti-trans
 legislation that I have already prepared.
 
-[SLIDE SHOWING THE GENERATED TEXT]
-
-Here, you can see the prompt text (so, text that I entered as a prompt
-to the model, in italics) and the AI model’s responses (where it
-provides a continuation of my prompt) in normal, unitalicized text.
-
 As you can see from skimming the results, the models are showcasing
 the tendency toward plausibility, specifically in the tendency to
-repeat itself, which is a fascinating concept in machine learning.
+repeat itself, which is its own area of study in machine learning research.
 
 I will close now by coming back to this idea of fear, and particularly
 the fear of contagion, which drives some strains of transphobia.
@@ -536,37 +500,15 @@ Here, I see Adair doing for contagion what Sedgwick does for shame:
 turning something that is traditionally seen as a negative into
 something that may be generative and productive.
 
-It is the same kind of thing I hope to accomplish with this project,
-and something that I think is possible by using the tools that we gain
-in English departments—that is—by close reading, or what Sedgwick
-calls, "imaginative close reading."
-
 This is a kind of reading that allows one to take what has been a tool
 of oppression and turn it into a creative resource. Sedgwick explains
 that this kind of reading exposes “the ways selves and communities
 succeed in extracting sustenance from the objects of a culture—even of
 a culture whose avowed desire has often been not to sustain them”
-(Touching Feeling 151). Thank you.
+(Touching Feeling 151).
 
-** bank
+Thank you.
 
-[KING - MAN + WOMAN = QUEEN]
-
-Here is a famous formula that introduced this technology “word
-vectors” to the world, which comes from the paper “Efficient
-Estimation of Word Representations in Vector Space,” which was
-published by Google researchers in 2013.
-
-[WORD VEC PAPER]
-
-
-
-You can think of these numbers, or scores, functioning like
-definitions, which represent the word's meaning for the computer.
-Here's an example of the vector for the word "woman." (taken from a
-famous word vector dataset called "GLOVE" based off of Twitter data).
-
-[WOMAN VECTOR]
 
 
 
