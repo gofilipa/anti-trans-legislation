@@ -1,0 +1,20 @@
+* memory
+gpt-neo-2.7b:
+- RAM: 11g
+- disk: 36g
+
+gpt-neo-1.3b:
+- RAM: 6g
+- disk: 31g
+
+gpt-neo-125m:
+- RAM: 2.3g
+- disk: 26g
+
+bloom-560m:
+- RAM: 4g
+- disk: 27g
+
+bloom-1.7b:
+- RAM: 8g
+- disk: 29g

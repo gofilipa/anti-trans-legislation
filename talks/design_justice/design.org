@@ -28,7 +28,21 @@ Pamela:
     - design jusice - thinking about the infrastructure.
 
 Kath:
-- what is the state of the text as you're doing this analysis? 
+- what is the state of the text as you're doing this analysis?
+- why you wanted to fine-tune a LLM to explore these theoretical
+  questions?
+  - What about using the vocabulary you’ve collected and applying it
+    to WordNet to create word associations
+  - Or using the vocabulary with a word embedding and querying the
+    associations between those transphobic terms and affective terms
+    (e.g. fear, shame) you’ve identified as conceptually important.
+    Instead of the queen-king=woman or whatever the standard example
+    is with word embedding vectors you’d be looking at
+    contagion-hormones=?
+- whether you were finding you had to weight the transphobic terms so
+  strongly because they were sparse data for training that you were
+  finding the words you were using for training coming straight back
+  out (sorry no doubt the wrong terminology).
 
 Lauren:
 - Abiba Berhani like

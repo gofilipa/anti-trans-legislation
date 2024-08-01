@@ -1,0 +1,176 @@
+* Plausibility and Passing: Using Chatbots to Study Anti-Trans Discourse
+** brainstorm
+How do we read transphobia?
+
+The problem: there's a discourse of transphobia in the USA that
+gathers momentum. Rather than simply say, it's here, it exsists, how
+can we read fear, transphobia, productively? What does reading
+transphobia open up? What other kinds of relation in the text, how
+does reading transphobia enhance our reading of the bills?
+
+The solution: to find ways of reading transphobia, which doesn't just
+expose phobicness, but uses it as generative material to create new
+meaning. 
+
+The method: LLMs, approximation/plausibility of fear-based discourse,
+in a mathematical process. There is a relationship to Trans Studies
+and the desire to "pass". The plausibility of models as a way of
+opening up our reading of fear, as something that has been normalized.
+Is there a way to use the llm training process to study the appeal and
+seduction of transphobia? The way that transphobia /moves/?
+
+Writing on the AIDS crisis in the late 1990s, Eve Kosofsky Sedgwick
+famously challenges the efficacy of what she calls "paranoid" modes of
+reading that aim to expose truth. If one can expose country's
+disregard (if not active hatred) for those groups most affected by the
+virus--Black people, gay men, and drug users, she asks, "What would we
+know then that we don't already know?" (/Touching Feeling/ 123). Here,
+Sedwick seeks a critical practice that "mov[es] from the rather fixed
+question Is a particular piece of knowledge true, and how can we know?
+to the further questions: what does knowledge do–-the pursuit of it,
+the having and exposing of it" (124, Touching Feeling). To do so, she
+takes shame--something that is typically seen as a negative,
+structuring force in queer identity--and examine how it unlocks
+creative and productive forces in language.
+
+This paper explores how one might take this strategy, of reading
+negative affects for the ways they open new connections in text,
+toward analyzing the discourse of transphobia in the US. Nearly 30
+years after Sedgwick's landmark essay, this country is gripped by a
+mounting wave legislative bills that limit trans peoples' rights, like
+access to healthcare, public spaces, and sports. By June of this year,
+more bills were introduced than the entire year of 2023. Underlying a
+lot of these bills, especially the ones that ban "gender affirming
+care" for adolescents, for example, is a fear of transness as being
+something that can spread from person to person. This fear was
+popularized in 2018, as "Rapid Onset Gender Disphoria," a false
+phenomenon coined by Lisa Littman that has been denounced by major
+medical associations.
+
+I wonder how one might read something productive in fear--in the
+phobia--that pervades anti-trans discourse in the bills themselves.
+From the text of the anit-trans legislation, I created a customized
+LLM or "Large Language Model" chatbot. I "trained" the chatbot with
+definitions of gender, sex, and sexuality that I extracted from the
+legislation. My goal is to learn about how these bills characterize
+gender and related terms by querying the resulting chatbot.
+
+Machine learning models, like the ones that power chatbots, operate
+based on prediction and plausibility. They turn semantic expressivity
+into something that can be computed and guessed. At the start of
+training, because the machine doesn't know what words mean, it makes a
+"guess." (This is called the hypothesis function). Then, it checks
+this guess against the actual result and calculates the difference
+between them. Finally, it works toward minimizing this difference
+(called "loss") by /very slightly/ adjusting its guess so that it
+moves closer to the intended result. Though the adjustments are very
+incremental, with enough of them, the model's guess can reach the
+actual result. With enough compute power and time, LLMs can be really
+good generating content that is plausible. Even a phenomenon like
+“hallucination,” that a language model spews text that has no bearing
+in reality, is based on the tendency of models to repeat what they've
+already seen. They hallucinate not because they are creative or
+random, but because they are designed from statistical processes to
+generate what is most plausible rather than accurate.
+
+This kind of /approximation/, what one might even call a
+/normalization/ of language, opens an interesting connection to Trans
+Studies. Scholars like Eliza Steinbock, Marquis Bey, and Andrea Long
+Chu claims that affective modes in Trans Studies turn from the
+resistance and subversion that characterize those in Queer Studies.
+Chu, for example, has remarked that trans studies, oppposed to Queer
+Studies' resistance of norms, "requires that we understand–-as we
+never have before–-what it means to be attached to a norm, by desire,
+by habit, by survival" ("After Trans Studies" 108). It seems to
+me--there is a fascinating connection between how language models
+approach language, what they do to language (the normalization or
+approximation) of language, and what Trans Studies scholars defines as
+a central desire to /pass/. This makes me wonder, could AI-generated
+text, as a kind of approximation, a normalization, of its training
+data, be used to study the attachments to norms and the quotidian that
+characterizes--not trans affective modes--but those based on fear of
+transness? Thinking in this way, AI may be an apt tool to study the
+attachment to norms that characterizes transphobia, like perspectives
+driven by the fear of ROGD. What might outputs from AI text generation
+suggest about the allure, the threat, the “seduction,” as Trans
+Studies scholar Cassius Adair puts it, of gender transgression?
+
+Speaking on trans erotics, and specifically “trans for trans” or "t4t
+erotics," Adair asks, "Why shouldn't transness be transmissible or
+contagious? Why can't the erotic be a site of producing trans identity
+or practices?" He points out that, after all, cis people do it all the
+time: they use sexuality and sexual encounters as sites of identity
+formation. Adair here does for contagion what Sedgwick does for shame:
+turns something that is traditionally seen as a negative into
+something that may be generative and productive. Taking something that
+has been a tool of oppression, and turning it into a creative
+resource. Sedgwick explains that this kind of reading, reparative
+reading, exposes “the ways selves and communities succeed in
+extracting sustenance from the objects of a culture—-even of a culture
+whose avowed desire has often been not to sustain them” (Touching
+Feeling 151).
+
+My interest isn't so much in how we protect queer studies from being
+coopted, used, twisted against us, but rather, how might queer studies
+draw, once again, from the affects that drive our own subjugation,
+for example, from fear.
+
+** draft
+In the midst of the AIDS crisis in the US, Eve Kosofsky Sedgwick
+called for a critical reading method that aims beyond exposing the
+existence of oppression or discrimination. Even if critique could
+prove the government’s negligence (or even hatred) for those groups
+most affected by AIDS—Black people, gay men, and drug users, in
+particular—Sedgwick asks, “What would we know then that we don't
+already know?” (4)
+
+Today, nearly 30 years after Sedgwick's landmark essay on “Paranoid
+Reading and Reparative Reading,” the brute fact of anti-LGBGTQIA+
+discrimination surfaces again in wave after wave of legislative bills
+that limit trans peoples’ access to healthcare, public spaces, and
+more. This paper explores what new technologies might offer for the
+analysis of old biases. To study the discourse driving the
+contemporary anti-trans movement, I use a contemporary tool: a Large
+Language Model (LLM) chatbot. From hundreds of these anti-trans bills,
+I compiled a dataset to train and customize my LLM chatbot with the
+goal of studying transphobia within the language of the bills
+themselves. Specifically, I am interested in how terms like “sex,”
+“gender,” and “sexuality” are being defined in the bills, and how
+these definitions relate to the fear of transness as being something
+that spreads from person to person, like a contagion—popularized by
+the false phenomenon of “Rapid Onset Gender Dysphoria,” which has been
+denounced as false by major medical associations.
+
+Machine learning models, like the ones that power chatbots, operate
+based on prediction: they are “trained” to turn semantic expressivity
+into something that can be computed and guessed. At the start of the
+training process, the models guess what word should follow another
+word (using what is called the “hypothesis” function). Then, the model
+calculates the “loss,” or the difference between its guess against the
+actual word from the training data. Finally, the model adjusts its
+guess very slightly, minimizing the difference between the guessed
+word and the actual word. Though the adjustment it makes is miniscule,
+with enough time and computational power, the model will make enough
+adjustments to eliminate the difference between the guess and actual
+word. It will move toward generating a prediction that is increasingly
+plausible.
+
+This paper does a deep, close reading of the statistical methods
+underlying this prediction process, which results in a kind of
+approximation of language, and connects this approximation to what
+Trans Studies scholars define as a central desire to pass. Andrea Long
+Chu claims that Trans Studies “requires that we understand—as we never
+have before—what it means to be attached to a norm, by desire, by
+habit, by survival.” (108) Could AI-generated text, as an
+approximation, or even normalization, of its training data, be used to
+study the attachments to norms that characterize the fear of
+transness?
+
+This paper takes the attachments and investment in norms, which has
+traditionally been a tool of oppression, as a creative resource for,
+in Sedgwick’s words, “extracting sustenance from the objects of a
+culture… whose avowed desire has often been not to sustain.” (35)
+
+Sedgwick, Eve Kosofsky. “Paranoid Reading And Reparative Reading; Or, You’re So Paranoid, You Probably Think This Introduction Is About You.” Novel Gazing: Queer Readings In Fiction (1997): 4.
+
+Chu, Andrea Long, and Emmett Harsin Drager. “After trans studies.” Transgender Studies Quarterly 6.1 (2019): 108.
