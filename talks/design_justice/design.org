@@ -1,9 +1,9 @@
 * Plausibility and Passing: Using LLMs to Study Anti-Trans Discourse
-** response & questions
+** responses
 Pamela:
 - about the language in the bills being taken from anti-trans interest
   groups. 
-- what are we reading these texts qor
+- what are we reading these texts for
   - the question is about how we read transphobia.
   - not just saying its phobic. need to do more. saying it's phobic is
     not working to convince folks.
@@ -29,7 +29,7 @@ Pamela:
 
 Kath:
 - what is the state of the text as you're doing this analysis?
-- why you wanted to fine-tune a LLM to explore these theoretical
+- why you wanted to fine-tune an LLM to explore these theoretical
   questions?
   - What about using the vocabulary you’ve collected and applying it
     to WordNet to create word associations
@@ -151,7 +151,7 @@ explicit as the book progresses, is that minors, who do not know what
 they want, cannot be trusted to make what she calls "irreversable"
 decisions.
 
-SLIDE 5 - FIRST SHRIER QUOTE
+SLIDE 5 - SHRIER QUOTE
 
 Her tone throught the book is ironic and, like so much of transphobia,
 has troubling subtexts. According to Shrier, even something like

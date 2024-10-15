@@ -1,0 +1,793 @@
+* Plausibility and Passing: Using Ai To Study Anti-Trans Legislation
+** notes from DJAI
+[[~/Desktop/anti-trans-legislation/talks/design_justice/design.org][link to djai paper]]
+
+Possiblity for tracing the language in the bills to an origin point?
+To special interest groups that are providing the language? 
+(Pamela)
+
+On reading, "emerging textual practices":
+- What is the state of the text when you're doing this analysis?
+  (Kath) Does that matter?
+- Differentiate between the different kinds of reading across
+  different stages of the text. (Lauren)
+- "as you put it in your question – what is being subtracted from
+  ‘man’ – is this gender bias or discrimination or something
+  different? What do we gain or lose by understanding these emerging
+  textual practices through existing paradigms for understanding the
+  sociomaterial production of difference?" (Kath)
+
+On bias (from Kath):
+- "Is it ever possible to remove bias? What is bias if it can be
+  removed or added? Why are humans better able to ‘detect’ bias than
+  nonhumans? Bias in the context of something that is removable
+  suggests a single world in which things can be represented like or
+  unlike what they are really, which seems to be a set of assumptions
+  that queer theory and design justice have usefully undermined."
+  (Kath)
+- "if these textual formations are problematic, are there any that are
+  not- or unproblematic? It seems to me from your presentation that
+  you were exploring the indeterminate morality of textual-affective
+  practices, but are these only possible – or perhaps only productive
+  – when done in ‘literary’ or ‘human’ ways? I think the complexity of
+  what it means for some practices to be a problem is what you’re
+  raising when you say that it’s not what these LLMs/word embeddings
+  are but what is done with them that is fraught… i.e. that they are
+  enacted as if they are simply showing what is already there. But if
+  that’s the case then that also challenges the idea of LLMs mirroring
+  bias/discrimination in their datasets." (Kath)
+
+What about using the dataset and applying it to just studying word
+embeddings, creating a language model to query embeddings, or to look
+at wordnet. Maybe trying to create a kind of foruma like hormones +
+contagion = trans or something. (Kath)
+
+Distinguish between transphobia and ant-material transness. There are
+different kinds of attacks across different spaces (Funmi)
+
+See Abiba Berhani and Discriminating Data.
+
+My thoughts: 
+The idea is not to remove bias, but to use the machine and statistical
+processes to better understand the forms that bias takes in language.
+
+** plans
+I think I want to....
+
+- run more experiments
+  - get the data I need from the PDFs of state bills
+  - train a word embedding model
+  - keep working on tweaking parameters for the congressional dataset
+  - start creating new datasets for the new congressional bills
+
+Two interventions:
+- ways of reading; determine a reading method, approach:
+  - how to read transphobia in legislative text, in a way that doesn't
+    just reveal transphobia, but does something else. 
+    - the problem, I think, is that these definitions/texts reflect
+      just a massive bias that already exists in the United States.
+      And there's no way of my reading it that's going to change
+      anything. So what do we do in the face of it?
+      - This question, of what we are reading for, and how, and why,
+        is the motivating one for this chapter.
+      - Is there something in particular about gender and gender
+        transition that we can understand here? 
+    - reading along the method/tool:
+      - we try to read for the mechanism, looking into the mechanical
+        workings of the tool as a clue. What does it do to data, to
+        forms? How does this mechanism offer a clue, a suggestion, for
+        reading?
+      - looking at the "plausibility" of output text, of how models
+        work to normalize and regularize, to find the most
+        statistically plausible next word.
+        - how this drive toward plausibility mirror the "desire to
+          pass" that trans studies scholars have read in trans
+          subjects. A desire for conformity, for convention.
+	- there are people who want to explode gender, and people who
+          simply want to pass.
+	- is there something about the regularization of language
+          which we can then apply back to understand gender?
+      - what do we see in the language of the output text, which has
+        been regularized, what is on the surface of that language,
+        what connections are opened?
+- solidify my approach wrt trans studies
+  - interest in contagion, connection to sexuality, desire, and fear.
+    How to constellate all of these ideas.
+    - transphobia: the fear that being trans can spread like a
+      contagion. This is a popular fear, which engages in some way
+      with the legislative language. 
+    - how fear itself is contagious, spreading.
+    - seduction as a means of identity formation.
+    - is fear seductive? It spreads, but does it seduce?
+      - in seduction there is a giving up of choice, of agency. It is
+        a decision made through arousal. You do something that maybe
+        you wouldn't have done if not aroused. (this is what I am
+        talking about in my previous chapter... how the fuck am I just
+        realizing it now). 
+
+On reading trans studies:
+- My interest in Trans Studies, and transphobia, is in dialogue with
+  misinformation studies. That's part of the dimension of transphobia
+  that I'm interested in.
+- Some think Trans ought to focus on attachment to normativity, while
+  others on resistance and radicality:
+  - Chu and Drager: the focus in trans studies has been on resistance
+    and radicality, when trans people just want to conform. It borrows
+    too much from Queer Studies and cannot distinguish itself. 
+    - all attempts to conform are nonnormative, even heterosexual
+      ones, because "normativity is impossible"
+  - Halberstam:
+    - trans and queer blend and blur into each other--this is useful.
+      They have the same target: normativity.
+      - "if we are all females, then there are notranssexuals, no
+        queers, no men. In the future, may I suggest, we who are
+        queer, ortrans, or feminist might remain focused on a more
+        conventional enemy: namely,the beneficiaries of
+        hetero-patriarchal systems who, far from being females
+        andhating it, are deeply invested in being males and loving
+        it" (329).
+      - Debates between "real vs performativity" by Prosser, Butler,
+        and Halberstam (2005).
+      - Debates on "cross-identification" and "cross-gender
+        identification" by Bey and Manalansan. 
+    - Chu's version of "female" posits femininity as lack, which is
+      lacanian, second wave feminist, and an idea that Butler has done
+      away with in "The Lesbian Phallus". See Kay Gabriel's LARB
+      review (2019). 
+- Jay Prosser vs Butler: get this right!
+- /Could the trans investment in normativity be a critical optic for
+  examining far right investments?/
+  - attachment to normativity; the plausibility of machine learning
+    outputs. 
+** outline // 
+- close-reading the bills:
+  - bill titles show protective, traditional investments
+- trans as contagion
+  - ROGD, Lisa Littman.
+  - quote from Shrier - pulling out the contradictions and subtle
+    meaning - the kind of reading that I don't want to do.
+    - looking for a new reading method. Of bringing some things to the
+      surface (yes a practice of revelation) but of bringing things
+      into relation in a new way.
+- sedgwick's paranoid vs reparative reading: how can critique /move/?
+  - what sedgwick does for shame, I'd like to do for contagion, fear.
+  - like sedgwick, looking for a way of reading that doesn't simply
+    unearth oppression, but looks for something else, something
+    different, some kind of relation
+    - conversations in trans studies about attachment to normativity
+      as distinguishing trans from queer.
+    - what if we could use transphobia as a vehicle about learning
+      about this attachment to normativity? And attachment that
+      animates the bills?
+      - what kind of reading would this offer?
+- turning to AI, statistical methods, to explore the language of transphobia
+  - "fine-tuned" a language model off gender and related terms from
+    the bills.
+  - entity recognizer and pattern matcher to capture the data
+  - hypothesis, loss, minimizing loss
+- prediction --> plausibility
+  - the iterative shifting of vectors is a kind of approximation, or
+    normalization of language, a tendency toward plausibility.
+    - each step of the process, each iteration, gets closer and closer
+      to a kind of mean, average, for that word's "meaning" in the
+      data.
+  - connection to trans studies affective modes as distinguished from
+    queer ones:
+    - attached to a norm rather than resisting norms
+    - the desire to pass
+  - could AI processes, as a kind of normalization of training data,
+    be used to study the attachments to norms and the quotidian that
+    characterizes--not trans affective modes--but those based on fear
+    of transness?
+    - AI is an apt tool to study the attachment to norms that
+      characterizes transphobia, like ROGD. What might outputs from AI
+      text generation suggest about the allure, the threat, the
+      “seduction,” as Trans Studies scholar Cassius Adair puts it, of
+      gender transgression?
+  - Adair: contagion and seduction being a site of identity formation.
+    Straight people do it all the time, using sex and sexuality as
+    sites of identity formation.
+    - Adair does for contagion what Sedgwick does for shame: turns
+      something negative into a creative resource.
+
+*** bank
+  - gender as a subjective phenomenon, "claimed" "self-perception"
+  - word "regardless" to distinguish gender from sex, seems to make
+      them independent but actually reifies a binary opposition
+      (Butler's subordinated realm).
+
+** draft
+*** thank you for having me
+Thank you so much for having me here. 
+
+I'm going to talk about a project that I've been working on for a
+little over a year, which takes as its subject transphobia, and
+particularly anti-trans discourse, which is currently proliferating
+across this country.
+
+To study this subject, I'm using technology, specifically, machine
+learning, as a methodology.
+
+I'm interested in how machine learning processes, in how predictive
+algorithms, which reconfigure and reproduce the data that they are
+trained with, can be used to study human bias, preconceptions,
+contained within that same data. For this project, I train a machine
+learning model off of data from current anti-trans legislation, which
+is, legislation currently being proposed, debated, and passed all over
+the country, which limits trans peoples' rights, legal recognition,
+and access to healthcare. 
+
+For this presentation, I'm going to focus on methodology.
+
+First, I'm going to talk a little bit about readings methods, and
+specifically, about ways of reading transphobia that engages existing
+critical discourses in trans studies.
+
+Then I'm going to turn to machine learning, and my attempts to use it
+to explore the language of transphobia. Here I will get a little bit
+technical, going "under the hood" of the machine, as it were, to
+surface the underlying processes that constitute so called "deep
+learning" methods.
+
+Finally, I'll bring these two areas--trans studies and machine
+learning--together. I will show how these two areas can
+cross-illuminate one another. I will propose a reading practice that
+uses "predictability" in machine learning to study transphobic
+language, and in particular, how this language exhibits attachment to
+normativity, what I call "plausibility."
+
+(and what do I want from you? feedback on what you make of this
+reading process, I guess?). 
+
+*** legislation, transphobia, ROGD, littman
+So I begin with my subject matter -- transphobia. This project looks
+at transphobia within a legal discourse. As I'm sure you're aware, the
+past 3 or 4 years has seen an incredible jump in the number of bills
+being proposed and passed in state houses across the country and in
+congress.
+
+[SLIDE - ANTI TRANS LEGISLATION TRACKER - NEEDS NEW IMAGES]
+
+As you can see in this chart, there has been a rising trend of
+anti-trans legislation over the past several years, where each year
+eclipses the previous one. The majority of these bills target
+education, seeking to ban gender identity education, and students'
+chosen names and pronouns, as well as healthcare, where many bills
+outlaw gender-affirming care for minors and adults. The rest of the
+bills mainly focus on trans peoples' participation in public spaces
+and events, like drag performances and bathrooms, and also in sports.
+
+[SLIDE - FEDERAL BILL NAMES]
+
+- US HB1064: Ensuring Military Readiness Act of 2023
+  - disqualifies transgender persons from military service
+- US HB1276: Protect Minors from Medical Malpractice Act of 2023
+  - doctors to be liable to all adverse effects (physical,
+    psychological, etc) following trans-affirming care
+- US HB1399: Protect Children’s Innocence Act
+  - gender-affirming care on minors to be a felony
+- US HB1490: Preventing Violence Against Female Inmates Act of 2023
+  - incarcerating people by "biological sex"
+- US HB216: My Child, My Choice Act of 2023
+  - schools to obtain written parental consent before teaching
+    anything related to gender/sex/sexuality.
+- US HB3101: TPA Act Traditional Passport Act
+  - passport gender designation to be binary and based on sex
+- US HB3102: TSA Act Traditional Screening Application Act
+  - prohibits "X" gender designation on TSA screenings
+
+And here, you'll see a list of bill titles, like "Ensuring Military
+Readiness Act," and "Protect Children's Innocence Act," which are
+currently being debated in Congress. Just by scanning the titles, you
+can perhaps grasp how many of these bills are undergirded by similar
+assumptions, like that Americans need to be protected from gender
+nonconformity. According to these bills, the groups most in need of
+protection from trans people and trangender ideologies are minors, who
+are "innocent", and cis women, who are physically vulnerable to
+"violence". Alongside this investment in protection, is another
+investment in maintaining tradition. We see "traditional passport,"
+which preserves the binary gender identifications on passports, and
+"traditional TSA," which keeps the binary gender designation on
+security screeners (which is kind of hilarious, as I don't know
+anybody that thinks TSA is a tradition that needs to be protected).
+What I'm trying to surface here, is that underlying these bills, is an
+attachment to the idea that transness, whatever else it might do,
+constitutes a threat to American people and way of life.
+
+The discourse that drives logic of threat and protection is a
+particular kind of transphobia based on contagion. As particulurly
+evident in the bills that limit or ban "gender affirming care" for
+minors, this fear is propped by the assumption that transness can
+spread from person to person, that it is a kind of social contagion.
+
+SLIDE - LITTMAN'S PAPER
+
+The fear is formalized in the false medical diagnosis, "Rapid-onset
+Gender Dysphoria," or ROGD. This diagnosis, which has been rejected
+and renounced by medical associations, was nonetheless popularized in
+2018, in a very controversial paper by Lisa Littman. For that study,
+Littman enlisted participants (parents of transgender adolescents)
+from conservative and anti-trans online forums. Despite receiving
+numerous criticisms for its methodology and lack of disclosures, the
+paper has nonetheless had a significant influence on public perception
+around Trans issues, especially as they affect minors. The idea has
+seeped into public discourse, appearing in books, podcasts, and news
+reports, and across social media.  
+
+SLIDE - SHRIER BOOK COVER
+
+One notable work in this vein, which is directed at a general
+audience, is a book by Abigail Shrier, called "Irreversible Damage:
+The Transgender Craze Seducing Our Daughters." Shrier's thesis, which
+becomes more and more explicit as the book progresses, is that minors,
+who do not know what they want, cannot be trusted to make what she
+calls "irreversable" decisions. According to Shrier, even something
+like social transition, in which a person changes names, pronouns, and
+dress, is dangerous.
+
+I'm going to talk about her language. Unlike the language of the
+bills, Shrier's tone throughout the book is highly ironic, an irony
+that embeds interesting subtexts. 
+
+SLIDE - SHRIER QUOTE
+
+For example, there is a double meaning behind some of her
+pronouncements, which is decipherable by her ironic tone.
+
+She says things like: "if the government can’t force students to
+salute a flag, the government can’t force a healthcare worker to utter
+a particular pronoun. In America, the government can’t make people say
+things--not even for the sake of politeness. Not for any reason at
+all" (xx).
+
+Here, Shrier makes a comparison to patriotism--in the flag salute--to
+make a point about governmental authority. The point is that the
+government cannot compel its citizenry (or anybody within its
+jurisdiction) to express loyalty to the country's symbols. And just as
+the country cannot compel patriotic expression, so it cannot compel
+respect (or here, she refers to it as "politeness") for a person's
+preferred gender designation.
+
+Through this comparision to the patriotism, and the framing of the
+issue around expression, the subtext here seems to be that forcing
+pronoun usage would be fascist. Which is, I think, a strange way to
+make a point to what is likely a readership that I imagine is highly
+invested in conservative ideals.
+
+Unless, reading this statement through the frame of irony, the point
+is precisely that some kinds of expression should be free while others
+should not. That we have the right to question each other's genders
+but not, but never, the flag. Essentially, if citizens cannot be
+compelled to address such a providential institution according to
+their personal feelings, then of course, they have the right to
+address an individual how they like. Unironically, the sentence could
+be saying something like, "look, our government cannot even force you
+to respect it. How admirable, how humble, that a nation would endow
+its own citizens with the right to disrespect it! Anybody who does so,
+is undeniably selfish."
+
+In this reading, we can trace an attachment to patriotism to an
+attachment to gender norms (perhaps with a stop at white supremacy on
+the way there). And we can see how the structure, what Patricia Hill
+Collins calls "the matrix of domination," works.
+
+But this is exactly the kind of reading that I don't want to do for
+this project. Because the more that I engage with the material, the
+more that I listen to the news of another trans bill being proposed in
+this country, the more I am convinced that this particular historical
+moment, a moment of multiplying misinformation, needs another mode of
+reading.
+
+*** sedgwick, paranoia, shame, movement
+Here I am inspired by the origins of my own field, which is Queer
+Studies. As many of you know, one of the major figures of this field
+is Eve Kosofsky Sedgwick, who, throughout the trajectory of her career
+explored various reading methods and modes of relation to text.  
+
+SLIDE - EPISTEMOLOGY
+
+In her early work, such as /The Epistemology of the Closet/, Sedwick
+practices a mode of critical analysis based on what Foucault's "logic
+of repression," that seeks out hidden meanings and power relations in
+text. In this book, she exposes the unstable binaries between
+heterosexual and homosexual categories — where one term is not simply
+symmetrical or subordinated to another, but rather, depends the other
+for its meaning through what she calls "simultaneous subsumption and
+exclusion" (10). As an "epistemology of the closet," this method mines
+language forms for what is hidden, what is beneath the surface, and
+what that closet reveals about power relations and structures.
+
+SLIDE - sedgwick paranoid/reparative essay
+
+Years later, however, Sedgwick changes course. In the wake of the AIDS
+crisis, she experiences an upheaval of doubt about the efficacy of
+critical methods. This doubt opens what is perhaps her most famous
+essay, "Paranoid Reading and Reparative Reading: Or, you're so
+paranoid you probably think this essay is about you" (such a great
+title). In this essay, Sedgwick wonders what any explanation, any
+unearthing of the government's neglect (or outright disdain) for
+African American lives and gay lives decimated by the AIDS pandemic,
+would change. She considers that the act of reading to reveal or to
+expose truth, which she calls "supicious" or "paranoid reading," does
+not /move/ people to any particular action or conclusion. She explains
+that "for someone to have an unmystified, angry view of large and
+genuinely systemic oppressions does not intrinsically or necessarily
+enjoin on that persons to any specific train of epistemological or
+narrative consequences" (123).
+
+What if, she asks, we consider ways of knowing not oriented around
+suspicion and paranoia? This would be a critical practice that
+"mov[es] from the rather fixed question Is a particular piece of
+knowledge true, and how can we know? to the further questions: what
+does knowledge do–-the pursuit of it, the having and exposing of it"
+(124, Touching Feeling).
+
+To demonstrate, Sedgwick takes an affect that is traditionally seen as
+negative and examines how it create productive and generative effects
+in text. She takes shame, which is a structuring force in queer
+identity, and explores its significatory possibilites. She describes
+shame as:
+
+SLIDE - SHAME QUOTES
+
+#+begin_quote
+“a kind of free radical that (in different people and different
+cultures) attaches to and permanently intensifies or alters the
+meaning of—-of almost anything: a zone of the body, a sensory system,
+a prohibited or indeed a permitted behavior, another affect such as
+anger or arousal, a named identity, a script for interpreting other
+people’s behavior toward oneself” (62)
+#+end_quote
+
+Rather than, as much Queer Theory is happy to do, plumb and trace the
+ways that shame hides and represses sexuality, Sedgwick reads it as a
+vehicle for connection, pulling other affects and images into
+relation.
+
+She even likens shame to a kind of contagion, bringing out the ways it
+can spread from person to person, evoking its ability to mobilize and
+generate:
+
+#+begin_quote
+“Shame—-living, as it does, on and in the muscles and capillaries of
+the face—-seems to be uniquely contagious from one person to another."
+(63 Touching Feeling).
+#+end_quote
+
+HERE
+
+I'm interested in this move that Sedgwick makes, of taking what is
+typically seen as a negative, repressive affect, like shame, and
+seeing how it opens up possibilities for reading new connections in
+text that would otherwise be harmful. Specifically, I wonder how one
+might read something productive in fear--in the phobia--that pervades
+anti-trans discourse. How can we apply this attention to movement and
+connection to reading fear in language, that is, language generated by
+a large language model?
+
+**** reading patriarchy and patriotism in the language -> attachment 
+The purpose of the bills, admitted in the language of their titles, to
+guard these groups, speaks to a quite literally patriarchical motives.
+(And we all know that patriarchy is bad.)
+
+There is an attachment here, some kind of attachment, to normativity,
+to keeping things as traditional as possible. 
+*** bill titles and declarations:
+Federal bills:
+- US HB1064: Ensuring Military Readiness Act of 2023
+  - disqualifies transgender persons from military service
+- US HB1276: Protect Minors from Medical Malpractice Act of 2023
+  - doctors to be liable to all adverse effects (physical,
+    psychological, etc) following trans-affirming care
+- US HB1399: Protect Children’s Innocence Act
+  - gender-affirming care on minors to be a felony
+- US HB1490: Preventing Violence Against Female Inmates Act of 2023
+  - incarcerating people by "biological sex"
+- US HB216: My Child, My Choice Act of 2023
+  - schools to obtain written parental consent before teaching
+    anything related to gender/sex/sexuality.
+- US HB3101: TPA Act Traditional Passport Act
+  - passport gender designation to be binary and based on sex
+- US HB3102: TSA Act Traditional Screening Application Act
+  - prohibits "X" gender designation on TSA screenings
+
+
+MO SB868:
+- "Vulnerable Child Compassion and Protection Act"
+- "No school official shall encourage a student to adopt a gender
+  identity or sexual relationship."
+
+FL H0599:
+- "Gender Identity Employment Practices"
+- "It is the policy of the state that a person's sex is an immutable
+  biological trait and that it is false to ascribe to a person a
+  pronoun that does not correspond to such person's sex."
+
+*** defs from bills
+"'Gender identity', a person's internal sense of self as male, female,
+neither, both, or somewhere along the gender spectrum" (MO HB1674).
+
+"'Gender identity', the preconceived notion of someone's psychological,
+behavioral, social, and cultural aspects of being a biological male or
+biological female" (MO SB868).
+
+"'Sex', the physical condition of being male or female based on
+genetics and physiology, as identified on the individual's original
+birth certificate" (MO HB1674).
+
+"'Biological sex', an individual's sex as assigned at birth on his or
+her original birth certificate... or, if the individual's birth
+certificate is unobtainable, another government record" (MO SB868).
+
+It must be the policy of every public K-12 educational institution
+that is provided in this State that the sex of a person is an
+immutable biological trait and that it is false to ascribe to a person
+a pronoun that does not correspond to such person's sex. This section
+does not apply to individuals born with a genetically or biochemically
+verifiable disorder of sex development, including, but not limited to:
+
+            (1) 46, XX disorder of sex development;
+
+           (2) 46, XY disorder of sex development;
+
+           (3) sex chromosome disorder of sex development;
+
+            (4) XX or XY sex reversal; and
+
+            (5) ovotesticular disorder.
+
+
+
+
+** processing and training
+Now I will talk a little bit about my data gathering and model
+training process. My goal was to "fine-tune" (that is, customize an
+already trained model) with data from the anti-trans legislation. I am
+interested specifically in the language outlawing gender transition
+from these bills.
+
+So, I decided to create a list of definitions around gender, with
+definitions of terms like "gender identity," and "biological sex," for
+example. I then used that list to fine-tune an llm for text
+generation. The idea was that I could then query the model, asking it
+questions like "what is sex" and "what is gender".
+
+In what follows, I'm going to outline a bit of the data gatherering
+and model training processes.
+
+SLIDE 9 - HUGGINGFACE DATASETS
+
+The first dataset that I created is now available on HuggingFace
+Datasets. For those of you who don't know, HuggingFace is a platform
+for sharing Machine Learning projects and tools, much like Github.
+This dataset consists of definitions of "gender" and related terms
+from congressional and senate bills, from the last two years.
+
+To create this dataset, I went through an intensive data preparation
+process, which involved using the Python programming langauge to
+scrape the bill text and then extract definitions of gender and
+related terms from it. I'll highlight some of the major moves from
+this process. (And I'll also say here that all of my Python code that
+I wrote for this project is publically available, under my github
+profile, which I'll link to at the end of this talk).
+
+To extract the definitions of gender terms from these bills, the first
+thing I did was to write a pattern matcher, known technically as a
+"named entity recognizer" (for those of you familiar with NLP), that
+can recognize terms like "gender" and other related terms in text.
+
+SLIDE 10 - NER CODE
+
+Here is a list of labels, organized into the general categories "sex",
+"gender", and "sexuality", with each label specifying a word pattern,
+like the phrase "biological sex" for example. I tried to include
+various formulations of each term, for example, "transgender" is
+delineated three ways, as a single word, as a two-word phrase, and as
+a hypthenated word. This ensures that I would capture most if not all
+instances of the term.
+
+Then, I used that entity recognizer as a basis for a more
+sophisticated pattern matcher, which would search for those phrases if
+they are contained within a definition.
+
+SLIDE 11 - MATCHER CODE
+
+For those of you familiar with the JSON data format, you can perhaps
+grasp the pattern matcher's logic here. It starts by searching for
+punctuation, then looking for a gender term (pulling from the entity
+recognizer code), along with some wild card terms, just in case there
+are extra words or punctuation in the definition. Finally, it ends
+with terms that are common in definitions, like "means", "signifies",
+or "includes."
+
+SLIDE 12 - MATCHER RESULTS
+
+From its results, pictured here, you can see that this matcher was
+sensitive enough to capture longer phrases, like "gender transition
+surgery means" as well as variants of how definitions are constructed,
+using the word "includes" instead of "means", for example.
+
+And here's some examples of the results after some cleaning and
+formatting. I'll read a couple of them out loud.
+
+SLIDE 13 - DEFS
+
+#+begin_quote
+'The term gender identity means a persons self-perception of their
+gender or claimed gender, regardless of the persons biological sex.',
+
+'The term gender means the psychological, behavioral, social, and
+cultural aspects of being male or female.',
+
+ 'The term gender transition means the process in which an individual
+ goes from identifying with and living as a gender that corresponds to
+ his or her biological sex to identifying with and living as a gender
+ different from his or her biological sex, and may involve social,
+ legal, or physical changes.',
+ 
+ 'The term biological sex means the indication of male or female sex
+ by reproductive potential or capacity, sex chromosomes, naturally
+ occurring sex hormones, gonads, or internal or external genitalia
+ present at birth.',
+#+end_quote
+
+In close reading the dataset, I immediately notice how some
+assumptions are being constructed in subtle and seemingly neutral
+ways. For example, in the first definition, I am interested in the
+words "self-perception" and "claimed", and how a view of gender
+identity as a subjective experience engages with behavioral dimensions
+of gender expression, at least as it has been theorized by Queer
+Studies scholars like Judith Butler.
+
+I am also interested in the word “regardless,” which appears in almost
+half of the definitions, and suggests a contrast between sex and
+gender that seems to reify a binary opposition or between the two. In
+other words, gender as being defined without regard to sex, as if
+notions of gender and sex do not influence each other, and never blend
+into one another, or make productive use of each other. Again I'm
+thinking here of Judith Butler, and her famous (and contentious) claim
+that even seemingly physical phenomena, like biological sex, is
+discursively produced.
+
+As I continue to build and clean my datasets, I've also been dabbling
+with using them to train AI models.
+
+Throughout this fine-tuning process, which I will outline briefly, I
+discovered a suggestive connection to reading practices, specifically
+the way that we analyze concepts like transphobia from a humanistic
+perspective.
+
+As you may already know, machine learning models work by prediction.
+They turn semantic expressivity into something that can be computed
+and guessed. From its training data, the model compiles numerical
+probabilities for each word's relationship to other words in the
+database. It represents these probabilities with numbers, with
+actually a very large list of numbers, known technically as "word
+vectors." The model then uses math to calculate what word should
+follow a given word.
+
+The training process, as I understand it (and I have no formal
+education in machine learning), can be reduced to three steps, or
+mathematical functions.
+
+SLIDE 14 - LIST OF FUNCTIONS
+
+1. first, the hypothesis function
+2. second, the loss function
+3. third, the minimizing loss function
+
+First, because the machine doesn't know what words mean, it makes a
+"guess." (This is called the hypothesis function), Here, it populates
+each word with a vector, consisting of random numbers. These vectors
+are just a starting point.
+
+Then, after making this guess, it moves to the next step, where the
+machine checks its prediction against the actual result--that is, it
+will compare the prediction vector against the actual result's vector.
+It's prediction will be wrong, but that doesn't matter. It compares
+between the two, the prediction and the result, and calculates the
+difference between them. This calculation is made by using what's
+called the "loss function."
+
+Finally, it moves to the minimizing this "loss", which employs
+algorithms from calculus (like gradient descent) in order to /very
+slightly/ adjust the vectors so that they are closer to the intended
+result. The adjustments here are very incremental. But with enough of
+them, the model can reach /almost zero difference/ between the
+prediction and the actual result.
+
+With enough training data, LLMs can be really good generating content
+that is plausible. However, while they can guess or improvise, they
+are not at all good at being creative, at innovating. A language model
+can only generate what it has already seen before. Even a phenomenon
+like “hallucination,” that a language model spews text that has no
+bearing in reality, is based on the tendency of models to repeat what
+they've already seen. They hallucinate not because they are creative
+or random, but because they are designed from statistical processes to
+generate what is most plausible rather than accurate.
+
+Although I am still working on the right configurations for my
+training, I do have some initial examples of how it is defining some
+gender related terms.
+
+SLIDE 15 - RESULTS
+
+In these examples, the model is defining the terms "transgender" and
+"gender affirmation".
+
+As you can immediately notice from skimming the results, my model
+displays a tendency to repeat itself, which is tendency of generating
+not what is most expressive, but what is most plausible.
+
+** plausibility
+Thinking back to this fine-tuning process, I read this iterative
+shifting of vectors is a kind of /approximation/ or even
+/normalization/ of language, which is based on plausibility. And this
+tendency toward plausibility creates an interesting connection to
+conversations in Trans Studies about trans affective modes. Typically,
+these scholars describe trans affective modes by distinguishing them
+from "queer" modes. 
+
+SLIDE 16 - TRANS AFFECTS
+
+For example, Trans Studies scholar Eliza Steinbock explains that,
+
+#+begin_quote
+“trans analytics have (historically, though not universally) a
+different set of primary affects than queer theory. Both typically
+take pain as a reference point, but then their affective interest
+zags. Queer relishes the joy of subversion. Trans trades in quotidian
+boredom. Queer has a celebratory tone. Trans speaks in sober detail.”
+#+end_quote
+
+Other Trans Studies scholars like Marquis Bey and Andrea Long Chu have
+made similar points; with Bey making the point that queer's
+intervention can be described as "anti" or militant, while trans is
+"non" or based in refusal ("Thinking with Trans Now"); and Chu has
+remarked that trans studies, rather than resisting norms, "requires
+that we understand–-as we never have before–-what it means to be
+attached to a norm, by desire, by habit, by survival" ("After Trans
+Studies" 108).
+
+It seems to me--there is a fascinating connection between how language
+models approach language, what they do to language (the normalization
+or approximation) of language, and what Trans Studies scholars defines
+as a central desire to /pass/.
+
+This makes me wonder, could AI-generated text, as a kind of
+approximation, a normalization, of its training data, be used to study
+the attachments to norms and the quotidian that characterizes--not
+trans affective modes--but those based on fear of transness?
+
+Thinking in this way, AI may be an apt tool to study the attachment to
+norms that characterizes transphobia, like perspectives driven by the
+fear of ROGD. What might outputs from AI text generation suggest about
+the allure, the threat, the “seduction,” as Trans Studies scholar
+Cassius Adair puts it, of gender transgression? 
+
+Speaking on trans erotics, and specifically “trans for trans” or "t4t
+erotics," Adair asks, "Why shouldn't transness be transmissible or
+contagious? Why can't the erotic be a site of producing trans identity
+or practices?" He points out that, after all, cis people do it all the
+time: they use sexuality and sexual encounters as sites of identity
+formation.
+
+Adair here does for contagion what Sedgwick does for shame: turns
+something that is traditionally seen as a negative into something that
+may be generative and productive. Taking something that has been a
+tool of oppression, and turning it into a creative resource.
+
+Sedgwick explains that this kind of reading, reparative reading,
+exposes “the ways selves and communities succeed in extracting
+sustenance from the objects of a culture—-even of a culture whose
+avowed desire has often been not to sustain them” (Touching Feeling
+151).
+
+SLIDE 17 - THANKS AND CONTACT
+
+Thank you.
+
+And for those of you who want to follow this work, you can find me on
+Github and HuggingFace under the username, Gofilipa. 
+
+
