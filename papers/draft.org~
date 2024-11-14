@@ -1,0 +1,171 @@
+* draft
+** todos
+- [ ] choose shrier quotes
+- [ ] read butler, prosser
+- [ ] read /CA/ annotations & articles.
+
+** outline
+- close reading of Shrier
+- 
+  - marshalling Butler and Prosser (but they critique Butler?)
+  - an example of the kind of reading I don't want to do
+- Sedgwick and readings of shame.
+  - remember Heather Love's critique: that Sedgwick is still trying to
+    make shame a politically viable object.
+  - Cassius Adair reading trans erotics in porn.
+- Close reading of ML mechanism, and of results.   
+
+** argument
+This is an essay about a machine process, one that you are by now
+familiar with, even if you don't know how it works on a technical
+level. My goal is to illuminate this machine process by drawing an
+analogy between it and human affects of fear and desire, specifically,
+what fear implies about desire, in the phobia that the body has toward
+its own desire.
+
+The analogy between machines and bodies evokes a longstanding
+conflation of the two in the term "Artificial Intelligence," which is
+itself an anthropomorphization of machine processes like algorithmic
+prediction.[fn:1] My intention is not to do away with this conflation,
+but to re-orient some of the terms on which it rests. Information
+processing is seen as intelligent, as human-like (it is
+anthromoporphized) but with the benefit of being free of the human
+body. So let us bring the body back into the machine. This paper
+achieves this goal in two ways: by attending to embodied experience of
+phobia, and what phobia reveals about desire, and by tracing the
+materiality of machine learning processes.
+
+To bring machines and bodies into relation, I enlist the concept of
+normativity, and particularly, the attachment to normativity that, I
+will show, brings procedures of both desire and of algorithmic
+prediction into productive relation. I will take, on the one hand, the
+desire for normative gender identities that underlies contemporary
+discourses of transphobia, expressed in the anti-trans legislative
+movement, and, on the other hand, what happens to data as it is used
+to train machine learning models. Across these widely different
+domains, I argue, this shared drive toward normativity enables me to
+deploy machine learning as an apt tool for studying normativity in
+transphobic language.
+
+The investment in normativity is a through line, common ground,
+between transphobia and trans affirmation. It is the answer to the
+question--What do trans subjects and far right ideologues have in
+common? In a more subtle way, it is also an attempt to bring desire
+explicitly into computational processing.
+
+** TODO close reading
+First I will do a close-reading of the legislation and some of the
+discourse surrounding the anti-trans movement. Here are some titles of
+recent "anti-trans" legislation being currently debated in the US
+Congress.
+
+[SLIDE - FEDERAL BILL NAMES]
+
+- US HB1064: Ensuring Military Readiness Act of 2023
+  - disqualifies transgender persons from military service
+- US HB1276: Protect Minors from Medical Malpractice Act of 2023
+  - doctors to be liable to all adverse effects (physical,
+    psychological, etc) following trans-affirming care
+- US HB1399: Protect Children’s Innocence Act
+  - gender-affirming care on minors to be a felony
+- US HB216: My Child, My Choice Act of 2023
+  - schools to obtain written parental consent before teaching
+    anything related to gender/sex/sexuality.
+
+Here, you'll see a list of the most recent bill titles being proposed
+in Congress, like "Ensuring Military Readiness Act," and "Protect
+Children's Innocence Act." The majority of these bills target
+education, seeking to ban education on gender and sexuality, and
+students' chosen names and pronouns, as well as healthcare, where many
+bills outlaw gender-affirming care for minors and adults.
+
+I'll come back to these bill titles in a moment, but for now, it's
+enough to acknowledge that they are based on a certain logic that
+gender nonconformity is a national threat, from which the American
+people (in particular children) need protection.
+
+This logic is driven by a particular fear of transness being
+contagious, that it can spread from person to person. This fear, which
+is popularized in the now debunked medical diagnosis called
+"Rapid-onset Gender Dysphoria," or ROGD, has had a significant
+influence on public perception around Trans issues, especially as they
+affect minors.
+
+SLIDE - SHRIER BOOK COVER
+
+One notable example of this is a book by Abigail Shrier, called
+"Irreversible Damage: The Transgender Craze Seducing Our Daughters."
+Shrier's thesis is that minors, who do not know what they want, cannot
+be trusted to make decisions about their gender.
+
+Unlike the language of the legislative bills, Shrier's tone throughout
+the book is highly ironic, an irony that embeds some interesting
+subtexts.
+
+SLIDE - SHRIER QUOTE
+
+For example, there is a double meaning behind some of her
+pronouncements. She says things like: "if the government can’t force
+students to salute a flag, the government can’t force a healthcare
+worker to utter a particular pronoun. In America, the government can’t
+make people say things--not even for the sake of politeness. Not for
+any reason at all" (xx).
+
+Here, Shrier makes a comparison to patriotism---in the flag
+salute---to make a point about governmental authority. The point is
+that, just as the government cannot compel people to express loyalty
+to the country's symbols, so it cannot compel respect (or here, she
+refers to it as "politeness") for a person's preferred gender
+designation.
+
+Through this comparision to patriotism, and the framing of the issue
+around expression, the subtext here seems to be that forcing pronoun
+usage would be fascist. Which is a strange way to make a point to what
+(I imagine) is a largely conservative readership.
+
+Unless, reading this statement through the frame of irony, the point
+is precisely that some kinds of expression should be free while others
+should not. That we /do/ have the right to question each other's
+genders, but we shouldn't question the flag.
+
+In plain terms, then, the sentence would be saying something like,
+"look, our government so loves your freedom, that it cannot even force
+you to show respect for it." And, it follows, "if you are free to
+disrespect such a government, then you surely cannot be obligated to
+honor someone's pronouns".
+
+In this reading, we can trace a direct line between an investment in
+patriotism to an investment to gender norms.
+
+While I enjoy doing this kind of analysis of irony, it is exactly the
+kind of reading that I don't want to do for this project. Because the
+more that I engage with the material and the public discourse around
+it, the more I am convinced that this particular historical moment
+needs another mode of reading.
+
+* Footnotes
+
+[fn:1]  The emergence of "Artifical Intelligence" can, in one
+trajectory, be traced to Alan Turing's famous essay on the subject
+(/Computing Machinery and Intelligence/. Although many people who cite
+this origin fail to recognize the Turing made a crucial distinction
+between actual intelligence, which is virtually impossible to detect
+as experienced subjectively, and the performance of it, which he poses
+as the criterion for assessing the quality of machine processing)
+which inaugurates what N. Katherine Hayles calls a history of
+"information los[ing] its body," as scientific discourses increasingly
+overlook the role of the body and embodiment in machine "thinking."
+This tendency is to conceptualize thinking or information processing
+as separate from the substrate that enables such procedures, bringing
+us to where we are today, when casual users of the now ubiquitous chat
+interfaces (the contemporary "terminal" of Turing's experiment) find
+themselves in thrall to a disembodied subjectivity (There is a
+fascinating clash about the role of intention in interpreting machine
+generated langauge between computational linguists like Emily Bender,
+who assert that intention (specifically, the intuition of intention by
+a reader) is necessary for interpretation and Literary Studies
+scholars who maintain that intention can be and sometimes is severed
+from communicative acts. See "Climbing towards NLU: On Meaning, Form,
+and Understanding in the Age of Data", and /Critical Inquiry/'s June
+2023 special issue, "Again Theory: A Forum on Language, Meaning, and
+Intent in the Time of Stochastic Parrots.").
