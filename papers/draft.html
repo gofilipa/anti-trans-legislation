@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-11-18 Mon 09:43 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="author" content="si" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+</head>
+<body>
+<div id="content" class="content">
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org007b675">1. draft</a>
+<ul>
+<li><a href="#orgc5cf938">1.1. todos</a></li>
+<li><a href="#org50ace38">1.2. outline</a></li>
+<li><a href="#org9efc099">1.3. argument (&amp; method?)</a></li>
+<li><a href="#orgeab740a">1.4. <span class="todo TODO">TODO</span> close reading</a>
+<ul>
+<li><a href="#org34b5adf">1.4.1. <span class="todo TODO">TODO</span> close reading of bills via Butler</a></li>
+</ul>
+</li>
+<li><a href="#org69ce198">1.5. another mode of reading lol</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org007b675" class="outline-2">
+<h2 id="org007b675"><span class="section-number-2">1.</span> draft</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-orgc5cf938" class="outline-3">
+<h3 id="orgc5cf938"><span class="section-number-3">1.1.</span> todos</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li class="on"><code>[X]</code> choose shrier quotes</li>
+<li class="off"><code>[&#xa0;]</code> read Amin's critique of Butler;</li>
+<li class="off"><code>[&#xa0;]</code> read Butler, <i>BTM</i></li>
+<li class="off"><code>[&#xa0;]</code> read <i>CA</i> annotations &amp; articles.</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org50ace38" class="outline-3">
+<h3 id="org50ace38"><span class="section-number-3">1.2.</span> outline</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>anti-trans bill titles
+<ul class="org-ul">
+<li>patriarchal langauge shows an attachment to norms, protecting
+women. Women are figures that need to be protected.</li>
+</ul></li>
+<li>close reading of Shrier
+<ul class="org-ul">
+<li>we can begin to parse out some of the deeper contradictions here:
+that free expression only applies to certain kinds of expression.</li>
+<li>an example of the kind of reading I don't want to do</li>
+</ul></li>
+<li>Sedgwick and readings of shame.
+<ul class="org-ul">
+<li>remember Heather Love's critique: that Sedgwick is still trying to
+make shame a politically viable object.</li>
+<li>Cassius Adair reading trans erotics in porn.</li>
+</ul></li>
+<li>Close reading of ML mechanism, and of results.
+<ul class="org-ul">
+<li>contrast with Butlerian close reading (or do this at top?)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org9efc099" class="outline-3">
+<h3 id="org9efc099"><span class="section-number-3">1.3.</span> argument (&amp; method?)</h3>
+<div class="outline-text-3" id="text-1-3">
+<p>
+This is an essay about ways of reading. 
+</p>
+
+<p>
+This is an essay about a machine process, one that you are by now
+familiar with, even if you don't know how it works on a technical
+level. My goal is to illuminate this machine process by drawing an
+analogy between it and human affects of fear and desire, specifically,
+what fear implies about desire, in the phobia that the body has toward
+its own desire.
+</p>
+
+<p>
+The analogy between machines and bodies evokes a longstanding
+conflation of the two in the term "Artificial Intelligence," which is
+itself an anthropomorphization of machine processes like algorithmic
+prediction.<sup><a id="fnr.1" class="footref" href="#fn.1" role="doc-backlink">1</a></sup> My intention is not to do away with this conflation,
+but to re-orient some of the terms on which it rests. Information
+processing is seen as intelligent, as human-like (it is
+anthromoporphized) but with the benefit of being free of the human
+body. So let us bring the body back into the machine. This paper
+achieves this goal in two ways: by attending to embodied experience of
+phobia, and what phobia reveals about desire, and by tracing the
+materiality of machine learning processes.
+</p>
+
+<p>
+To bring machines and bodies into relation, I enlist the concept of
+normativity, and particularly, the attachment to normativity that, I
+will show, brings procedures of both desire and of algorithmic
+prediction into productive relation. I will take, on the one hand, the
+desire for normative gender identities that underlies contemporary
+discourses of transphobia, expressed in the anti-trans legislative
+movement, and, on the other hand, what happens to data as it is used
+to train machine learning models. Across these widely different
+domains, I argue, this shared drive toward normativity enables me to
+deploy machine learning as an apt tool for studying normativity in
+transphobic language.
+</p>
+
+<p>
+The investment in normativity is a through line, common ground,
+between transphobia and trans affirmation. It is the answer to the
+question&#x2013;What do trans subjects and far right ideologues have in
+common? In a more subtle way, it is also an attempt to bring desire
+explicitly into computational processing.
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgeab740a" class="outline-3">
+<h3 id="orgeab740a"><span class="section-number-3">1.4.</span> <span class="todo TODO">TODO</span> close reading</h3>
+<div class="outline-text-3" id="text-1-4">
+<p>
+First I will do a close-reading of the legislation and some of the
+discourse surrounding the anti-trans movement. Here are some titles of
+recent "anti-trans" legislation being currently debated in the US
+Congress.
+</p>
+
+<blockquote>
+<p>
+US HB1064: Ensuring Military Readiness Act of 2023
+</p>
+
+<p>
+US HB1276: Protect Minors from Medical Malpractice Act of 2023
+</p>
+
+<p>
+US HB10075: Stopping the Mutilation of Children Act of 2024
+</p>
+
+<p>
+US HB1399: Protect Children’s Innocence Act
+</p>
+
+<p>
+US HB216: My Child, My Choice Act of 2023
+</p>
+
+<p>
+US HB1490: Preventing Violence Against Female Inmates Act of 2023
+</p>
+</blockquote>
+
+<p>
+Just so we are on the same page, here is a list of some bill titles
+from anti-trans legislation being currently debated in Congress. These
+bills seek to ban transgender persons from serving in the military,
+the use of pronouns in schools, gender and sexuality education in
+schools, gender-affirming care for minors, and placing incarcerated
+transwomen with other women in prisons. I'll come back to the content
+of the bill text, but for now, it's enough to acknowledge that they
+are based on a certain logic that gender nonconformity is a national
+threat, from which the American people (especially children) need
+protection.
+</p>
+
+<p>
+This logic is driven by a particular fear of transness being
+contagious, that it can spread from person to person. This fear, which
+is popularized in the now debunked medical diagnosis called
+"Rapid-onset Gender Dysphoria," or ROGD, has had a significant
+influence on public perception around trans issues, especially as they
+affect minors. One notable example of this is a book by Abigail
+Shrier, called "Irreversible Damage: The Transgender Craze Seducing
+Our Daughters." Shrier's thesis is that minors, who do not know what
+they want, cannot be trusted to make decisions about their gender.
+</p>
+
+<p>
+I'm choosing Shrier's text because there is something happening in
+the assumptions that she makes, which is more subtle than those being
+made in the legislative bill titles (though I'll come back to the
+bill text in a moment). 
+</p>
+
+<p>
+In contrast to the language of the above bill titles, where in the
+assumptions are blatantly expressed, Shrier embeds her assumptions in
+a highly ironic tone. Some of her pronouncements, like the one below,
+for example, contain a double meaning:
+</p>
+
+<blockquote>
+<p>
+if the government can’t force students to salute a flag, the
+government can’t force a healthcare worker to utter a particular
+pronoun. In America, the government can’t make people say things&#x2013;not
+even for the sake of politeness. Not for any reason at all. (xx)
+</p>
+</blockquote>
+
+<p>
+Here, Shrier makes a comparison to patriotism, in the flag salute, to
+make a point about governmental authority. The point is that, just as
+the government cannot compel people to express loyalty to the
+country's symbols, so it cannot compel respect (what she calls
+"politeness") for a person's preferred gender designation. Through
+this comparision to patriotism, and the framing of the issue around
+expression, the subtext seems to be that forcing pronoun usage would
+be fascist. Which is a strange way to make a point to what (I imagine)
+is a largely conservative readership.
+</p>
+
+<p>
+Unless, reading this statement through the frame of irony, the point
+is precisely that some kinds of expression should be free while others
+should not. That citizens <i>do</i> have the right to question each other's
+genders, but not to question the flag. In plain terms, then, the
+sentence would be saying something like, "look, our government so
+loves your freedom, that it cannot even force you to show respect for
+it." And, it follows, "if you are free to disrespect such a
+government, then you surely cannot be obligated to honor someone's
+pronouns". In this reading, we can trace a direct line between an
+investment in patriotism to an investment to gender norms.
+</p>
+</div>
+
+<div id="outline-container-org34b5adf" class="outline-4">
+<h4 id="org34b5adf"><span class="section-number-4">1.4.1.</span> <span class="todo TODO">TODO</span> close reading of bills via Butler</h4>
+<div class="outline-text-4" id="text-1-4-1">
+<p>
+The bills are not written irony, they are written in a declarative
+legal language. 
+</p>
+
+<p>
+Coming back to the bills, we might apply a similar frame 
+</p>
+
+<p>
+We can do some similar kind of reading here within a Queer Studies
+framework.
+</p>
+
+<blockquote>
+<p>
+'The term gender identity means a persons self-perception of their
+gender or claimed gender, regardless of the persons biological sex.',
+</p>
+
+<p>
+'The term gender means the psychological, behavioral, social, and
+cultural aspects of being male or female.',
+</p>
+
+<p>
+The term gender transition means the process in which an individual
+goes from identifying with and living as a gender that corresponds to
+his or her biological sex to identifying with and living as a gender
+different from his or her biological sex, and may involve social,
+legal, or physical changes.',
+</p>
+
+<p>
+'The term biological sex means the indication of male or female sex by
+reproductive potential or capacity, sex chromosomes, naturally
+occurring sex hormones, gonads, or internal or external genitalia
+present at birth.',
+</p>
+</blockquote>
+
+<p>
+In close reading the dataset, I immediately notice how some
+assumptions are being constructed in subtle and seemingly neutral
+ways. For example, in the first definition, I am interested in the
+words "self-perception" and "claimed", and how a view of gender
+identity as a subjective experience engages with behavioral dimensions
+of gender expression, at least as it has been theorized by Queer
+Studies scholars like Judith Butler.
+</p>
+
+<p>
+I am also interested in the word “regardless,” which appears in almost
+half of the definitions, and suggests a contrast between sex and
+gender that seems to reify a binary opposition or between the two. In
+other words, gender as being defined without regard to sex, as if
+notions of gender and sex do not influence each other, and never blend
+into one another, or make productive use of each other. Again I'm
+thinking here of Judith Butler, and her famous (and contentious) claim
+that even seemingly physical phenomena, like biological sex, is
+discursively produced.
+</p>
+
+
+
+
+
+<p>
+While I enjoy doing this kind of analysis of irony, it is exactly the
+kind of reading that I don't want to do for this project. Because the
+more that I engage with the material and the public discourse around
+it, the more I am convinced that this particular historical moment
+needs another mode of reading.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org69ce198" class="outline-3">
+<h3 id="org69ce198"><span class="section-number-3">1.5.</span> another mode of reading lol</h3>
+</div>
+</div>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1" role="doc-backlink">1</a></sup> <div class="footpara" role="doc-footnote"><p class="footpara">
+The emergence of "Artifical Intelligence" can, in one
+trajectory, be traced to Alan Turing's famous essay on the subject
+(<i>Computing Machinery and Intelligence</i>. Although many people who cite
+this origin fail to recognize the Turing made a crucial distinction
+between actual intelligence, which is virtually impossible to detect
+as experienced subjectively, and the performance of it, which he poses
+as the criterion for assessing the quality of machine processing)
+which inaugurates what N. Katherine Hayles calls a history of
+"information los[ing] its body," as scientific discourses increasingly
+overlook the role of the body and embodiment in machine "thinking."
+This tendency is to conceptualize thinking or information processing
+as separate from the substrate that enables such procedures, bringing
+us to where we are today, when casual users of the now ubiquitous chat
+interfaces (the contemporary "terminal" of Turing's experiment) find
+themselves in thrall to a disembodied subjectivity (There is a
+fascinating clash about the role of intention in interpreting machine
+generated langauge between computational linguists like Emily Bender,
+who assert that intention (specifically, the intuition of intention by
+a reader) is necessary for interpretation and Literary Studies
+scholars who maintain that intention can be and sometimes is severed
+from communicative acts. See "Climbing towards NLU: On Meaning, Form,
+and Understanding in the Age of Data", and <i>Critical Inquiry</i>'s June
+2023 special issue, "Again Theory: A Forum on Language, Meaning, and
+Intent in the Time of Stochastic Parrots.").
+</p></div></div>
+
+
+</div>
+</div></div>
+<div id="postamble" class="status">
+<p class="author">Author: si</p>
+<p class="date">Created: 2024-11-18 Mon 09:43</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>
