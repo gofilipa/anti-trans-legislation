@@ -1,4 +1,15 @@
-* memory
+* datasets
+** legislative bills
+- simple analysis of the bill titles and summaries, maybe some
+  readings of the gender definitions.
+- all bills that have been passed.
+- all federal bills for 2023-2024
+** transphobia
+- /Irreversable Damage/ by Abigail Shrier
+- /The Cass Review/ by Hilary Cass?
+- /Detransition Baby/ by Torrey Peters
+* training params
+** memory
 gpt-neo-2.7b:
 - RAM: 11g
 - disk: 36g
