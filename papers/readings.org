@@ -1,0 +1,296 @@
+* readings
+** FACCT
+- Klein, Lauren, and Catherine D’Ignazio. “Data Feminism for AI.” In
+  Proceedings of the 2024 ACM Conference on Fairness,
+  Accountability, and Transparency, 100–112. FAccT ’24. New York,
+  NY, USA: Association for Computing Machinery, 2024.
+  https://doi.org/10.1145/3630106.3658543.
+  - “these models intentionally generate output from the center of
+    any probability distribution, rather than amplify
+    lower-probability possibilities” (Klein, D'Ignazio 4).
+  - “both predictive and generative AI are status quo machines –
+    truly excellent at reproducing existing conditions and shaping
+    the future in the image of the racist, sexist, ableist,
+    transphobic past” (Klein, D'Ignazio 4).
+- Mayworm, Samuel, Kendra Albert, and Oliver L. Haimson.
+  “Misgendered During Moderation: How Transgender Bodies Make
+  Visible Cisnormative Content Moderation Policies and Enforcement
+  in a Meta Oversight Board Case.” In The 2024 ACM Conference on
+  Fairness, Accountability, and Transparency, 301–12. Rio de Janeiro
+  Brazil: ACM, 2024. https://doi.org/10.1145/3630106.3658907.
+  - Showing non-binary users, not everyone wants to be "normative",
+    do they? But they do not want to be sexualized. Interesting.
+    There's a deep desire to just exist in the same ways as
+    cis-hets, to not be "marked" by the system. Is this the same as
+    a desire to "pass"?
+- Huang, Saffron, Divya Siddarth, Liane Lovitt, Thomas I. Liao, Esin
+  Durmus, Alex Tamkin, and Deep Ganguli. “Collective Constitutional
+  AI: Aligning a Language Model with Public Input.” In The 2024 ACM
+  Conference on Fairness, Accountability, and Transparency,
+  1395–1417. Rio de Janeiro Brazil: ACM, 2024.
+  https://doi.org/10.1145/3630106.3658979.
+  - Using a metric to separate people into "opinion groups" based on
+    their responses, then measuring the largest differences across
+    the groups. Reports low levels of polarization, but I'm really
+    interested in how the differences turn on approaches to
+    marginalized people, and whether racism is systemic/historical.
+- Kraft, Angelie, and Eloïse Soulier. “Knowledge-Enhanced Language
+  Models Are Not Bias-Proof: Situated Knowledge and Epistemic
+  Injustice in AI.” In The 2024 ACM Conference on Fairness,
+  Accountability, and Transparency, 1433–45. Rio de Janeiro Brazil:
+  ACM, 2024. https://doi.org/10.1145/3630106.3658981.
+- Mickel, Jennifer. “Racial/Ethnic Categories in AI and Algorithmic
+  Fairness: Why They Matter and What They Represent.” In The 2024
+  ACM Conference on Fairness, Accountability, and Transparency,
+  2484–94. Rio de Janeiro Brazil: ACM, 2024.
+  https://doi.org/10.1145/3630106.3659050.
+- Bhardwaj, Eshta, Harshit Gujral, Siyi Wu, Ciara Zogheib, Tegan
+  Maharaj, and Christoph Becker. “Machine Learning Data Practices
+  through a Data Curation Lens: An Evaluation Framework.” In The
+  2024 ACM Conference on Fairness, Accountability, and Transparency,
+  1055–67. Rio de Janeiro Brazil: ACM, 2024.
+  https://doi.org/10.1145/3630106.3658955.
+- Kong, Youjin. “Are ‘Intersectionally Fair’ AI Algorithms Really
+  Fair to Women of Color? A Philosophical Analysis.” In Proceedings
+  of the 2022 ACM Conference on Fairness, Accountability, and
+  Transparency, 485–94. FAccT ’22. New York, NY, USA: Association
+  for Computing Machinery, 2022.
+  https://doi.org/10.1145/3531146.3533114.
+- Devinney et al 2022: "Theories of Gender in NLP Research"
+  - Like Birhane et al 2022, calls for interdisciplinarity in ML
+    research, here specifically with regard to gender bias.
+  - Method: Survey over 200 articles to see how they are studying,
+    defining, approaching "Gender"; most use "folk model" where
+    gender is binary, evident, and inevitable; whereas these authors
+    take a butlerian approach, where gender is a social construct
+    that is behaviorally enacted and discursively constituted.
+  - Finds most examples of:
+    - gender proxies (what data is representative of gender): "word
+      lists: compiles (unordered) lists of gender-associated terms",
+      "pronouns", "word pairs: 'equivalent but for gender' terms",
+      "names", "annotation", in that order;
+    - gender bias (how is biased theorized): as "performance parity
+      (M/F): correctness ratio for women vs men"; as "associations:
+      tests associations by comparing between gendered categories";
+      as "occupations: uses 'occupation' titles as a way to measure
+      bias", and "gender vector: word embedding: identify 'gender'
+      vector & locate words"
+- Birhane et al 2022: "The Values Encoded in ML Research"
+  - looks into seemingly neutral values to find how they are
+    "socially and politically charged," laden with investments and
+    priorities that centralize and perpetuate power at the expense
+    of the least advantaged.
+  - Close, collective reading ("manual analysis") of over 100
+    papers, developing an annotation scheme to extract values:
+    "Performance, Generalization, Efficiency, Building on past work,
+    Novelty" and a justificatory schema.
+  - Brings "foundational understanding" that "science and technology
+    are inherently value laden" from STS, Critical Theory, and Phil
+    of Science to ML. 
+** other ML papers
+- Bolukbasi, Tolga, Kai-Wei Chang, James Y Zou, Venkatesh Saligrama,
+  and Adam T Kalai. “Man Is to Computer Programmer as Woman Is to
+  Homemaker? Debiasing Word Embeddings.” In Advances in Neural
+  Information Processing Systems, Vol. 29. Curran Associates,
+  Inc., 2016.
+  https://papers.nips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html.
+  - find a gender subspace by subtracting vectors of gendered words.
+  - offer a debiasing methodology, for example, removing association
+    between receptionist and female and keeping the one between queen
+    and woman.
+    
+- Caliskan et al, 2017:
+  - translates IAT to vector space, and argues that the results
+    support "distributional hypothesis" that "statistical contexts
+    of words capture much of what we mean by meaning".
+  - At the end of the paper, make a rather bold claim that human
+    minds operate the same ways that ml algorithms do: "before
+    providing an explicit or institutional explanation for why
+    individuals make prejudiced decisions, one must show that it was
+    not a simple outcome of unthinking reproduction of statistical
+    regularities absorbed with language. Similarly, before positing
+    complex models for how stereotyped attitudes perpetuate from one
+    generation to the next or from one group to another, we must
+    check whether simply learning language is sufficient to explain
+    (some of) the observed transmission of prejudice."
+    - there is an implicit correlation between the ways these
+      machines work and the ways that humans do... language is the
+      bridge.
+
+- Caliskan, Aylin, Pimparkar Parth Ajay, Tessa Charlesworth, Robert
+  Wolfe, and Mahzarin R. Banaji. “Gender Bias in Word Embeddings: A
+  Comprehensive Analysis of Frequency, Syntax, and Semantics.” In
+  Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and
+  Society, 156–70. Oxford United Kingdom: ACM, 2022.
+  https://doi.org/10.1145/3514094.3534162.
+
+  - looking more closely into how bias emerges across gender
+
+- Guo, Wei, and Aylin Caliskan. “Detecting Emergent Intersectional
+  Biases: Contextualized Word Embeddings Contain a Distribution of
+  Human-like Biases.” In Proceedings of the 2021 AAAI/ACM Conference
+  on AI, Ethics, and Society, 122–33. AIES ’21. New York, NY, USA:
+  Association for Computing Machinery, 2021.
+  https://doi.org/10.1145/3461702.3462536.
+
+  - introducing CEAT, IBD, and EIBD. 
+  
+- Wolfe, Robert, and Aylin Caliskan. “Low Frequency Names Exhibit Bias
+  and Overfitting in Contextualizing Language Models.” In Proceedings
+  of the 2021 Conference on Empirical Methods in Natural Language
+  Processing, 518–32. Online and Punta Cana, Dominican Republic:
+  Association for Computational Linguistics, 2021.
+  https://doi.org/10.18653/v1/2021.emnlp-main.41.
+
+  - "lower-frequency minority group names are more associated with
+    unpleasantness." (Wolfe and Caliskan, 2021, p. 518). 
+
+- Charlesworth, Tessa E S, Kshitish Ghate, Aylin Caliskan, and
+  Mahzarin R Banaji. “Extracting Intersectional Stereotypes from
+  Embeddings: Developing and Validating the Flexible Intersectional
+  Stereotype Extraction Procedure.” PNAS Nexus 3, no. 3 (March 1,
+  2024): pgae089. https://doi.org/10.1093/pnasnexus/pgae089.
+  - using word embeddings to study intersectionality, but doesn't
+    refer to any humanistic engagement with the term, doesn't define
+    or contextualize the term.
+  - uses "ground truth" as a measure for testing whether stereotypes
+    are accurate in the data. Problematic: at best, says that
+    stereotypes must reflect demographic realities to be stereotypes,
+    at worst, that stereotypes are actually based on truth.
+  - makes assumptions about visibility and invisibilty of certain
+    identities, like class, saying that it's not as prevalent because
+    being "rich" or "poor" isn't as marked in language; whereas class
+    vs race visibility has been well theorized in humanities.
+
+- Zhao, Jieyu, Yichao Zhou, Zeyu Li, Wei Wang, and Kai-Wei Chang.
+  “Learning Gender-Neutral Word Embeddings.” In Proceedings of the
+  2018 Conference on Empirical Methods in Natural Language Processing,
+  edited by Ellen Riloff, David Chiang, Julia Hockenmaier, and
+  Jun’ichi Tsujii, 4847–53. Brussels, Belgium: Association for
+  Computational Linguistics, 2018.
+  https://doi.org/10.18653/v1/D18-1521.
+
+- Blodgett, Su Lin, Solon Barocas, Hal Daumé III, and Hanna Wallach.
+  “Language (Technology) Is Power: A Critical Survey of ‘Bias’ in
+  NLP.” arXiv, May 29, 2020.
+  https://doi.org/10.48550/arXiv.2005.14050.
+
+- Blodgett, Su Lin, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and
+  Hanna Wallach. “Stereotyping Norwegian Salmon: An Inventory of
+  Pitfalls in Fairness Benchmark Datasets.” In Proceedings of the 59th
+  Annual Meeting of the Association for Computational Linguistics and
+  the 11th International Joint Conference on Natural Language
+  Processing (Volume 1: Long Papers), 1004–15. Online: Association for
+  Computational Linguistics, 2021.
+  https://doi.org/10.18653/v1/2021.acl-long.81.
+
+- Meade, Nicholas, Elinor Poole-Dayan, and Siva Reddy. “An Empirical
+  Survey of the Effectiveness of Debiasing Techniques for Pre-Trained
+  Language Models.” arXiv, April 3, 2022.
+  https://doi.org/10.48550/arXiv.2110.08527.
+- EVALUATIONS: SEAT, Stereoset, Crowds-Pairs:
+  - SEAT - uses word embeddings to measure associations to target
+    words: "for instance, if the representations for the female
+    attribute words listed above tended to be more closely
+    associated with the representations for the family target
+    words, this may be indicative of bias within the word
+    representations."
+- DE-BIASING TECHNIQUES: Counter-factual Data Augmentation (CDA),
+    Dropout, Iterative Nullspace Projection, Self-Debias, and
+    SentenceDebias”
+  - "We found Self-Debias to be the strongest debiasing technique.
+    Self-Debias not only consistently reduced gender bias, but
+    also appeared effective in mitigating racial and religious
+    bias across all four studied pre-trained language models.
+    Critically, Self-Debias also had minimal impact on a model’s
+    language modeling ability.”
+- "Gonen, Hila, and Yoav Goldberg. “Lipstick on a Pig: Debiasing
+  Methods Cover up Systematic Gender Biases in Word Embeddings But
+  Do Not Remove Them.” arXiv, September 24, 2019.
+  https://doi.org/10.48550/arXiv.1903.03862.
+  - "Even when drastically reducing the gender bias according to
+    this definition, it is still reflected in the geometry of the
+    representation of “gender-neutral” words, and a lot of the bias
+    information can be recovered.”
+
+- May et al
+  - develop SEAT, but still find "method unreliable" perhaps due ot
+    problems in simplifying "concepts"'
+
+    
+- Nemani et al 2023:
+  - assesses anti-bias techniques for measuring, evaluating, and
+    mitigating bias in ML. 
+
+** trans studies
+Defines "trans" as "any phenomenon that denaturalizes normative gender
+and draws our attention to the processes that produce normativity"
+(Teran, Travis 2024).
+
+A lot of what passes for trans activisms reinforces oppressive
+paradigms, especially white supremacy.  
+
+The tendency of trans activism to ground/reinforce binary categories
+of gender, which perpetuates intersectional oppressions.
+
+Trans liberalism as perpetuates oppression along intersectional lines:
+- "This form of trans politics—that may be described as ‘trans
+  liberalism’—argues that transgender rights are the solution to the
+  problems facing trans people, and will enable our participation in
+  (Western) capitalist society; that, alongside rights, positive media
+  representation is the best method to win over the cisgender world
+  and improve the standing of trans subjects within the multicultural
+  diversity of an apparently equal society. The basis of this
+  ‘equality’ is fictitious: the neoliberal states, in which these
+  demands are made, reproduce socio-economic divisions along
+  intersecting lines of race and class, gender, sexuality,
+  dis/ability, nationality and immigration status. Without challenging
+  the existing inequality of society, trans activism modelled on
+  ‘successful’ liberal lesbian and gay rights initiatives—such as the
+  work undertaken by the Human Rights Campaign in the US and Stonewall
+  UK—advocates for social inclusion that occurs with and through the
+  disenfranchisement of the poor."[fn:14] (Raha 2015)
+- The category of trans* has the potential to reinforce racial
+  capitalism, due to its origins and contextualization of gender
+  solely through a colonial gender binary within industrial society-
+  seen most clearly in trans liberalism (Teran, Travis 2024).[fn:9]
+  - "Trans liberalism, by naturalizing gender identities as they take
+    their spontaneous form within capitalism, strips of historicity
+    the categories that cross and give meaning to our bodies" (Teran,
+    Travis 2024).
+
+Imbrication of class in gender and transgender. 
+- "That transition is less a volitional act of identification, let
+  alone a subversion of the gender binary, than a concrete response to
+  living and working in the world" (Gill-Peterson, 2024)
+- since wwii transition has become increasingly associated with middle
+  class and professional interests, reforming individuals not only
+  into ‘conventional men/women, but into conventional workers for a
+  sex-segmented labor market’ (Gill-Peterson 2024)
+- "it has become possible to claim with a straight face that it is
+  politically radical not to medically transition and instead reduce
+  gender to a matter of private taste in clothes and pronouns, as if
+  those were not quintessentially bourgeois criteria for advancing
+  antitranssexual interests directly against poor trans women"
+  (Gill-Peterson, 2024)
+- The valorization of a medicalized trans subject: 
+  - Wren Ariel Gould critiques mainstream trans activism for overlooking
+    class in their analysis of anti-trans laws and, ultimately,
+    supporting the same late capitalist systems which anti-trans laws
+    support. "Whereas anti-transgender legislation appears aligned with
+    neoliberal austerity and the seemingly implacable privatization of
+    (previously) public space, opponents continue to recapitulate
+    medicalizing narratives for transgender subjects that are bound up
+    in late capitalist tensions and erase class within these discourses
+    (plausibly resourcing transgender subjects who become “respectable”
+    through whiteness and wealth)" (Gould, "Coconstructing
+    (Trans-)Capitalist Realism"). [fn:10]
+  - "Transgender subjects… are attached to late capitalism, through
+    their roles as consumers (of medicalized and nonmedicalized
+    technologies of the body) and as workers" (Gould 219)
+
+Gender roles, intersectional roles, as a way of revealing power
+structures and pushing back against stereotypes. Black male femininity
+"sissies" that counter associations of Black masculinity with
+aggression within white supremacist contexts (Jovanté Anderson, The
+Sissy that Walks: The Transformations of an Abject Figure).

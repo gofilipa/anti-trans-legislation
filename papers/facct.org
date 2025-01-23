@@ -1,376 +1,496 @@
-* readings
-** FACCT 2024
-  - Klein, Lauren, and Catherine D’Ignazio. “Data Feminism for AI.” In
-    Proceedings of the 2024 ACM Conference on Fairness,
-    Accountability, and Transparency, 100–112. FAccT ’24. New York,
-    NY, USA: Association for Computing Machinery, 2024.
-    https://doi.org/10.1145/3630106.3658543.
-    - “these models intentionally generate output from the center of
-      any probability distribution, rather than amplify
-      lower-probability possibilities” (Klein, D'Ignazio 4).
-    - “both predictive and generative AI are status quo machines –
-      truly excellent at reproducing existing conditions and shaping
-      the future in the image of the racist, sexist, ableist,
-      transphobic past” (Klein, D'Ignazio 4).
-  - Mayworm, Samuel, Kendra Albert, and Oliver L. Haimson.
-    “Misgendered During Moderation: How Transgender Bodies Make
-    Visible Cisnormative Content Moderation Policies and Enforcement
-    in a Meta Oversight Board Case.” In The 2024 ACM Conference on
-    Fairness, Accountability, and Transparency, 301–12. Rio de Janeiro
-    Brazil: ACM, 2024. https://doi.org/10.1145/3630106.3658907.
-    - Showing non-binary users, not everyone wants to be "normative",
-      do they? But they do not want to be sexualized. Interesting.
-      There's a deep desire to just exist in the same ways as
-      cis-hets, to not be "marked" by the system. Is this the same as
-      a desire to "pass"?
-  - Huang, Saffron, Divya Siddarth, Liane Lovitt, Thomas I. Liao, Esin
-    Durmus, Alex Tamkin, and Deep Ganguli. “Collective Constitutional
-    AI: Aligning a Language Model with Public Input.” In The 2024 ACM
-    Conference on Fairness, Accountability, and Transparency,
-    1395–1417. Rio de Janeiro Brazil: ACM, 2024.
-    https://doi.org/10.1145/3630106.3658979.
-    - Using a metric to separate people into "opinion groups" based on
-      their responses, then measuring the largest differences across
-      the groups. Reports low levels of polarization, but I'm really
-      interested in how the differences turn on approaches to
-      marginalized people, and whether racism is systemic/historical.
-** other papers
-  - Meade, Nicholas, Elinor Poole-Dayan, and Siva Reddy. “An Empirical
-    Survey of the Effectiveness of Debiasing Techniques for
-    Pre-Trained Language Models.” arXiv, April 3, 2022.
-    https://doi.org/10.48550/arXiv.2110.08527.
-    - EVALUATIONS: SEAT, Stereoset, Crowds-Pairs:
-      - SEAT - uses word embeddings to measure associations to target
-        words: "for instance, if the representations for the female
-        attribute words listed above tended to be more closely
-        associated with the representations for the family target
-        words, this may be indicative of bias within the word
-        representations."
-      - Stereoset - using stereotype as a measure of bias:
-	- presence of identity terms in sentence completions as a marker
-	  of bias: being mexican and a housekeeper isn’t inherently
-	  offensive; it depends on the context; to dehumanize a person
-	  and group, to describe.
-    - DE-BIASING TECHNIQUES: Counter-factual Data Augmentation (CDA),
-	Dropout, Iterative Nullspace Projection, Self-Debias, and
-	SentenceDebias”
-      - "We found Self-Debias to be the strongest debiasing technique.
-        Self-Debias not only consistently reduced gender bias, but
-        also appeared effective in mitigating racial and religious
-        bias across all four studied pre-trained language models.
-        Critically, Self-Debias also had minimal impact on a model’s
-        language modeling ability.”
-  - "Gonen, Hila, and Yoav Goldberg. “Lipstick on a Pig: Debiasing
-    Methods Cover up Systematic Gender Biases in Word Embeddings But
-    Do Not Remove Them.” arXiv, September 24, 2019.
-    https://doi.org/10.48550/arXiv.1903.03862.
-    - "Even when drastically reducing the gender bias according to
-      this definition, it is still reflected in the geometry of the
-      representation of “gender-neutral” words, and a lot of the bias
-      information can be recovered.”
-  - Kraft, Angelie, and Eloïse Soulier. “Knowledge-Enhanced Language
-    Models Are Not Bias-Proof: Situated Knowledge and Epistemic
-    Injustice in AI.” In The 2024 ACM Conference on Fairness,
-    Accountability, and Transparency, 1433–45. Rio de Janeiro Brazil:
-    ACM, 2024. https://doi.org/10.1145/3630106.3658981.
-  - Mickel, Jennifer. “Racial/Ethnic Categories in AI and Algorithmic
-    Fairness: Why They Matter and What They Represent.” In The 2024
-    ACM Conference on Fairness, Accountability, and Transparency,
-    2484–94. Rio de Janeiro Brazil: ACM, 2024.
-    https://doi.org/10.1145/3630106.3659050.
-  - Bhardwaj, Eshta, Harshit Gujral, Siyi Wu, Ciara Zogheib, Tegan
-    Maharaj, and Christoph Becker. “Machine Learning Data Practices
-    through a Data Curation Lens: An Evaluation Framework.” In The
-    2024 ACM Conference on Fairness, Accountability, and Transparency,
-    1055–67. Rio de Janeiro Brazil: ACM, 2024.
-    https://doi.org/10.1145/3630106.3658955.
-  - Kong, Youjin. “Are ‘Intersectionally Fair’ AI Algorithms Really
-    Fair to Women of Color? A Philosophical Analysis.” In Proceedings
-    of the 2022 ACM Conference on Fairness, Accountability, and
-    Transparency, 485–94. FAccT ’22. New York, NY, USA: Association
-    for Computing Machinery, 2022.
-    https://doi.org/10.1145/3531146.3533114.
-
-
-* draft
+* Some Myths About Bias: A Queer Studies Critique of Evaluation and Mitigation Methods in NLP
 ** outline
-title: Bias Detection from a Humanist's Perspective
+title: Neutrality is Dangerous: Evaluating Gender Bias In LLMs
 
-Thesis: our bias mitigation techniques need to account for domain
-specific knowledge of bias and discrimination: that gender is not
-inevitable, not binary (circumscribed). The question is how can we
-capture this in statistical models.
+Thesis: Bias evaluation techniques ought to account for domain
+specific knowledge of bias and discrimination. Queer and Trans studies
+have shown that gender-neutrality is not an effective goalpost, it
+domesticates gender differences. What we need are models and
+understandings of gender that are proliferative, rather than
+reductive. Bias is not something to be reduced or eliminated, but
+something to be augmented, accompanied.
 
 introduction
 - [X] overview of project
-- [X] rationale - studying bias via perpetuation of assumptions
-- [X] intervention - enlisting critical theory & domain knowledge
+- [X] rationale - domain-specific knowledge is necessary
+- [X] intervention - 3 myths about gender bias that turn on
+  understanding binaries
 
-myths: bias is exctractable, swappable, portable
-- [X] bias can be filtered out: list of dirty words
-- [ ] bias can be swapped out: weat, seat tests; 
-- [ ] existing paradigms for defining bias:
+Literature review: existing schemas of bias
+- [X] existing paradigms for defining bias:
   - Hitti et al. [2019]'s paradigm dividing structural (grammatical,
     sentence structures) from contextual (tone, context).
-- [ ] bias adheres in language forms and syntax (to be expanded in
-  Trans/Queer sections)
+  - Nemani et al. 2023: Denigration, Stereotyping,
+    Under-representation.
+  - Barocas et al 2017: "allocative harms" - groups not receiving
+    resources or goods; "representational harms" - stereotyping or
+    stigmatization
 
-Measurement & Evaluation
-- Scores for detecting and measuring bias
-  - word embeddings:
-    - WEAT (Caliskan et al 2017): applying IAT from psychology and
-      distributional hypothesis from linguistics to machine learning:
-      "The ... results raise the possibility that all implicit human
-      biases are reflected in the statistical properties of language."
+Literature review: Queer studies on binaries
+- [X] gender performativity 
+
+Some myths about bias
+- [X] bias is detachable:
+  - list of dirty words
+- [X] bias is categorical: present/absent, good/bad
+  - [X] WEAT based on IAT, perpetuating bias as categorical measure.
+    - Caliskan et al 2017:
+      - collapses distributional hypothesis to a binary measure.
+      - transfers bias as measure of correctness to measure of harm.
+    - Critiques of WEAT
+      - Wolfe, Caliskan, 2021: word frequency affects positive/negative
+        evals. 
       - Van Loon et al, 2023: but WEAT shows that word embeddings make
         negative correlations to infrequent terms, making it
         unreliable.
-    - SEAT (May et al 2019): They apply WEAT to sentence level tests,
-      enabling them to explore complex kinds of intersectional bias
-      (citing hooks and Crenshaw) and find the method unreliable
-      perhaps due to difficulty in simplifying concepts/contexts in
-      sentence-level inputs.
-  - bias measurement methods reinforce binary:
-    - Devinney et al 2022: "Masculine and feminine genders are also
-      generally presented as “opposites" which can be “swapped" for
-      each other; placed on each end of a linear scale of bias; or
-      used to define vector space directions."
-    - Devinny et al 2022: "The word lists created by Zhao et al.,
-      which consist of “words associated with gender by definition”
-      are used in several papers to calculate gender in word
-      embeddings. The two lists include terms like uterus, penis,
-      testosterone and ovarian cancer. Although not based on an
-      individual’s appearance, these words incorporate the
-      physiological assumption of the folk model."
-      - “Word pair strategies are typically binary and the “semantic
-        equivalence” of many pairs can be called into question.
-        Consider bachelor:spinster – spinster is pejorative while
-        bachelor is not; and there is no such thing as a spinster’s
-        degree.”
-    - Devinny et al 2022: on "beards"
-      - "There may be a statistically strong association between
-        masculine nouns and beards, and beards are often a part of
-        masculine perfor- mativity, but that does not make it a
-        foolproof indicator of gender for an individual... The
-        particular example of beard with “male nouns” is also ironic,
-        as beard can in specifically refer to a woman whom a gay man
-        is dating to hide his sexuality – making it a feminine noun in
-        these cases... We must know... what discourse (the beard on
-        someone’s face, or the beard they are dating?) make up the
-        context to make a judgement about how meaningful a particular
-        sentence or association is."
-  - point-wise mutual information (PMI)... investigates the
-    co-occurrence of words with a particular gender. [Hoyle et al.
-    2019; Rudinger et al . 2017; Stańczak et al. 2021.
-  - "Fighting Bias with Bias" in Stanovsky et al 2019, "Evaluating
-    Gender Bias in Machine Translation": "the pretty doctor".
-  - "trans-inclusive methodologies":
-    - Hansson et al 2021: Wino-gender incorporationg the neutral
-      third-person singular "hen" in swedish.
-    - Dinan et al. 2020: classifying genders as {masculine, feminine,
-      neutral, unknown.
-  - Datasets for evaluation
-    - winobias, winogender: counterfactual data substitution?
-    - stereoset: counterfactual data substitution?
+  - [X] (rather, it's a continuum?)
+- [X] bias can be levelled:
+  - [X] Counterfactual evaluation[fn:1]:
+    - Nemani et al 2023: "1. Measures gender bias by assessing the
+      impact of gender swapping on model performance. 2. Compares
+      accuracy on original and gender-swapped test sets to quantify
+      the degree of bias"
+    - switching terms as if they are equivalent. 
+      - Devinny et al 2022: “Word pair strategies are typically binary
+        and the “semantic equivalence” of many pairs can be called
+        into question. Consider bachelor:spinster – spinster is
+        pejorative while bachelor is not; and there is no such thing
+        as a spinster’s degree.”
+  - [X] Debais, the existance of a Gender subspace:
+    - Gonen, Goldberg, 2019: removal is "superficial" 
 
-Mitigation
-- Gender Bias Mitigation Techniques:
-  - "de-biasing" techniques:
-    - debiasing embeddings doesn't work, because "semantically related
-      words still maintain gender bias both in their similarities, and
-      in their representation"... "word embeddings spatial geometry"
-      doesn't change (Gonen and Goldberg 2019).
-  - coreference resolution
-  - Counterfactual substitution;
-  - Movement pruning;
-  - MLP Regression
-  - see Nemani et al for full review of mitigation methods
+Solutions & Conclusion
+- [X] bias as proliferative
+  - we need further work on data curation, like Winoqueer, which
+    use crowd-sourced methods.
+  - we need a different approach, not with reduction or elimination,
+    but as proliferation.
 
-data contexts: gender
-- current definitions of gender overlook binary (Devinney et al 2022).
-  - calling for interdisciplinarity, specifically incorporating
-    Feminist, Gender, and Queer Studies into NLP (Devinney et al
-    2022). 
-- theories of gender, Butler, Prosser, etc
-- close readings of definitions of gender from the dataset
-- small words like "regardless" reifying binaries 
+** Introduction
+This paper analyzes methods for evaluating and mitigating gender bias
+in Large Language Models by drawing from current conceptualizations of
+gender from the humanities. It argues that mitigating gender bias
+requires understanding gender as an identity and operation which has
+been most robustly theorized in fields that specialize in sex, gender,
+and sexuality, like Women's Studies, Queer Studies, and Trans Studies.
+It incorporates domain-specific knowledge from these fields to analyze
+how gender binaries emerge and functions in language with regard to
+current bias evaluation and mitigation methods.
 
-data contexts: trans
-- trans studies investments, trans vs queer
-- transphobia based on contagion
-- transphobia in bill titles? 
+The field of Queer Studies in particular has done much to enrich and
+complicate the understanding of gender: what it is, how it operates,
+according to what structures and imperatives. For example, the theory
+of Gender Performativity, which inaugurated the field in the early
+1990s, influences the common perception today that gender is a
+socially constructed phenomenon, which is determined and made visible
+through social norms and behaviors, rather than the sexed body [Butler
+1992]. Since then, the distinction between gender as a social
+operation and sex as a physical embodiment, and the subsequent
+disillusion of a binary model of gender difference, have been
+validated in biology, neuroscience, and psychology [Ainsworth 2015,
+Hyde et al. 2019, Joel 2020]. At the same time, Queer Studies has
+continued to debate and problematize the sex/gender division as well
+as the implications of having a politics based on gender identity
+[Sedgwick 1990, Edelman 2004, Love 2009]. In addition to those
+developments, theorizing around intersectionality, the ways in which
+gender intersects with race, class, ability, sexuality, and other
+aspects of identity, has risen to prominence and is now used as a
+standard paradigm for critical analysis [hooks 2000, Munoz 2009].
 
-the dataset? 
+Despite the popularity and widespread acceptance of concepts like
+gender performativity, nonbinary gender, and intersectionality in
+Humanities scholarship, these generally do not influence developments
+in Computer Science fields, like Natural Language Processing. This
+paper considers how such concepts might influence the study of gender
+bias, and particularly its evaluation and mitigation techniques. It
+reviews popular techniques, particularly those those that deploy word
+vector based metrics like WEAT [Word Embedding Assiciation Test,
+Caliskan et al. 2017], and DeBias [Bolukbasi et al. 2016], as well as
+those that use gender swapping and Counterfactual Evaluation as an
+essential part of their strategy [Zhao et al. 2018, Meade et al. 2022,
+Nemani et al. 2023]. It elaborates how many of these methods, which
+have and continue to significantly influence anti-bias development,
+perpetuate a conceptualization of gender that centers on a binary
+model that is self-limiting.
 
-interdisciplinarity
-- the question I put to you -- how can we incorporate these fields
-  into our training, our reading? 
-** intro 
-I have done enough work to do this talk. 
+This work furthers an area of NLP research that is already robust with
+critiques of bias detection and mitigation techniques. While many
+studies have pointed out how such methods are ineffective or
+counterproductive [Gonen and Goldberg 2019; Blodgett et al. 2021],
+which others have attibuted to a misunderstanding of how gender bias
+operates in language [Devinney et al. 2022, Hitti et al. 2019, Nemani
+et al. 2023, Meade et al. 2022, Caliskan et al. 2022], none have, to
+my knowledge, explored their ineffectiveness by critiquing the binary
+as a conceptual model. To fill that gap, this paper identifies three
+myths about gender bias that turn on a fundamental misunderstanding of
+how binaries operate: that bias is excisable, that it is categorical,
+and that it can be levelled.
 
-I'm going to talk about my work creating a dataset to study anti-trans
-bias in the USA. Using examples of transphobia, which I cull from
-legislative text that limits trans peoples' rights (known as
-"anti-trans legislation"), I fine-tune a text generation model.
+In its application of Queer Studies to NLP, this paper attempts to
+answer calls for more interdisciplinary work in NLP research [Klein
+and D'Ignazio 2024, Birhane et al. 2022, Devinney et al. 2022]. In
+what follows, I review current literature on gender bias in NLP,
+outlining different conceptualizations of how bias appears in
+language. Then, from Queer Studies, I share a critical analysis of
+binary structures, laying out the ways that binary models of
+organization and modes of thought necessitate certain exclusions and
+disavowals that eventually emerge to disrupt the apparent stability of
+the binary. In the following section, the main section of the paper, I
+apply this critique to my reading of bias evaluation and mitigation
+techniques that center on word vector technology and gender swapping
+strategies. Finally, I close by pointing to some promising work that
+expands beyond the limitations of a binary model by operationalizing
+that model in capacious and productive ways.
 
-Unlike most studies of algorithmic bias, which employ data curation
-and bias mitigation techniques to reduce bias in model performance,
-this project deliberately creates a biased model using biased data. I
-intentionally train a model using examples of transphobia for the
-purpose of studying the model's outputs. I am asking what language
-models, what Emily Bender cheekily calls "synthetic text generators,"
-can teach us about human assumptions that drive bias.
+** Literature Review: Existing Schemas of Bias
+Existing research defines bias by the ways that it emerges in language
+and by its social effects. Hitti et al. [2019], who examine how bias
+emerges in language, divide it into structural and contextual types of
+bias. Structural bias concerns bias that results from grammatic
+structures, such as pronouns that assume a male antecendent ("A
+programmer must always carry his laptop with him"), while contextual
+bias concerns bias that results from social and behavioral stereotypes
+("Senators need their wives to support them throughout their
+campaign") [Hitti et al. 2019]. By contrast, Nemani et al. [2023]
+classify bias by the type particular kind of effect it has on social
+groups. They use the categories of "Denigration," "Stereotyping," and
+"Under-representation." Denigration refers to the use of derogatory
+language such as slurs; stereotyping refers to a prejudice about a
+particular social group; and under-representation refers to the
+relative dearth or absence of information about a particular social
+group [Nemani et al. 2023]. Similarly, Barocas et. al [2017] divide
+types of bias into "allocative harms," when resources are withheld
+from certain groups, and "representational harms," when certain groups
+are under-represented or stereotyped.
 
-My rationale is threefold: If machine learning algorithms perpetuate
-perspectives that they are given, in the training data, and if users
-can recognize these effects in the outputs of LLMs, in the text that
-they generate, then it is worthwhile to take these outputs as their
-own objects of study for the ways in which they might reveal
-underlying assumptions that drive bias and discrimination.
+** Literature Review: Queer Studies on Binaries
+While bias detection and mitigation methods in NLP aim for a reduction
+or elimination of bias, Queer Studies field has problematized the idea
+that inequality can be eliminated from social systems.[fn:2]
 
-I argue that such processes is a first step in addressing the problem
-of algorithmic bias. It is ultimately an argument about not only the
-importance but the great utility of developing interdiscipinary
-methodologies. Close reading and domain knowledges are essential for
-this project and, I argue, for any project that treats discursive
-forms of power relations.
+One central concern for Queer Studies is the problematization of the
+gender binary, and of binary structures generally, which can be traced
+to Judith Butler's theory of Gender Performativity, first outlined in
+her famous book, /Gender Trouble: Feminism and the Subversion of
+Identity/ [1990], but more robustly theorized in her follow up work,
+/Bodies That Matter: On the Discursive Limits of Sex/ [1993]. Butler's
+theory of Gender Performativity stipulates that gender is not, as
+widely assumed, an inner truth or biological reality. Rather, it is an
+ideological construction constituted by societal norms that manifests
+in behavior. According to this theory, subjects do not have a gender,
+per se, but they express one by behaving according to certain social
+expectations.
 
-** MYTH: BIAS IS PORTABLE
-In what follows, I'm going to review some myths about biased language
-that drive approaches for mitigating bias. The first myth is that bias
-can be extracted from its context via filtering. The second myth is
-that gender bias is zero sum, or equally distributive, that it can be
-swapped. The third myth....
+Despite the popularity of Butler's theory, which some researchers in
+NLP have used to explain the constructed nature gender [Devinney et
+al. 2022], a crucial detail of her argument goes relatively unnoticed.
+This detail is that gender, for Butler, is not merely an effect of
+social conditioning. Rather, it is form of social regulation, a power
+structure that that effectively partitions social roles with the
+effect of "domesticat[ing]... difference" within a hierarchical social
+order [Butler 1993].
 
-WORD FILTERING, TRAINING DATA
+As many Queer Studies scholars point out, social hierarchies are
+reinforced through the imposition of binaries, such as male/female and
+heterosexual/homosexual. The apparent stability of the binaries, where
+two terms appear to have equal semantic weight, mask an instability
+that the binary attempts to overcome. In another seminal book in Queer
+Studies, /The Epistemology of the Closet/, Eve Kosofsky Sedgwick
+[1990] explains that in the binary "heterosexual/homosexual", the term
+"heterosexual" is not simply symmetrical or subordinated to
+"homosexual," but rather, depends "homosexual" for its meaning through
+"simultaneous subsumption and exclusion." In other words, one term
+relies on the other for its definition, which is achieved via
+exclusion and circumscription. Butler's work on binaries examines what
+must be excluded in order for the binary to operate meaningfully, what
+she calls the binary's "necessary outside." For Butler, the binary
+"heterosexual/homosexual" produces "a domain of unthinkable, abject,
+unlivable bodies" [1993]. In this model, the term "heterosexual,"
+gains its definition precisely by what is excluded from that
+conceptual system, the "homosexual," which itself is defined against a
+sexuality that is not representable or thinkable from within that
+schema.
 
-In current research on algorithmic bias, efforts are focused on
-eliminating or reducing bias in training data. This approach makes
-sense, due to the indiscriminate nature of large-scale data gathering
-methods like web crawling. But attempts to mitigate bias suggest that
-bias is a quality that can be separated and extracted from text. By
-contrast, as I demonstrate below, language structures are such that
-bias inheres to perspective, is embedded in positionality, and depends
-on factors like who is speaking, and to whom. Attempts to mitigate
-bias ought to take into account its inherently contextual quality.
+In Queer Studies, then, binaries are theorized as constraining
+structures that circumscribe orders and roles into legibility through
+the mechanism of exclusion. However, despite their constraining
+nature, binaries, in Sedgwick's view, remain "peculiarly densely
+charged with lasting potentials for powerful manipulation" -- a topic
+I will return to in this paper's conclusion [1990].
 
-Accounts of removing bias via *word filtering* show that such
-strategies depend on a limiting view of how bias operates in language.
-For example, the c4 dataset,[fn:2] a collection of Common Crawl data
-dumps, infamously uses the "List of Dirty, Naughty, Obscene or
-Otherwise Bad Words" (LDNOOBW) to filter out discriminatory and
-sexualized content.[fn:4] The filtering mechanism works by removing
-pages that contain any of the terms on this list.
+** Some Myths about Bias
+*** /Myth 1: Bias is excisable/
+One approach for bias mitigation aims to reduce bias from training
+datasets. Due to the indiscriminate nature of large-scale data
+gathering methods like web crawling, filtering is always necessary to
+some degree. However, when filtering for biased language, it is
+important to consider the ways that harms and denegration engage with
+issuess of minority group representation. 
 
-The list, which is also available as a software package called
-"naughty-words," focuses primarily on terms associated with online
-porn and sexuality, like "camgirl," "bondage," and "autoerotic," with
-others referring to sexual and racial identities, like "bulldyke"and
-"darkie," and those that describe body parts, like "nipples" and
-"butt." While the original purpose of the list was to restrict
-autocomplete and recommendations from searches, it has been adopted
-widely in popular platforms like Slack and OpenStreetMap, and in
-machine learning datasets, like c4, which in turn are used to train
-LLMs like T5, the GPT family, and LaMDA. [fn:1]
+Accounts of removing bias via filtering show that such strategies do
+not consider the nuances around language context. For example, the c4
+dataset [AllenAI 2021], a collection of Common Crawl data dumps that
+are used to train transformer models like T5, the GPT family, and
+LaMDA [Thoppilan et al. 2022, Bender et al. 2021, Raffel et al. 2023],
+infamously uses the "List of Dirty, Naughty, Obscene or Otherwise Bad
+Words" to filter out discriminatory and sexualized content [LDNOOBW
+2012]. The list, which is also available as a JavaScript software
+package called "naughty-words," focuses primarily on terms associated
+with online porn, like "bondage," with others referring to sexual and
+racial identities, like "bulldyke"and "darkie," and those that
+describe body parts, like "butt."
 
-The As Dodge et al 2021 point out, removing pages that contain bad words
-"disproportionately removes text from and about minority
-individuals."[fn:3] It goes without saying that the terms "nipple" and
-"butt" are descriptors of body parts, and are not in themselves
-offensive or sexualized. However, many of these terms are
-discriminatory, although that also depends on who speaks them, to
-whom, and for what purpose. The term "bulldyke," for example, while a
-perjorative term for a masculine-presenting woman[fn:6] has also
-claimed by some lesbians that identify with masculine gender
-expression. Removing pages that contain "bulldyke" effectively filters
-out the perspective of that identity group from being incorporated
-into the training data, data that, as Bender et al point out,
-"reclaims slurs and otherwise describes marginalized identities in a
-positive light" (Bender et al 2021).
+While some terms, like "butt," are neutral descriptors that are not in
+themselves discriminatory or sexualized, many of these terms can carry
+highly offensive meanings, although that depends on who speaks them,
+to whom, and for what purpose. The term "bulldyke," for example, while
+a perjorative term for a masculine-presenting lesbian woman has also
+been reclaimed by some lesbians that identify with masculine gender
+expression.[fn:3] As Dodge et al. [2021] point out, removing pages
+that contain bad words "disproportionately removes text from and about
+minority individuals." Web pages that contain "bulldyke," for example,
+could describe the meaning of this term from outside of a mainstream
+and discriminatory point of view. This approach to word filtering,
+thus runs the risk of exluding terms that, as Bender et al. [2021]
+explain, "reclaim slurs and otherwise describes marginalized
+identities in a positive light."
 
-** TODO WORD SWAPPING
+*** /Myth 2: Bias is categorical/
+Besides word filtering, attempts to mitigate bias have leveraged
+metrics based on word vectors, such as WEAT (The Word-Embedding
+Association Test [Caliskan et al. 2017]). However, as I demonstrate
+below, the development of this metric, and in particular the way it
+engages with related concepts from Social Psychology and Social
+Sciences, collapses bias into a categorical phenomenon, thus limiting
+the kinds of results evaluation and migitation techniques can achieve.
 
-More recently, attempts to detect and mitigate bias have leveraged
-word embedding technology.
+The WEAT Score, developed by Caliskan et al. [2017], combines
+principles from social psychology and computational linguistics to
+measure gender bias in large language models. From social psychology,
+the Implicit Association Test (IAT) [Greenwald et al. 1998] measures
+the association that a test subject makes between a particular
+identity group and an evaluative term, like "good" or "bad." In the
+IAT, the subject will categorize photos of people with a certain
+label, such as "fat" or "thin," using their right or left hands
+[Greenwald et al. 2011]. In the next round of the test, they will be
+shown different words and categorize those words as "good" or "bad,"
+again using the right or left hand to press a response key that
+indicates the category. Then, the test subsequently flips the side
+that represents the "good" response key with that which represents the
+"bad," and subjects again will categorize photos according to the
+label "fat" and "thin". The test assumes that the response time for
+selecting a response key like "fat," correlates with whatever
+evalutive term, such as "good" or "bad," that had just corresponded to
+that response key in the previous round. The test developers conclude
+that, "one has an implicit preference for thin people relative to fat
+people if they are faster to categorize words when Thin People and
+Good share a response key and Fat People and Bad share a response key,
+relative to the reverse" [Greenwald et al. 2011].[fn:4]
 
-A popular metric is the Word-Embedding Association Test Score (WEAT
-score), developed by Caliskan et al 2017, which combines popular
-methods in social psychology and linguistics to measure gender bias in
-large language models. The metric adapts the Implicit Association Test
-(IAT)[fn:7] to a machine learning context. The IAT,[fn:5] which was
-developed by social psychologists Anthony Greenwald et al in 1998,
-measures the association a subject makes between a particular identity
-group and an evaluative term, like "good" or "bad." The WEAT takes
-this association and translates it to vector space, using co-sine
-similarity as a correlative.
+The WEAT takes this idea of social group evaluation into to vector
+space, using co-sine similarity as a correlative to response time. In
+doing so, the WEAT inherits the binary measurement from its
+progenitor, and with it, an association of bias as a categorical
+value, to evaluative term that is either "good" or "bad." The use of
+labels such as "good" or "bad" to detect bias implies that bias can be
+either helpful or harmful, obscuring the particular quality, source,
+or effect of that bias. Instead, bias becomes equated to its measure,
+which is a binary measure. The AIT's approach toward bias as something
+that can be represented as good or bad effectively imposes an
+evaluative measure on top of a detection one. This subtle imposition,
+as a result, perpetuates a framework for bias detection that
+fundamentally miss the ways that bias is conceptualized and
+operationalized in language. That some bias can be evaluated as
+harmful in no way indicates the particular harm and how it might be
+countered or mitigated.
 
+Another, related slippage occurs around the concept of bias when it is
+taken from a Machine Learning context and applied to a Social Science
+one. The authors explain that, "In AI and machine learning, bias
+refers generally to prior information, a necessary prerequisite for
+intelligent action. Yet bias can be problematic where such information
+is derived from aspects of human culture known to lead to harmful
+behavior" [Caliskan et al. 2017]. In machine learning, the concept of
+bias centers on accuracy: bias is a measure that affects model
+performance with regard to the correctness of model outputs. This
+understanding of bias is then transferred into a Social Science
+context, where bias means something quite different. Here, rather than
+a measurement of error, bias is a question of context, quality, and
+valence.
 
+Critiques of WEAT reveal downstream effects of this categorical logic.
+For example, in another study on word vectors and bias, a correlation
+arises between name freqency and positive or negative associations
+[Wolfe and Caliskan 2021]. Names that appear often in the training
+corporus exhibit a higher positivity score, while those that appear
+fewer times attain a negative score. The effect is to attatch a
+negative association to relatively underrepresented names, such as
+those from minority groups, thus perpetuating their marginalization.
+To correct for this result, another study [van Loon et al. 2022]
+controls for the variable of term frequency. However, the results form
+that study reveal that this particular "unintuitive aspect of word
+embeddings.... indicates that if other biases we don’t know about are
+also introduced by the use of word embeddings, we might not be able to
+rely on standard sociodemographic controls to fully address them [van
+Loon et al. 2022]. For these researchers, word embeddings function
+like "black-boxes", which "seem to provide valuable information, but
+due to their complexity researchers cannot easily observe how they
+arrive at that information" [van Loon et al. 2023].
 
+*** /Myth 3: Bias can be leveled/
+A related misconception about bias is that it can be levelled, so that
+gendered terms operate equally across all contexts. Evaluation and
+mitigation techniques reveal this misconception most starkly in the
+use of gender swapping, such as in Counterfactual Evaluation and Hard
+DeBias, among others [Nemani et al. 2023, Bolukbasi et al. 2016].
 
+Counterfactual Evaluation methods measure gender bias by swapping
+gender terms (from "he" to "she", or "she" to "he", for example) in
+and assessing the effect on model performance. A similar method uses
+Winograd-schema style templates, like Winobias, which use coreference
+resolution to evaluate a model's association of a particular pronoun
+with a stereotypical attribute [Zhao et al. 2018].
 
+Because the results of these tests reflect only a change in gender, it
+seems reasonable to claim that they may be used to measure gender
+bias. However, these methods do not take into account how gendered
+terms carry particular connotations that do not make them equivalent,
+able to substituted one for the other. For example, Devinney et al.
+[2022] explain that in the word pair "bachelor" and "spinster," the
+term "spinster is pejorative while bachelor is not," pointing out that
+"there is no such thing as a spinster’s degree." This inequivalence is
+similar to what Blodgett et al. [2021] call the "incommensurable"
+aspects of certain identity groups, in which two terms are not
+mutually exclusive. The example they give is between an "American" and
+a "Latino," which "requires the assumption that a Latino is not an
+American," when in reality there are millions of Latinos who are also
+Americans [Blodgett et al., 2021]. Not only do seemingly opposite
+terms have different connotations, their meanings may not be reducible
+to a equivalent or 1:1 relationship. Such complexities in terms are
+deeply embedded in vocabulary, so that they cannot by themselves be
+expected to carry opposing semantic meanings [Devinney et al., 2022].
 
+The supposed levellable quality of gendered terms is translated into
+semantic weight in another mitigation strategy, "DeBias," which
+harnesses word embedding technology to eliminate gendered terms from a
+model's vector space. Developed by Bolukbasi et al. [2016], this
+strategy first creates "equality sets" of gendered terms, like
+"grandmother/grandfather," and "gal/guy." Then, it calculates a
+"gender subspace" or "gender direction" for these equality sets and
+for gender neutral terms, like "babysitter" and "programmer." Finally,
+terms which are gender neutral are "Neutralized" by ensuring their
+values are zero in the gender subspace, while terms in the equality
+set are "Equalized," or made equidistant from the gender neutral
+terms. For instance, as the developers offer, "if {grandmother,
+grandfather} and {guy, gal} were two equality sets, then after
+equalization babysit would be equidistant to grandmother and
+grandfather and also equidistant to gal and guy, but presumably closer
+to the grandparents and further from the gal and guy" [Bolukbasi et
+al. 2016].
 
+This method has received some criticism, with Gonen and Goldberg
+[2019] in particular claiming that the results are "superficial." They
+explain that, "While the bias is indeed substantially reduced
+according to the provided bias definition, the actual effect is mostly
+hiding the bias, not removing it. The gender bias information is still
+reflected in the distances between 'gender-neutralized' words in the
+debiased embeddings, and can be recovered from them" [Gonen and
+Goldberg 2019]. The extractive method does not work because word
+meanings are embedded in such a way that they cannot be isolated and
+pulled out like a single thread from from a cloth. For example, words
+that carry a specific gender conntation like "beard," for example, can
+have unexpected associations that are not intuitivly represented in
+vector space. While the term "beard," Devinney et al. [2022] explains,
+generally refers to men, it can also "specifically refer to a woman
+whom a gay man is dating to hide his sexuality – making it a feminine
+noun in these cases."
 
+Despite these criticisms, the underlying strategy of using word
+embeddings continues to influence a distinct trajectory of development
+for measuring and mitigating bias. For example, both SEAT, the
+Sentence Embedding Association Test [May et al. 2019] and
+SentenceDebias [Liang et al. 2020], expand the use of single-word
+vector representations to sentence-level representations. As such,
+they extend the assumption that biased language can be levelled or
+made equal among groups. By contrast, as I explain in the next and
+final section, debiasing may require another approach.
 
-** bias is contextual
+** Conclusion:
+A critical look at Queer Studies' theorization of the binary model
+reveals that what appears to be distinct, symmetrical, and stable is
+in fact slippery, skewed, and manifold. I have shown how the
+assumptions holding up the apparent stability of the binary drive some
+of the strategies for detecting and mitigating bias---strategies that
+attempt excise it, approach it as categorical, or level it.
 
-I argue that while some attempt to mitigate bias is effective and
-essential, this approach to handling bias in general will not achieve
-its goals and merits re-thinking.
+The binary model implies a framework in which "equal" is the same as
+"equitable," as if bias is a zero sum phenomenon with the goal of
+attaining neutrality. However, as Abeba Birhane's work on "Encoded
+Values in Machine Learning" [2022] points out, neutrality can obscure
+harmful assumptions that work to "disproportionally benefit and
+empower the already powerful, while neglecting society’s least
+advantaged."
 
+But this work does not recommend that we leave the binary behind.
+There are other promising possibilities for handling binaries, also
+theorized in Queer Studies. Butler, for example, offers a method for
+reworking a binary's delimiting power. She explains that the
+"unthinkable outside," which exists to define and circumscribe the
+binary, can be fashioned into a powerful resource. She gives the
+example of the term "queer," which previously was a term of
+denigraition that has since been reclaimed, "resignifying the
+abjection of homosexuality into defiance and legitimacy" [Butler
+1993].
 
-[FORMS OF BIAS]
-It is in language, in syntactic forms, that bias adheres and
-perpetuates.
+There are methods in NLP that take the "unthinkable" and "necessary"
+outside of established binaries as raw materials for creating datasets
+to mitigate gender bias. In "Fighting Bias with Bias," Reif and
+Schwartz [2023] demonstrate a promising approach: amplifying rather
+than reducing bias in a model's training dataset. They point out that
+bias reduction techniques are not very effective, that "filtering can
+obscure the true capabilities of models to overcome biases, which
+might never be removed in full from the dataset" [Reif and Schwartz
+2023]. They follow the work of Stanovsky et al. [2019] who use phrases
+like "the pretty doctor" in a machine translation context with the
+goal of translating the term "doctor" to female. Other approaches take
+what Devinney et al [2022] call "trans-inclusive methodologies." For
+example, Hansson et al. [2021] incorporate a gender neutral pronoun
+"hen" in Swedish into their Wino-gender dataset. Additionally, Dinan
+et al. [2020] expand the classification of gender in their dataset to
+include "neutral" and "unknown." Crowd-sourced and participatory
+datasets also contribute to this effort, namely when they are done by
+participants of the community, like WinoQueer [Felkner et al. 2023].
+Such work represents crucial steps on the path to gender equity in
+language systems.
 
-bias inheres to perspective - every voice is attached to some bias
-embedded in positionality - rules do not universally apply across all
-groups--intersectional experience requires specific consideration of
-case-by-case.
+Moving forward requires understanding that equity is not the same as
+equality. What pertains to one group is not equivalent to what
+pertains to the other. Under those conditions, eliminating bias may
+have less to do with reduction, and more, perhaps, to do with
+proliferation.
 
-Maybe we need to re-think the goal posts here. We want to create these
-machines that perform better than we do, when many of us are already
-biased.
-
-
-** THE DATASET
-This project takes definitions of gender and related
-terms from legislation that limits trans people rights, especially
-with regard to healthcare, legal recognition, and participation in
-public life like sports and performance.
 
 * Footnotes
-[fn:7] Greenwald, Anthony G.; McGhee, Debbie E.; Schwartz, Jordan L.K.
-(1998), "Measuring Individual Differences in Implicit Cognition: The
-Implicit Association Test", Journal of Personality and Social
-Psychology, 74 (6): 1464–1480, CiteSeerX 10.1.1.489.4611,
-doi:10.1037/0022-3514.74.6.1464, PMID 9654756, S2CID 7840819
 
-[fn:5] See [[https://implicit.harvard.edu/implicit/iatdetails.html][the IAT test itself]]. The test reduces bias to a binary
-association. You also sort whether people are "fat" or "thin" by
-pressing two of the same buttons. The test measures the response time
-when the same button is used to refer to "fat" and "bad" vs "good" and
-"thin". It's a binarization.
+[fn:1] Nemani, Praneeth, Yericherla Deepak Joel, Palla Vijay, and
+Farhana Ferdousi Liza. “Gender Bias in Transformer Models: A
+Comprehensive Survey.” arXiv, June 18, 2023.
+https://doi.org/10.48550/arXiv.2306.10530.
 
-[fn:6] Debates between whether the term means "false man" or
-"masculine woman". See Krantz, Susan E. (1995). "Reconsidering the
-Etymology of Bulldike". American Speech. 70 (2): 217–221 and Spears,
-Richard A. (1985). "On the Etymology of Dike". American Speech. 60
-(4): 318–327.
+[fn:2] In Queer Studies, there are two general approaches for
+proceeding under these conditions, first: to create strategies of
+thriving within unjust dynamics, finding alternative modalities of
+survival, liberation, and joy (see Butler [1993] and Munoz [2009]).
+The second prefers to explore and outline the contours of
+stigmatization, shame, and oppression from within those less palatable
+spaces of inequality (See Edelman [2004] and Love [2009]).
 
-[fn:4] Although it's used to curate data for language model training,
-the list was originally developed by Shutterstock photography company
-as a stopgap measure to filter results generated on search engines,
-"to make sure that bad words don't show up in places they shouldn't."
-See List of Dirty, Naughty...
-https://github.com/LDNOOBW/List-of-Dirty-Naughty-Obscene-and-Otherwise-Bad-Words/tree/master
+[fn:3] Interestingly, there is debate whether the term originally
+meant "false man" (/bull/ as in false, and /dyke/ as in "dick") or
+"masculine woman" (/bull/ as in masculine, and /dyke/ as a ridge-like
+protrusion). See Krantz [1995].
 
-[fn:3] Documenting Large Webtext Corpora: A Case Study on the Colossal
-Clean Crawled Corpus: https://aclanthology.org/2021.emnlp-main.98/
-
-[fn:2] c4 dataset on HF: https://huggingface.co/datasets/allenai/c4 
-
-[fn:1] LaMDA paper: https://arxiv.org/abs/2201.08239v3; stochastic
-parrots paper: https://dl.acm.org/doi/pdf/10.1145/3442188.3445922; t5
-paper ("Exploring the Limits of Transfer Learning with a Unified
-Text-to-Text Transformer") https://arxiv.org/pdf/1910.10683
+[fn:4] The test is not without its critiques, for example that it
+lacks "construct validity," that results vary widely and it has no
+effect on explicit attitudes. See Schimmack [2021] and Karpinski
+[2001].

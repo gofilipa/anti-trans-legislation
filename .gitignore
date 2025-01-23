@@ -1,2 +1,5 @@
 # ignore models
 models/
+
+# ignore evals
+evals/data/
