@@ -1,32 +1,38 @@
-# anti-trans legislation project
+# anti-trans project
 
-This project uses AI models to study and detect bias and
-discrimination in anti-trans discourse. It curates datasets from
-legislation about transgender people, legislation which for the large
-part works to [limit transgender
+This project uses AI models to study and detect bias and discrimination in anti-trans discourse. It curates datasets from
+examples of transphobia, which currently includes anti-trans legislation in the US that [limits transgender
 rights](https://translegislation.com/) relating to healthcare, access
 to bathrooms, sports and more, at the federal and state level. The
 goal is to use language about sex, gender, sexuality, and related
 terms from the legislation to train text generation and text
 classification Large Language Models (llms).
 
-## datasets
+## legislation datasets
 
 The federal legislation dataset originates from the `www.congress.gov`
 website, and includes bills, amendments, and resolutions from the
 House of Representatives and and the Senate over sessions 117
-(2022-2023) and 118 (2023-2024) that contain the keyword
-"transgender." The state bills dataset originates from Erin Reed's
+(2022-2023) and 118 (2023-2024) that contain the [keyword 
+"transgender" from the 117th and 118th](https://github.com/gofilipa/anti-trans-legislation/tree/main/processing/bill_data) 
+congressional sessions (2021-2024).
+ Another dataset is being developed from federal bills that specifically focus on the current anti-trans movement, containing
+ targeted [anti-trans federal bills from 2023-2024]
+(https://github.com/gofilipa/anti-trans-legislation/blob/main/processing/bill_data/transtracker_federal_bills.csv).
+
+The state bills dataset originates from Erin Reed's
 "[LGBTQ+ Legislative Tracking
 2023](https://docs.google.com/spreadsheets/d/1fTxHLjBa86GA7WCT-V6AbEMGRFPMJndnaVGoZZX4PMw/edit?usp=sharing)"
 document, which gathers legislation that are explicitly anti-trans.
 
-All of the code for gathering and processing the federal data is
-available in this repository. To get this data, I scraped the bill
-text from `congress.gov` servers (see the [data
-gathering](./gathering.ipynb) and [data
-processing](./processing/processing.ipynb) notebooks). The processing
-notebook contains a matcher that extracts definitions of gender and
+## data gathering and processing 
+All the code for data gathering and processing is available in this repository.
+
+To gather the federal bill data, I scraped the bill
+text [from `congress.gov` servers](./processing/gathering/congress_dot_gov.ipynb) and from the 
+[trans legislation tracker list](./processing/gathering/tracker_federal.ipynb) notebooks). 
+
+The [processing notebook](./processing/processing.ipynb) contains a matcher that extracts definitions of gender and
 related terms (like "sexuality," "biological sex", etc). You can see
 the final dataset on my Huggingface [datasets
 page](https://huggingface.co/datasets/gofilipa/gender_congress_117-118).
