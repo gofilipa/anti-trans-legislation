@@ -1,14 +1,14 @@
 * draft
 ** todos
 - [X] choose shrier quotes
+- [X] read Butler, /BTM/
 - [ ] read Amin's critique of Butler; 
-- [ ] read Butler, /BTM/
 - [ ] read /CA/ annotations & articles.
 
 ** outline
 - anti-trans bill titles
   - patriarchal langauge shows an attachment to norms, protecting
-    women. Women are figures that need to be protected. 
+    women and children, figures that need to be protected. 
 - close reading of Shrier
   - we can begin to parse out some of the deeper contradictions here:
     that free expression only applies to certain kinds of expression. 

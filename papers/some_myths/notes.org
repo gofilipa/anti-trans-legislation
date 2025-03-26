@@ -1,0 +1,224 @@
+* notes
+** my revision notes
+- [X] revise abstract
+  - to two myths
+  - emphasize binary thinking as way of understanding myths.
+- [X] revise QS overview paragraph to explain why QS is my choice:
+  - gender performativity as a de facto paradigm for understanding
+    social construction of gender
+  - division of sex/gender affects current understanding of trans and
+    intersectional feminism. 
+- [X] revise motivation -> problematizing assumptions
+  - humanism problematizes assumptions
+- [X] revise urgency -> binary as thought
+  - gap in research considering the binary model
+  - one effect: "equity not the same as equality"
+- [X] revise lit reviews
+  - existing schemas of bias -> my conceptualization of bias
+  - queer studies on binaries
+    - adding Amin on heterosexual/homosexual
+- [X] cut myth 1
+- [X] revise myth 2/1
+- [X] revise myth 3/2
+  - categorical assumption not only obscures particular type of bias,
+    but also suggests bias can be excised
+    - example with debias, creating equality sets that can be
+      levelled.
+    - neglects embeddedness of word vectors
+- [ ] add discussion
+  - powerful manipulation of binaries (Halberstam). 
+- [ ] revise conclusion
+
+** Reommendations to read:
+- Yixin Wan, George Pu, Jiao Sun, Aparna Garimella, Kai-Wei Chang, and
+  Nanyun Peng. 2023. “Kelly is a Warm Person, Joseph is a Role Model”:
+  Gender Biases in LLM-Generated Reference Letters. In Findings of the
+  Association for Computational Linguistics: EMNLP 2023, pages
+  3730–3748, Singapore. Association for Computational Linguistics.
+  https://aclanthology.org/2023.findings-emnlp.243.pdf
+  
+- Daisuke Oba, Masahiro Kaneko, and Danushka Bollegala. 2024.
+  In-Contextual Gender Bias Suppression for Large Language Models. In
+  Findings of the Association for Computational Linguistics: EACL
+  2024, pages 1722–1742, St. Julian’s, Malta. Association for
+  Computational Linguistics.
+  https://aclanthology.org/2024.findings-eacl.121/
+
+- Tsika, Noah. “CompuQueer: Protocological Constraints, Algorithmic
+  Streamlining, and the Search for Queer Methods Online.” Women’s
+  Studies Quarterly, vol. 44, no. 3/4, 2016, pp. 111–30. JSTOR,
+  http://www.jstor.org/stable/44474065. Accessed 12 Mar. 2025.
+
+- Os Keyes. 2018. The Misgendering Machines: Trans/HCI Implications of
+  Automatic Gender Recognition. Proc. ACM Hum.-Comput. Interact. 2,
+  CSCW, Article 88 (November 2018), 22 pages.
+  https://doi.org/10.1145/3274357
+
+More recent reserach on 'pure generation': 
+- https://arxiv.org/pdf/2401.15585
+- https://arxiv.org/pdf/2402.11190 
+- https://aclanthology.org/2024.icnlsp-1.42 
+- https://aclanthology.org/2023.acl-short.30
+- https://aclanthology.org/2024.emnlp-main.13
+- https://aclanthology.org/2025.coling-main.450
+- https://aclanthology.org/2023.findings-emnlp.689
+
+** peer review notes
+The paper that I wrote was about three myths about bias based on the
+binary. But it's not so tight as that--the connection between binary
+and "excised". 
+
+Reviewers suggest:
+- adding sources on gender and feminism:
+  - engagment with "gender studies literature", like "Data Feminism"
+    by Klein and D'Ignazio.
+    
+- BIAS IS CATEGORICAL
+  - tie more recent analysis of "pure generation" in NLP to dicussion of
+    WEAT
+    - "feminst analyses of gender biases" (links included)
+    - methods mentioned "may not represent the current state-of-art",
+      evaluation is moving away from intrinsic embedding-based metrics
+      or extrinsic template-based methods to purely generative models.
+    - WEAT seems to dominate most of the discussion, however there are
+      several other examples to illustrate how bias is categorically
+      conceptualised in research.
+  - binaries not always good/bad in WEAT
+    - WEAT measurement involves measuring associations with concepts
+      of different variety for example, measuring gender associations
+      with maths vs arts , career vs family , etc. So it is not always
+      (infact, rarely) good vs bad conceptualisation. Although since
+      WEAT uses binary gender representations in doing so, binary
+      category argument holds which can be highlighted more clearly in
+      the discussion of this myth (Section 3.2). I do believe that
+      WEAT is often unreliable and unstable, but I think the resulting
+      score is a measure of strength of association with these
+      concepts which is more interpretative/suggestive rather than
+      plainly good/bad.
+      
+- how I'm using "queer"
+  - the paper mentions queer but "does not specifically address the
+    situations of LGBTQIA+ people".
+    
+- style
+  - add more analysis around quotes, consider moving some quotes to
+    analysis
+  - author's voice drowned out by quotes, perspectives, to drop ideas
+    and then move on, so that the argument doesn't come through and the
+    reader has to string it together.
+
+- overal argument structure
+  - motivation
+    - how "equity is not the same as equality"
+  - urgency
+    - articulate why my critiques benefit from a queer understanding.
+      What does it add to the literature?
+    - treating bias as categorical or even quantifiable can undermine
+      the importance of measuring its actual effect on diverse users,
+      and strategies that seem to level it could actually just mask
+      these biases which can be manifested in other forms like
+      downstream applications.
+    - how "the underlying strategy of using word embeddings continues
+      to influence a distinct trajectory of development"
+  - originality
+    - this paper presents an original perspective by conceptualizing
+      these myths, summarizing critical considerations for NLP bias
+      research. While these myths build on existing critiques of bias
+      evaluation and mitigation, their grounding in Queer Studies makes
+      them especially relevant for NLP bias researchers and
+      practitioners.
+  - A separate section such as Discussion to identify possible
+    directions for addressing these myths
+    - the author's debunking of the three myths does not directly link
+      to the conclusion; an explanation of how the traditional binary
+      is inadequate is not enough evidence to claim another way is
+      better.
+  - strengthening connection between queer studies on binaries and the
+    myths.
+
+
+** BANK
+
+Bias is not neutral. 
+- Devinney et al 2022: "Masculine and feminine genders are also
+  generally presented as “opposites" which can be “swapped" for
+  each other; placed on each end of a linear scale of bias; or
+  used to define vector space directions."
+
+- Devinny et al 2022: on "beards"
+  - "There may be a statistically strong association between
+    masculine nouns and beards, and beards are often a part of
+    masculine performativity, but that does not make it a
+    foolproof indicator of gender for an individual... The
+    particular example of beard with “male nouns” is also
+    ironic, as beard can in specifically refer to a woman whom
+    a gay man is dating to hide his sexuality – making it a
+    feminine noun in these cases... We must know... what
+    discourse (the beard on someone’s face, or the beard they
+    are dating?) make up the context to make a judgement about
+    how meaningful a particular sentence or association is."
+
+data contexts: gender
+- calling for interdisciplinarity, specifically incorporating
+  Feminist, Gender, and Queer Studies into NLP (Devinney et al
+  2022). 
+- theories of gender, Butler, Prosser, etc
+- close readings of definitions of gender from the dataset
+- small words like "regardless" reifying binaries 
+
+data contexts: trans
+- trans studies investments, trans vs queer
+- transphobia based on contagion
+- transphobia in bill titles? 
+** bias is one dimensional
+- [ ] Bias is one dimensional
+  - [ ] Equalized Odds[fn:11] measures how well models perform, how
+    "accurate" they are, prompted by different identities.
+    - Nemani et al 2023: "measures the degree to which a model’s
+      predictions are equal across different demographic groups, such
+      as males and female. In the context of gender bias, the metric
+      can be used to assess whether the model is making equally
+      accurate predictions for male and female inputs."
+  - [ ] May et al 2019: They apply WEAT to sentence level tests, enabling
+    them to explore complex kinds of intersectional bias (citing hooks
+    and Crenshaw) and find the method unreliable perhaps due to
+    difficulty in simplifying concepts/contexts in sentence-level
+    inputs.
+  - [ ] FISE procedure (Charlesworth et al 2024).
+    - “Interestingly, the data show less support for class-centrism,
+      i.e. rich does not dominate frequencies in language to the same
+      extent that White supersede Black, or men supersede women. For
+      example, *Black Poor* (6% of traits) and *Black Rich* (5% of
+      traits) are similar in frequency showing that the low frequency
+      of traits associated with *Black* is not altered even after
+      including the dominant class group *Rich*. Perhaps class may be
+      less of a marked category in language: we may be unlikely to
+      point out that someone is *rich*, unless it is extreme wealth,
+      because categorizing class is prone to subjective judgments of
+      wealth cues ([31](javascript:;)). In contrast, race and gender
+      may be relatively less ambiguous in categorizations and
+      therefore more likely to be noted in language and to shape trait
+      frequencies.” (Charlesworth et al 2024). 
+      - makes assumptions about visibility and invisibilty of certain
+	identities, like class, saying that it's not as prevalent
+	because being "rich" or "poor" isn't as marked in language;
+	whereas class vs race visibility has been well theorized in
+	humanities.
+
+** distributional hypothesis in WEAT
+As mentioned
+above, WEAT takes the distributional hypothesis in linguistics, that
+"the statistical contexts of words capture much of what we mean by
+meaning," and apply it to computer science (Caliskan et al 2017). The
+idea is that the word embeddings, which represent word meaning in
+numerical form, translate the "statistical contexts" of words into the
+vector space of about 300 dimensions, in the case of the Global
+Vectors for Word Representation (GloVe) model. 
+
+** word embeddings continue to influence work today:
+- Despite these criticisms, the underlying strategy of using word
+  embeddings continues to influence a distinct trajectory of
+  development for measuring and mitigating bias. For example, both
+  SEAT (The Sentence Embedding Association Test) [May et al. 2019] and
+  SentenceDebias [Liang et al. 2020], expand the use of single-word
+  vector representations to sentence-level representations.
