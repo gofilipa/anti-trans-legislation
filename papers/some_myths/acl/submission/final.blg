@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: final.aux
+The style file: acl_natbib.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: myths.bib
+Warning--I didn't find a database entry for "[wolfe:2021"
+Warning--empty booktitle in barocas:2017
+You've used 35 entries,
+            3764 wiz_defined-function locations,
+            991 strings with 15004 characters,
+and the built_in function-call counts, 26087 in all, are:
+= -- 2437
+> -- 1093
+< -- 26
++ -- 435
+- -- 322
+* -- 1694
+:= -- 3841
+add.period$ -- 167
+call.type$ -- 35
+change.case$ -- 314
+chr.to.int$ -- 38
+cite$ -- 36
+duplicate$ -- 1564
+empty$ -- 1936
+format.name$ -- 414
+if$ -- 5791
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 331
+newline$ -- 197
+num.names$ -- 140
+pop$ -- 794
+preamble$ -- 1
+purify$ -- 247
+quote$ -- 0
+skip$ -- 1392
+stack$ -- 0
+substring$ -- 998
+swap$ -- 861
+text.length$ -- 38
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 294
+warning$ -- 1
+while$ -- 150
+width$ -- 0
+write$ -- 497
+(There were 2 warnings)

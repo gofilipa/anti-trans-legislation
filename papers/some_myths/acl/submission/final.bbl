@@ -1,0 +1,289 @@
+\begin{thebibliography}{35}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Ainsworth(2015)}]{ainsworth:2015}
+Claire Ainsworth. 2015.
+\newblock \href {https://doi.org/10.1038/518288a} {Sex redefined}.
+\newblock \emph{Nature}, 518(7539):288--291.
+\newblock Publisher: Nature Publishing Group.
+
+\bibitem[{Amin(2022)}]{amin:2022}
+Kadji Amin. 2022.
+\newblock \href {https://doi.org/10.1525/rep.2022.158.11.106} {We are {All}
+  {Nonbinary}: {A} {Brief} {History} of {Accidents}}.
+\newblock \emph{Representations}, 158(1):106--119.
+
+\bibitem[{Barocas et~al.(2017)Barocas, Crawford, Shapiro, and
+  Wallach}]{barocas:2017}
+Solon Barocas, Kate Crawford, Aaron Shapiro, and Hanna Wallach. 2017.
+\newblock The problem with bias: from allocative to representational harms in
+  machine learning.
+
+\bibitem[{Blodgett et~al.(2020)Blodgett, Barocas, III, and
+  Wallach}]{blodgett:2020}
+Su~Lin Blodgett, Solon Barocas, Hal~Daumé III, and Hanna Wallach. 2020.
+\newblock \href {https://doi.org/10.48550/arXiv.2005.14050} {Language
+  ({Technology}) is {Power}: {A} {Critical} {Survey} of "{Bias}" in {NLP}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2005.14050 [cs].
+
+\bibitem[{Blodgett et~al.(2021)Blodgett, Lopez, Olteanu, Sim, and
+  Wallach}]{blodgett:2021}
+Su~Lin Blodgett, Gilsinia Lopez, Alexandra Olteanu, Robert Sim, and Hanna
+  Wallach. 2021.
+\newblock \href {https://doi.org/10.18653/v1/2021.acl-long.81} {Stereotyping
+  {Norwegian} {Salmon}: {An} {Inventory} of {Pitfalls} in {Fairness}
+  {Benchmark} {Datasets}}.
+\newblock In \emph{Proceedings of the 59th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} and the 11th {International}
+  {Joint} {Conference} on {Natural} {Language} {Processing} ({Volume} 1: {Long}
+  {Papers})}, pages 1004--1015, Online. Association for Computational
+  Linguistics.
+
+\bibitem[{Bolukbasi et~al.(2016)Bolukbasi, Chang, Zou, Saligrama, and
+  Kalai}]{bolukbasi:2016}
+Tolga Bolukbasi, Kai-Wei Chang, James Zou, Venkatesh Saligrama, and Adam Kalai.
+  2016.
+\newblock \href {https://doi.org/10.48550/arXiv.1607.06520} {Man is to
+  {Computer} {Programmer} as {Woman} is to {Homemaker}? {Debiasing} {Word}
+  {Embeddings}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:1607.06520 [cs].
+
+\bibitem[{Butler(1990)}]{butler:1990}
+Judith Butler. 1990.
+\newblock \emph{Gender {Trouble}: {Feminism} and the {Subversion} of
+  {Identity}}.
+\newblock Routledge.
+\newblock Google-Books-ID: gTbbCgAAQBAJ.
+
+\bibitem[{Butler(1993)}]{butler:1993}
+Judith Butler. 1993.
+\newblock \emph{Bodies that {Matter}: {On} the {Discursive} {Limits} of "sex"}.
+\newblock Psychology Press.
+\newblock Google-Books-ID: ZqiIgwQiyFYC.
+
+\bibitem[{Caliskan et~al.(2022)Caliskan, Ajay, Charlesworth, Wolfe, and
+  Banaji}]{caliskan:2022}
+Aylin Caliskan, Pimparkar~Parth Ajay, Tessa Charlesworth, Robert Wolfe, and
+  Mahzarin~R. Banaji. 2022.
+\newblock \href {https://doi.org/10.1145/3514094.3534162} {Gender {Bias} in
+  {Word} {Embeddings}: {A} {Comprehensive} {Analysis} of {Frequency}, {Syntax},
+  and {Semantics}}.
+\newblock In \emph{Proceedings of the 2022 {AAAI}/{ACM} {Conference} on {AI},
+  {Ethics}, and {Society}}, pages 156--170.
+\newblock ArXiv:2206.03390 [cs].
+
+\bibitem[{Caliskan et~al.(2017)Caliskan, Bryson, and Narayanan}]{caliskan:2017}
+Aylin Caliskan, Joanna~J. Bryson, and Arvind Narayanan. 2017.
+\newblock \href {https://doi.org/10.1126/science.aal4230} {Semantics derived
+  automatically from language corpora contain human-like biases}.
+\newblock \emph{Science}, 356(6334):183--186.
+\newblock ArXiv:1608.07187 [cs].
+
+\bibitem[{Charlesworth et~al.(2024)Charlesworth, Ghate, Caliskan, and
+  Banaji}]{charlesworth:2024}
+Tessa E~S Charlesworth, Kshitish Ghate, Aylin Caliskan, and Mahzarin~R Banaji.
+  2024.
+\newblock \href {https://doi.org/10.1093/pnasnexus/pgae089} {Extracting
+  intersectional stereotypes from embeddings: {Developing} and validating the
+  {Flexible} {Intersectional} {Stereotype} {Extraction} procedure}.
+\newblock \emph{PNAS Nexus}, 3(3):pgae089.
+
+\bibitem[{Devinney et~al.(2022)Devinney, Björklund, and
+  Björklund}]{devinney:2022}
+Hannah Devinney, Jenny Björklund, and Henrik Björklund. 2022.
+\newblock \href {https://doi.org/10.1145/3531146.3534627} {Theories of
+  “{Gender}” in {NLP} {Bias} {Research}}.
+\newblock In \emph{Proceedings of the 2022 {ACM} {Conference} on {Fairness},
+  {Accountability}, and {Transparency}}, {FAccT} '22, pages 2083--2102, New
+  York, NY, USA. Association for Computing Machinery.
+
+\bibitem[{Dong et~al.(2024)Dong, Wang, Yu, and Caverlee}]{Dong:2024}
+Xiangjue Dong, Yibo Wang, Philip~S. Yu, and James Caverlee. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2402.11190} {Disclosure and
+  {Mitigation} of {Gender} {Bias} in {LLMs}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2402.11190 [cs].
+
+\bibitem[{Furniturewala et~al.(2024)Furniturewala, Jandial, Java, Banerjee,
+  Shahid, Bhatia, and Jaidka}]{furniturewala:2024}
+Shaz Furniturewala, Surgan Jandial, Abhinav Java, Pragyan Banerjee, Simra
+  Shahid, Sumit Bhatia, and Kokil Jaidka. 2024.
+\newblock \href {https://doi.org/10.18653/v1/2024.emnlp-main.13}
+  {“{Thinking}” {Fair} and {Slow}: {On} the {Efficacy} of {Structured}
+  {Prompts} for {Debiasing} {Language} {Models}}.
+\newblock In \emph{Proceedings of the 2024 {Conference} on {Empirical}
+  {Methods} in {Natural} {Language} {Processing}}, pages 213--227, Miami,
+  Florida, USA. Association for Computational Linguistics.
+
+\bibitem[{Gonen and Goldberg(2019)}]{gonen:2019}
+Hila Gonen and Yoav Goldberg. 2019.
+\newblock \href {https://doi.org/10.48550/arXiv.1903.03862} {Lipstick on a
+  {Pig}: {Debiasing} {Methods} {Cover} up {Systematic} {Gender} {Biases} in
+  {Word} {Embeddings} {But} do not {Remove} {Them}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:1903.03862 [cs].
+
+\bibitem[{Greenwald et~al.(1998)Greenwald, McGhee, and
+  Schwartz}]{greenwald:1998}
+Anthony~G. Greenwald, Debbie~E. McGhee, and Jordan L.~K. Schwartz. 1998.
+\newblock \href {https://doi.org/10.1037/0022-3514.74.6.1464} {Measuring
+  individual differences in implicit cognition: {The} implicit association
+  test}.
+\newblock \emph{Journal of Personality and Social Psychology},
+  74(6):1464--1480.
+\newblock Place: US Publisher: American Psychological Association.
+
+\bibitem[{Halberstam(1998)}]{halberstam:1998}
+Jack Halberstam. 1998.
+\newblock \href {https://doi.org/10.2307/j.ctv11cwb00} {\emph{Female
+  {Masculinity}}}.
+\newblock Duke University Press.
+
+\bibitem[{Hitti et~al.(2019)Hitti, Jang, Moreno, and Pelletier}]{hitti:2019}
+Yasmeen Hitti, Eunbee Jang, Ines Moreno, and Carolyne Pelletier. 2019.
+\newblock \href {https://doi.org/10.18653/v1/W19-3802} {Proposed {Taxonomy} for
+  {Gender} {Bias} in {Text}; {A} {Filtering} {Methodology} for the {Gender}
+  {Generalization} {Subtype}}.
+\newblock In \emph{Proceedings of the {First} {Workshop} on {Gender} {Bias} in
+  {Natural} {Language} {Processing}}, pages 8--17, Florence, Italy. Association
+  for Computational Linguistics.
+
+\bibitem[{hooks(2000)}]{hooks:2000}
+bell hooks. 2000.
+\newblock \emph{Feminist {Theory}: {From} {Margin} to {Center}}.
+\newblock Pluto Press.
+\newblock Google-Books-ID: uvIQbop4cdsC.
+
+\bibitem[{Hyde et~al.(2019)Hyde, Bigler, Joel, Tate, and van
+  Anders}]{hyde:2019}
+Janet~Shibley Hyde, Rebecca~S. Bigler, Daphna Joel, Charlotte~Chucky Tate, and
+  Sari~M. van Anders. 2019.
+\newblock \href {https://doi.org/10.1037/amp0000307} {The future of sex and
+  gender in psychology: {Five} challenges to the gender binary}.
+\newblock \emph{American Psychologist}, 74(2):171--193.
+\newblock Place: US Publisher: American Psychological Association.
+
+\bibitem[{Joel(2021)}]{joel:2021}
+Daphna Joel. 2021.
+\newblock \href {https://doi.org/10.1016/j.neubiorev.2020.11.018} {Beyond the
+  binary: {Rethinking} sex and the brain}.
+\newblock \emph{Neuroscience \& Biobehavioral Reviews}, 122:165--175.
+
+\bibitem[{Kaneko et~al.(2024)Kaneko, Bollegala, Okazaki, and
+  Baldwin}]{kaneko:2024}
+Masahiro Kaneko, Danushka Bollegala, Naoaki Okazaki, and Timothy Baldwin. 2024.
+\newblock \href {https://doi.org/10.48550/arXiv.2401.15585} {Evaluating
+  {Gender} {Bias} in {Large} {Language} {Models} via {Chain}-of-{Thought}
+  {Prompting}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2401.15585 [cs].
+
+\bibitem[{Klein and D'Ignazio(2024{\natexlab{a}})}]{klein:2024}
+Lauren Klein and Catherine D'Ignazio. 2024{\natexlab{a}}.
+\newblock \href {https://doi.org/10.1145/3630106.3658543} {Data {Feminism} for
+  {AI}}.
+\newblock In \emph{Proceedings of the 2024 {ACM} {Conference} on {Fairness},
+  {Accountability}, and {Transparency}}, {FAccT} '24, pages 100--112, New York,
+  NY, USA. Association for Computing Machinery.
+
+\bibitem[{Klein and D'Ignazio(2024{\natexlab{b}})}]{klein:2024-1}
+Lauren Klein and Catherine D'Ignazio. 2024{\natexlab{b}}.
+\newblock \href {https://doi.org/10.1145/3630106.3658543} {Data {Feminism} for
+  {AI}}.
+\newblock In \emph{The 2024 {ACM} {Conference} on {Fairness}, {Accountability},
+  and {Transparency}}, pages 100--112, Rio de Janeiro Brazil. ACM.
+
+\bibitem[{Love(2009)}]{love:2009}
+Heather Love. 2009.
+\newblock \emph{Feeling {Backward}: {Loss} and the {Politics} of {Queer}
+  {History}}.
+\newblock Harvard University Press.
+
+\bibitem[{May et~al.(2019)May, Wang, Bordia, Bowman, and Rudinger}]{may:2019}
+Chandler May, Alex Wang, Shikha Bordia, Samuel~R. Bowman, and Rachel Rudinger.
+  2019.
+\newblock \href {https://doi.org/10.18653/v1/N19-1063} {On {Measuring} {Social}
+  {Biases} in {Sentence} {Encoders}}.
+\newblock In \emph{Proceedings of the 2019 {Conference} of the {North}}, pages
+  622--628, Minneapolis, Minnesota. Association for Computational Linguistics.
+
+\bibitem[{Meade et~al.(2022)Meade, Poole-Dayan, and Reddy}]{meade:2022}
+Nicholas Meade, Elinor Poole-Dayan, and Siva Reddy. 2022.
+\newblock \href {https://doi.org/10.48550/arXiv.2110.08527} {An {Empirical}
+  {Survey} of the {Effectiveness} of {Debiasing} {Techniques} for {Pre}-trained
+  {Language} {Models}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2110.08527 [cs].
+
+\bibitem[{Muñoz(2009)}]{munoz:2009}
+José~Esteban Muñoz. 2009.
+\newblock \emph{Cruising {Utopia}: {The} {Then} and {There} of {Queer}
+  {Futurity}}.
+\newblock NYU Press.
+\newblock Google-Books-ID: f1MTCgAAQBAJ.
+
+\bibitem[{Nemani et~al.(2023)Nemani, Joel, Vijay, and Liza}]{nemani:2023}
+Praneeth Nemani, Yericherla~Deepak Joel, Palla Vijay, and Farhana~Ferdousi
+  Liza. 2023.
+\newblock \href {https://doi.org/10.48550/arXiv.2306.10530} {Gender {Bias} in
+  {Transformer} {Models}: {A} comprehensive survey}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2306.10530 [cs].
+
+\bibitem[{Reif and Schwartz(2023)}]{reif:2023}
+Yuval Reif and Roy Schwartz. 2023.
+\newblock \href {https://doi.org/10.48550/arXiv.2305.18917} {Fighting {Bias}
+  with {Bias}: {Promoting} {Model} {Robustness} by {Amplifying} {Dataset}
+  {Biases}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:2305.18917 [cs].
+
+\bibitem[{Sedgwick(1990)}]{sedgwick:1990}
+Eve~Kosofsky Sedgwick. 1990.
+\newblock \emph{Epistemology of the {Closet}, {Updated} with a {New}
+  {Preface}}.
+\newblock University of California Press.
+\newblock Google-Books-ID: KMhUa25EPkIC.
+
+\bibitem[{Stanovsky et~al.(2019)Stanovsky, Smith, and
+  Zettlemoyer}]{stanovsky:2019}
+Gabriel Stanovsky, Noah~A. Smith, and Luke Zettlemoyer. 2019.
+\newblock \href {https://doi.org/10.18653/v1/P19-1164} {Evaluating {Gender}
+  {Bias} in {Machine} {Translation}}.
+\newblock In \emph{Proceedings of the 57th {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics}}, pages 1679--1684, Florence,
+  Italy. Association for Computational Linguistics.
+
+\bibitem[{Thakur et~al.(2023)Thakur, Jain, Vaddamanu, Liang, and
+  Morency}]{thakur:2023}
+Himanshu Thakur, Atishay Jain, Praneetha Vaddamanu, Paul~Pu Liang, and
+  Louis-Philippe Morency. 2023.
+\newblock \href {https://doi.org/10.18653/v1/2023.acl-short.30} {Language
+  {Models} {Get} a {Gender} {Makeover}: {Mitigating} {Gender} {Bias} with
+  {Few}-{Shot} {Data} {Interventions}}.
+\newblock In \emph{Proceedings of the 61st {Annual} {Meeting} of the
+  {Association} for {Computational} {Linguistics} ({Volume} 2: {Short}
+  {Papers})}, pages 340--351, Toronto, Canada. Association for Computational
+  Linguistics.
+
+\bibitem[{van Loon et~al.(2022)van Loon, Giorgi, Willer, and
+  Eichstaedt}]{vanloon:2022}
+Austin van Loon, Salvatore Giorgi, Robb Willer, and Johannes Eichstaedt. 2022.
+\newblock \href {https://doi.org/10.1609/icwsm.v16i1.19399} {Negative
+  {Associations} in {Word} {Embeddings} {Predict} {Anti}-black {Bias} across
+  {Regions}–but {Only} via {Name} {Frequency}}.
+\newblock \emph{Proceedings of the ... International AAAI Conference on Weblogs
+  and Social Media. International AAAI Conference on Weblogs and Social Media},
+  16:1419--1424.
+
+\bibitem[{Zhao et~al.(2018)Zhao, Wang, Yatskar, Ordonez, and Chang}]{zhao:2018}
+Jieyu Zhao, Tianlu Wang, Mark Yatskar, Vicente Ordonez, and Kai-Wei Chang.
+  2018.
+\newblock \href {https://doi.org/10.48550/arXiv.1804.06876} {Gender {Bias} in
+  {Coreference} {Resolution}: {Evaluation} and {Debiasing} {Methods}}.
+\newblock \emph{arXiv preprint}.
+\newblock ArXiv:1804.06876 [cs].
+
+\end{thebibliography}

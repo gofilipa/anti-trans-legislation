@@ -1,5 +1,5 @@
 * notes
-** my revision notes
+** round 1
 - [X] revise abstract
   - to two myths
   - emphasize binary thinking as way of understanding myths.
@@ -25,17 +25,68 @@
     - example with debias, creating equality sets that can be
       levelled.
     - neglects embeddedness of word vectors
-- [ ] add discussion
+- [X] add discussion
   - powerful manipulation of binaries (Halberstam). 
-- [ ] revise conclusion
+- [X] revise conclusion
 
-** Reommendations to read:
+** round 2
+- [X] shift language to binary thinking (from binary forms)
+- [X] add to QS section: QS is unique for the way it conceptualizes
+  binaries: not only dissolving the essentialism of the gender binary,
+  but binary thinking that structures power relations.
+- [X] move urgency (no research on binaries in NLP) above motivation
+  (humananism to examine assumptions).
+
+- [X] add halberstam to on binaries section
+- [X] reorganize last paragraph on binaries section
+
+- [X] myth 1: foreground binary thinking
+- [X] myth 1: streamline description of IAT and its applicaiton to
+  WEAT
+- [X] myth 1: add point about conscious/unconscious (see notebook)
+
+- [X] myth 2: expand analysis of delicate and math, distinguishing
+  stereotype from derogatory; compare with bachelor and spinster.
+- [X] myth 2: separate out gender swapping methods.
+
+- [X] discussion: expand summary (from notebook)
+- [X] discussion: remove examples that aren't directly relevant
+- [X] discussion: add halberstam: identity crossing multiple
+  threshholds, gender geometries.
+
+- [X] conclusion: summarize binary thinking
+** round 3
+Conform to [[https://aclrollingreview.org/authorchecklist][submission checklist]], including: 
+- [ ] convert to tex
+- [ ] add bias statement section
+- [ ] add limitations section
+- [ ] anonymize submission
+
+When submitting: 
+- [ ] nominate self to review
+- [X] add semantic scholar to OR profile
+** to read:
 - Yixin Wan, George Pu, Jiao Sun, Aparna Garimella, Kai-Wei Chang, and
   Nanyun Peng. 2023. “Kelly is a Warm Person, Joseph is a Role Model”:
   Gender Biases in LLM-Generated Reference Letters. In Findings of the
   Association for Computational Linguistics: EMNLP 2023, pages
   3730–3748, Singapore. Association for Computational Linguistics.
   https://aclanthology.org/2023.findings-emnlp.243.pdf
+
+  - measures bias as a result of prompting
+    - prompts LLMs to write letters of recs; some prompts have
+      biographical info, others have no context
+  - studies bias in language according to three categories:
+    - lexical content: word choices
+    - language style: positivity, formality of language 
+    - hallucination
+  - generates male and female examples from wikibias (substituting
+    original wiki names/pronouns with one male and one female) to feed
+    into the prompts
+  - notice that models "tend to use gender-stereotypical words", but
+    opt to use WEAT to create more "interpretable results" -- to
+    evaluate if words in male & female docs are associated to
+    stereotypically male or female words.
   
 - Daisuke Oba, Masahiro Kaneko, and Danushka Bollegala. 2024.
   In-Contextual Gender Bias Suppression for Large Language Models. In
@@ -44,11 +95,51 @@
   Computational Linguistics.
   https://aclanthology.org/2024.findings-eacl.121/
 
+  - They use prompting methods combined with Crows-Pairs and measure
+    likelihoods that a model will pick a stereotypical over a
+    nonstereotypical response. 
+  - mitigating bias through prompting, what they call "bias
+    suppression": "providing textual preambles constructed from
+    manually designed templates and real-world statistics, without
+    accessing to model parameters"
+  - Not about bias evaluation, but mitigation.
+    - But these methods, the authors admit, do not have downstream
+      effects. They work best when a user does not have access to
+      model's parameters.
+    - IOW, this is a band-aid, one which takes responsibility away
+      from the model developers.
+
 - Tsika, Noah. “CompuQueer: Protocological Constraints, Algorithmic
   Streamlining, and the Search for Queer Methods Online.” Women’s
   Studies Quarterly, vol. 44, no. 3/4, 2016, pp. 111–30. JSTOR,
   http://www.jstor.org/stable/44474065. Accessed 12 Mar. 2025.
+  
+  - What we think of as queer "queer methods" actually resists the
+    workings of the machine. Machinic processes only engage queerness
+    after it has been stabilized and assimilated.
+  - The point is to use these machinic processes to recognize our own
+    exclusion.
 
+- Thiemo Wambsganss, Xiaotian Su, Vinitra Swamy, Seyed Neshaei, Roman
+  Rietsche, and Tanja Käser. 2023. Unraveling Downstream Gender Bias
+  from Large Language Models: A Study on AI Educational Writing
+  Assistance. In Findings of the Association for Computational
+  Linguistics: EMNLP 2023, pages 10275–10288, Singapore. Association
+  for Computational Linguistics.
+  https://aclanthology.org/2023.findings-emnlp.689
+  - Recent example of using WEAT
+
+- Aishik Rakshit, Smriti Singh, Shuvam Keshari, Arijit Ghosh
+  Chowdhury, Vinija Jain, and Aman Chadha. 2025. From Prejudice to
+  Parity: A New Approach to Debiasing Large Language Model Word
+  Embeddings. In Proceedings of the 31st International Conference on
+  Computational Linguistics, pages 6718–6747, Abu Dhabi, UAE.
+  Association for Computational Linguistics.
+  https://aclanthology.org/2025.coling-main.450
+  - developed Mean Average Cosine Similarity (MAC) as an extention of
+    WEAT.
+  
+    
 - Os Keyes. 2018. The Misgendering Machines: Trans/HCI Implications of
   Automatic Gender Recognition. Proc. ACM Hum.-Comput. Interact. 2,
   CSCW, Article 88 (November 2018), 22 pages.
@@ -56,12 +147,45 @@
 
 More recent reserach on 'pure generation': 
 - https://arxiv.org/pdf/2401.15585
-- https://arxiv.org/pdf/2402.11190 
-- https://aclanthology.org/2024.icnlsp-1.42 
+  - "CoT" chain of thought prompting reduces "unconscious social bias"
+    in LLMs.
+    - making implicit correlations between conscious and unconscious
+      bias in humans to that in machines; assumes that because CoT is
+      explicit that it accesses a "conscious" mode of reasoning.
+      - like the IAT, attachment to the discrepancy between conscious
+        and unconscious bias, taking away attention from the different
+        kinds of bias.
+      - "we find that CoT encourages an LLM to be aware of its hidden
+        biases" [Kaneko et al. 2024]
+- https://arxiv.org/pdf/2402.11190
+  - uses "indirect probing" to get at "implicit bias." 
+- https://aclanthology.org/2024.icnlsp-1.42
+  - using prompting to generate biased datasets, then evaluated. 
+  - it is fascinating, isn't it -- the ways these tools can refuse to
+    supply gendered output, but we know they are biased.
+  - bias hides; not in conscious/unconscious ways, but by its
+    different effects. Perhaps, just perhaps, by studying bias as an
+    implicit or subconscious phenomenon, we are burying it deeper and
+    deeper from our view.
+  - claim that prompting is more accessible for users when it comes to
+    closed models. 
 - https://aclanthology.org/2023.acl-short.30
+  - claims that prompting is better to avoid re-training. 
+  - "large-scale retraining of these models from scratch is both time
+    and compute-expensive, a variety of approaches have been
+    previously proposed that de-bias a pre-trained model"
 - https://aclanthology.org/2024.emnlp-main.13
-- https://aclanthology.org/2025.coling-main.450
-- https://aclanthology.org/2023.findings-emnlp.689
+  - when people discuss the benefits of prompting, some of the reasons
+    is that its more accessible to end users who want control over
+    their specific use cases, or that the model parameters for closed
+    models (like Chat GPT) are not available for customization by the
+    user.
+    - But, from the perspective of the model developers, what this
+      does is push off the responsibility for debiasing to the end
+      user. The model developers are absolved from the harms that
+      their models perpetuate.
+- https://arxiv.org/abs/2404.01349
+
 
 ** peer review notes
 The paper that I wrote was about three myths about bias based on the
@@ -222,3 +346,14 @@ Vectors for Word Representation (GloVe) model.
   SEAT (The Sentence Embedding Association Test) [May et al. 2019] and
   SentenceDebias [Liang et al. 2020], expand the use of single-word
   vector representations to sentence-level representations.
+** There are methods in NLP that reformulate the traditional binary to
+mitigate gender bias. These methods, what Devinney et al. [2022] call
+"trans-inclusive methodologies," expand the traditional binary. For
+example, Hansson et al. [2021] incorporate a gender neutral pronoun
+"hen" in Swedish into their Wino-gender dataset. Additionally, Dinan
+et al. [2020] expand the classification of gender in their dataset to
+include "neutral" and "unknown." Crowd-sourced and participatory
+datasets also contribute to this effort, namely when they are done by
+participants of the community, like WinoQueer [Felkner et al. 2023].
+Such work take exploratory and crucial steps on the path to gender
+equity in language systems.
